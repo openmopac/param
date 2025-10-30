@@ -1,0 +1,34 @@
+*
+*  Run an optimization of the PM7 parameters for four elements using a set of ordinary 
+*  organic compounds as reference data
+*  
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET. 
+* CYCLES:     Run 10 cycles and then stop.  
+*
+set=small_H_C_N_O_set.txt ref="../../Reference Data/data normal" cycles=1
+*
+* Specify limits on individual parameters.  In PM7, the default limits set in PARAM were changed
+* to allow more flexibility.
+*
+ALPB_H   H 0.9 4.0
+XFAC_C   H 0.2 30
+XFAC_N   H 0.2 30
+XFAC_O   H 0.2 30
+HSP      C 0.8 5
+FN21     C 0.5 5
+FN21     N 0.5 5
+*
+* Optimize all parameters for hydrogen, carbon, nitrogen, and oxygen that are used in the
+* set of compounds.  For example, the parameters "ALPB_C C" and "XFAC_C O" would be optimized,
+* but "ALPB_C Ti" and XFAC_Na C" would not be optimized.  For those parameters that have not
+* had their limits changed, the default limits will be used.
+*
+(H C N O)(all)
+*
+* Terminate the list of parameters to be optimized.
+*
+end

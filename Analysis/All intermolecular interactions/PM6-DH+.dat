@@ -1,0 +1,30 @@
+*
+*  Run a survey of intermolecular interactions using the PM6-DH+ method
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET.
+* SURVEY:     Construct tables comparing calculated and reference data for heats of formation, 
+*             geometries, I.P.s, and dipole moments.
+* REFERENCES: Location and name of the file that contains the abbreviation for the references used
+*             plus the references themseves.
+*
+ ref= &
+"../../reference data/Data Intermolecular interactions/S22 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S22 Separated"; &
+"../../reference data/Data Intermolecular interactions/S66 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S66 Separated"; &
+"../../reference data/Data Intermolecular interactions/X40 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/X40 Separated"; &
+"../../reference data/Data Intermolecular interactions/L7 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/L7 Separated"; &
+"../../reference data/Data Intermolecular interactions/S12L Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Separated"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/Water dimers all" &
+references="../../Reference data/references.txt"  survey set="All intermolecular interaction sets for survey.txt" PM6-DH+
+*
+*
+*
+end

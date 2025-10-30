@@ -1,0 +1,91 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.053M)
+                                                       Tue Feb 23 04:45:25 2021
+                                                       No. of days remaining = 364
+
+           Empirical Formula: B16 Cl16  =    32 atoms
+
+ MERS=(2,1,1) Z=2  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ B4Cl4 (ICSD 27872)
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -393.93860 KCAL/MOL =   -1648.23912 KJ/MOL
+          H.o.F. per unit cell    =        -98.48465 KCAL, for 4 unit cells, unit cell = B4 Cl4
+          TOTAL ENERGY            =      -5185.01505 EV
+          ELECTRONIC ENERGY       =  -14977488.69227 EV
+          CORE-CORE REPULSION     =   14972303.67721 EV
+
+          VOLUME OF UNIT CELL     =        287.629 CUBIC ANGSTROMS
+
+          DENSITY                 =          2.137 GRAMS/CC
+                              A   =          4.803 ANGSTROMS
+                              B   =          7.764 ANGSTROMS
+                              C   =          7.714 ANGSTROMS
+                            ALPHA =         89.978 DEGREES
+                            BETA  =         89.577 DEGREES
+                            GAMMA =         89.659 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =        575.25783 ANGSTROMS**3 =  346.428 CM**3/MOLE
+ 
+          GRADIENT NORM           =          9.21398 = 1.62882 PER ATOM
+          NO. OF FILLED LEVELS    =         80
+          IONIZATION POTENTIAL    =          9.710865 EV
+          HOMO LUMO ENERGIES (EV) =         -9.711 -3.836
+          MOLECULAR WEIGHT        =        740.2080
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:  -0.01 GPa
+           Tv(  34)  Pressure:  -0.01 GPa
+           Tv(  35)  Pressure:   0.17 GPa
+          SCF CALCULATIONS        =         24
+          WALL-CLOCK TIME         = 10 MINUTES AND  1.594 SECONDS
+          COMPUTATION TIME        =  9 MINUTES AND 56.749 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(2,1,1) Z=2  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ B4Cl4 (ICSD 27872)
+
+  B    -0.06532280 +1  -0.14161631 +1  -0.22881223 +1
+  B     4.74894364 +1   0.02927650 +1  -0.35936705 +1
+  B     5.41594324 +1  -1.49353815 +1  -0.29799543 +1
+  B    -0.73966403 +1   1.37680631 +1  -0.30578611 +1
+  B    -1.45234501 +1   0.11229761 +1  -1.10106900 +1
+  B     4.68511577 +1  -0.84946730 +1   1.04185498 +1
+  B     6.13434046 +1  -0.23994467 +1   0.51096567 +1
+  B    -0.00638385 +1   0.72392389 +1  -1.63964018 +1
+ Cl     0.75527562 +1  -1.22196744 +1   0.75893679 +1
+ Cl     3.92046917 +1   1.11908194 +1  -1.32833923 +1
+ Cl     5.68517066 +1  -2.89428101 +1  -1.18275144 +1
+ Cl    -1.02911843 +1   2.77941221 +1   0.56834360 +1
+ Cl    -2.91225226 +1  -0.56234618 +1  -1.58108291 +1
+ Cl     3.76052156 +1  -1.18457666 +1   2.40177094 +1
+ Cl     7.59068537 +1   0.43166354 +1   1.00730343 +1
+ Cl     0.90683116 +1   1.05557063 +1  -3.00834611 +1
+  B    -1.48558071 +1  -0.91871934 +1  -4.76050350 +1
+  B     3.32670526 +1  -0.74963242 +1  -4.88958880 +1
+  B     4.00139477 +1  -2.26772858 +1  -4.81387399 +1
+  B    -2.15238231 +1   0.60375143 +1  -4.82262895 +1
+  B    -2.87089610 +1  -0.65049041 +1  -5.62985846 +1
+  B     3.26916898 +1  -1.61467404 +1  -3.47903313 +1
+  B     4.71516783 +1  -1.00406570 +1  -4.01893970 +1
+  B    -1.42212217 +1  -0.04114901 +1  -6.16341434 +1
+ Cl    -0.65534481 +1  -2.00843646 +1  -3.79221593 +1
+ Cl     2.50619094 +1   0.32942080 +1  -5.87819215 +1
+ Cl     4.29058205 +1  -3.66953230 +1  -5.68924372 +1
+ Cl    -2.42022868 +1   2.00565950 +1  -3.93906782 +1
+ Cl    -4.32740774 +1  -1.32284597 +1  -6.12549261 +1
+ Cl     2.35548344 +1  -1.94290270 +1  -2.10966910 +1
+ Cl     6.17689800 +1  -0.33090809 +1  -3.54208120 +1
+ Cl    -0.49976877 +1   0.29227933 +1  -7.52491099 +1
+ Tv    -2.75602580 +1  -1.54528157 +1  -9.07161145 +1 
+ Tv    -3.92775846 +1   6.69686888 +1   0.00359904 +1 
+ Tv    -6.30051553 +1  -3.69324564 +1   2.48292248 +1 
+ 

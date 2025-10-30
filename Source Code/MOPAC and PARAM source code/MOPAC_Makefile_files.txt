@@ -1,0 +1,2655 @@
+#
+# MOPAC object files included in library
+#
+MOPAC_OBJECTS = \
+$(OBJ)/CPE_Energy.$(O) \
+$(OBJ)/Common_arrays_C.$(O) \
+$(OBJ)/GetDateStamp.$(O) \
+$(OBJ)/H_bond_correction_EC_plus_ER.$(O) \
+$(OBJ)/H_bond_correction_EH_plus.$(O) \
+$(OBJ)/H_bond_correction_PM6_DH_Dispersion.$(O) \
+$(OBJ)/H_bond_correction_PM6_DH_type.$(O) \
+$(OBJ)/H_bond_correction_bits.$(O) \
+$(OBJ)/H_bonds4.$(O) \
+$(OBJ)/Hydrogen_bond_corrections.$(O) \
+$(OBJ)/MOZYME_C.$(O) \
+$(OBJ)/MOZYME_eigs.$(O) \
+$(OBJ)/aababc.$(O) \
+$(OBJ)/aabacd.$(O) \
+$(OBJ)/aabbcd.$(O) \
+$(OBJ)/add_hydrogen_atoms.$(O) \
+$(OBJ)/add_more_interactions.$(O) \
+$(OBJ)/addhb.$(O) \
+$(OBJ)/adjvec.$(O) \
+$(OBJ)/afmm_mod.$(O) \
+$(OBJ)/alpb_and_xfac_am1.$(O) \
+$(OBJ)/alpb_and_xfac_mndo.$(O) \
+$(OBJ)/alpb_and_xfac_mndod.$(O) \
+$(OBJ)/alpb_and_xfac_pm3.$(O) \
+$(OBJ)/analyt.$(O) \
+$(OBJ)/analyt_C.$(O) \
+$(OBJ)/anavib.$(O) \
+$(OBJ)/atomrs.$(O) \
+$(OBJ)/axis.$(O) \
+$(OBJ)/babbbc.$(O) \
+$(OBJ)/babbcd.$(O) \
+$(OBJ)/bangle.$(O) \
+$(OBJ)/bfn.$(O) \
+$(OBJ)/big_swap.$(O) \
+$(OBJ)/bldsym.$(O) \
+$(OBJ)/bonds.$(O) \
+$(OBJ)/bonds_for_MOZYME.$(O) \
+$(OBJ)/buildf.$(O) \
+$(OBJ)/calpar.$(O) \
+$(OBJ)/capcor.$(O) \
+$(OBJ)/ccrep.$(O) \
+$(OBJ)/chanel_C.$(O) \
+$(OBJ)/charmo.$(O) \
+$(OBJ)/charst.$(O) \
+$(OBJ)/charvi.$(O) \
+$(OBJ)/check.$(O) \
+$(OBJ)/chkion.$(O) \
+$(OBJ)/chklew.$(O) \
+$(OBJ)/chrge.$(O) \
+$(OBJ)/chrge_for_MOZYME.$(O) \
+$(OBJ)/ci.$(O) \
+$(OBJ)/ciosci.$(O) \
+$(OBJ)/cnvg.$(O) \
+$(OBJ)/cnvgz.$(O) \
+$(OBJ)/coe.$(O) \
+$(OBJ)/compct.$(O) \
+$(OBJ)/compfg.$(O) \
+$(OBJ)/conref_C.$(O) \
+$(OBJ)/convert_storage.$(O) \
+$(OBJ)/copyc6.$(O) \
+$(OBJ)/cosci.$(O) \
+$(OBJ)/cosmo.$(O) \
+$(OBJ)/cosmo_C.$(O) \
+$(OBJ)/dang.$(O) \
+$(OBJ)/datin.$(O) \
+$(OBJ)/dcart.$(O) \
+$(OBJ)/ddiag.$(O) \
+$(OBJ)/delsta.$(O) \
+$(OBJ)/denrot.$(O) \
+$(OBJ)/denrot_for_MOZYME.$(O) \
+$(OBJ)/densit.$(O) \
+$(OBJ)/density_for_GPU.$(O) \
+$(OBJ)/density_for_MOZYME.$(O) \
+$(OBJ)/deri0.$(O) \
+$(OBJ)/deri1.$(O) \
+$(OBJ)/deri2.$(O) \
+$(OBJ)/deri21.$(O) \
+$(OBJ)/deri22.$(O) \
+$(OBJ)/deri23.$(O) \
+$(OBJ)/deritr.$(O) \
+$(OBJ)/deriv.$(O) \
+$(OBJ)/dernvo.$(O) \
+$(OBJ)/dfield.$(O) \
+$(OBJ)/dfock2.$(O) \
+$(OBJ)/dfpsav.$(O) \
+$(OBJ)/dftd3.$(O) \
+$(OBJ)/dftd3_bits.$(O) \
+$(OBJ)/dhc.$(O) \
+$(OBJ)/dhcore.$(O) \
+$(OBJ)/diag.$(O) \
+$(OBJ)/diagg.$(O) \
+$(OBJ)/diagg1.$(O) \
+$(OBJ)/diagg2.$(O) \
+$(OBJ)/diagi.$(O) \
+$(OBJ)/diat.$(O) \
+$(OBJ)/digit.$(O) \
+$(OBJ)/dihed.$(O) \
+$(OBJ)/dijkl1.$(O) \
+$(OBJ)/dijkl2.$(O) \
+$(OBJ)/dimens.$(O) \
+$(OBJ)/dipole.$(O) \
+$(OBJ)/dipole_for_MOZYME.$(O) \
+$(OBJ)/disp_DnX.$(O) \
+$(OBJ)/dot.$(O) \
+$(OBJ)/drc.$(O) \
+$(OBJ)/drcout.$(O) \
+$(OBJ)/dtran2.$(O) \
+$(OBJ)/dtrans.$(O) \
+$(OBJ)/ef.$(O) \
+$(OBJ)/ef_C.$(O) \
+$(OBJ)/eigen.$(O) \
+$(OBJ)/eigenvectors_LAPACK.$(O) \
+$(OBJ)/eimp.$(O) \
+$(OBJ)/elemts_C.$(O) \
+$(OBJ)/enpart.$(O) \
+$(OBJ)/epseta.$(O) \
+$(OBJ)/esp.$(O) \
+$(OBJ)/esp_C.$(O) \
+$(OBJ)/esp_utilities.$(O) \
+$(OBJ)/exchng.$(O) \
+$(OBJ)/excite.$(O) \
+$(OBJ)/fillij.$(O) \
+$(OBJ)/findn1.$(O) \
+$(OBJ)/flepo.$(O) \
+$(OBJ)/fmat.$(O) \
+$(OBJ)/fock1.$(O) \
+$(OBJ)/fock1_for_MOZYME.$(O) \
+$(OBJ)/fock2.$(O) \
+$(OBJ)/fock2z.$(O) \
+$(OBJ)/force.$(O) \
+$(OBJ)/formxy.$(O) \
+$(OBJ)/forsav.$(O) \
+$(OBJ)/frame.$(O) \
+$(OBJ)/freqcy.$(O) \
+$(OBJ)/funcon_C.$(O) \
+$(OBJ)/gdisp.$(O) \
+$(OBJ)/genun.$(O) \
+$(OBJ)/geo_ref.$(O) \
+$(OBJ)/geochk.$(O) \
+$(OBJ)/geochk_bits_1.$(O) \
+$(OBJ)/geochk_bits_2.$(O) \
+$(OBJ)/geout.$(O) \
+$(OBJ)/geoutg.$(O) \
+$(OBJ)/getdat.$(O) \
+$(OBJ)/getgeg.$(O) \
+$(OBJ)/getgeo.$(O) \
+$(OBJ)/getpdb.$(O) \
+$(OBJ)/getsym.$(O) \
+$(OBJ)/gettxt.$(O) \
+$(OBJ)/getval.$(O) \
+$(OBJ)/gmetry.$(O) \
+$(OBJ)/greek.$(O) \
+$(OBJ)/grid.$(O) \
+$(OBJ)/h1elec.$(O) \
+$(OBJ)/hbonds.$(O) \
+$(OBJ)/hcore.$(O) \
+$(OBJ)/hcore_for_MOZYME.$(O) \
+$(OBJ)/helect.$(O) \
+$(OBJ)/helecz.$(O) \
+$(OBJ)/hybrid.$(O) \
+$(OBJ)/ijbo.$(O) \
+$(OBJ)/ijkl.$(O) \
+$(OBJ)/init_filenames.$(O) \
+$(OBJ)/input.$(O) \
+$(OBJ)/integral.$(O) \
+$(OBJ)/interp.$(O) \
+$(OBJ)/intfc.$(O) \
+$(OBJ)/isitsc.$(O) \
+$(OBJ)/iter.$(O) \
+$(OBJ)/iter_C.$(O) \
+$(OBJ)/iter_for_MOZYME.$(O) \
+$(OBJ)/jab.$(O) \
+$(OBJ)/jab_for_MOZYME.$(O) \
+$(OBJ)/jcarin.$(O) \
+$(OBJ)/journal_references_C.$(O) \
+$(OBJ)/kab.$(O) \
+$(OBJ)/kab_for_MOZYME.$(O) \
+$(OBJ)/lbfgs.$(O) \
+$(OBJ)/lewis.$(O) \
+$(OBJ)/ligand.$(O) \
+$(OBJ)/linear_cosmo.$(O) \
+$(OBJ)/linmin.$(O) \
+$(OBJ)/linpack.$(O) \
+$(OBJ)/local.$(O) \
+$(OBJ)/local2.$(O) \
+$(OBJ)/local_for_MOZYME.$(O) \
+$(OBJ)/locmin.$(O) \
+$(OBJ)/lyse.$(O) \
+$(OBJ)/maksym.$(O) \
+$(OBJ)/makvec.$(O) \
+$(OBJ)/mamult.$(O) \
+$(OBJ)/maps_C.$(O) \
+$(OBJ)/mat33.$(O) \
+$(OBJ)/matou1.$(O) \
+$(OBJ)/matout.$(O) \
+$(OBJ)/mbonds.$(O) \
+$(OBJ)/meci.$(O) \
+$(OBJ)/meci_C.$(O) \
+$(OBJ)/mecid.$(O) \
+$(OBJ)/mecih.$(O) \
+$(OBJ)/mecip.$(O) \
+$(OBJ)/minv.$(O) \
+$(OBJ)/mlmo.$(O) \
+$(OBJ)/mndod.$(O) \
+$(OBJ)/mndod_C.$(O) \
+$(OBJ)/mod_atomradii_C.$(O) \
+$(OBJ)/modchg.$(O) \
+$(OBJ)/modgra.$(O) \
+$(OBJ)/moldat.$(O) \
+$(OBJ)/molkst_C.$(O) \
+$(OBJ)/molmec_C.$(O) \
+$(OBJ)/molsym.$(O) \
+$(OBJ)/molval.$(O) \
+$(OBJ)/mopac.$(O) \
+$(OBJ)/mopend.$(O) \
+$(OBJ)/mpcsyb.$(O) \
+$(OBJ)/mtxm.$(O) \
+$(OBJ)/mtxmc.$(O) \
+$(OBJ)/mullik.$(O) \
+$(OBJ)/mult.$(O) \
+$(OBJ)/mult33.$(O) \
+$(OBJ)/mxm.$(O) \
+$(OBJ)/mxmt.$(O) \
+$(OBJ)/myword.$(O) \
+$(OBJ)/names.$(O) \
+$(OBJ)/new_esp.$(O) \
+$(OBJ)/nllsq.$(O) \
+$(OBJ)/nuchar.$(O) \
+$(OBJ)/nxtmer.$(O) \
+$(OBJ)/orient_water.$(O) \
+$(OBJ)/osinv.$(O) \
+$(OBJ)/outer1.$(O) \
+$(OBJ)/outer2.$(O) \
+$(OBJ)/output_rama.$(O) \
+$(OBJ)/overlaps_C.$(O) \
+$(OBJ)/ovlp.$(O) \
+$(OBJ)/parameters_C.$(O) \
+$(OBJ)/parameters_for_AM1_C.$(O) \
+$(OBJ)/parameters_for_AM1_Sparkles_C.$(O) \
+$(OBJ)/parameters_for_INDO_C.$(O) \
+$(OBJ)/parameters_for_PM3_C.$(O) \
+$(OBJ)/parameters_for_PM3_Sparkles_C.$(O) \
+$(OBJ)/parameters_for_PM6_C.$(O) \
+$(OBJ)/parameters_for_PM6_Sparkles_C.$(O) \
+$(OBJ)/parameters_for_PM7_C.$(O) \
+$(OBJ)/parameters_for_PM7_Sparkles_C.$(O) \
+$(OBJ)/parameters_for_PM7_TS_C.$(O) \
+$(OBJ)/parameters_for_PM8_C.$(O) \
+$(OBJ)/parameters_for_RM1_C.$(O) \
+$(OBJ)/parameters_for_RM1_Sparkles_C.$(O) \
+$(OBJ)/parameters_for_mndo_C.$(O) \
+$(OBJ)/parameters_for_mndod_C.$(O) \
+$(OBJ)/parsav.$(O) \
+$(OBJ)/partxy.$(O) \
+$(OBJ)/Password.$(O) \
+$(OBJ)/pathk.$(O) \
+$(OBJ)/paths.$(O) \
+$(OBJ)/pdbout.$(O) \
+$(OBJ)/perm.$(O) \
+$(OBJ)/picopt.$(O) \
+$(OBJ)/pinout.$(O) \
+$(OBJ)/pmep.$(O) \
+$(OBJ)/polar.$(O) \
+$(OBJ)/polar_C.$(O) \
+$(OBJ)/post_scf_corrections.$(O) \
+$(OBJ)/powsq.$(O) \
+$(OBJ)/prtdrc.$(O) \
+$(OBJ)/prtgra.$(O) \
+$(OBJ)/prtlmo.$(O) \
+$(OBJ)/prtpka.$(O) \
+$(OBJ)/prttim.$(O) \
+$(OBJ)/pulay.$(O) \
+$(OBJ)/quadr.$(O) \
+$(OBJ)/rci.$(O) \
+$(OBJ)/react1.$(O) \
+$(OBJ)/reada.$(O) \
+$(OBJ)/readmo.$(O) \
+$(OBJ)/refer.$(O) \
+$(OBJ)/reimers_C.$(O) \
+$(OBJ)/reorth.$(O) \
+$(OBJ)/reseq.$(O) \
+$(OBJ)/resolv.$(O) \
+$(OBJ)/rotate.$(O) \
+$(OBJ)/rotate_C.$(O) \
+$(OBJ)/rotmol.$(O) \
+$(OBJ)/rsp.$(O) \
+$(OBJ)/run_mopac.$(O) \
+$(OBJ)/scf.$(O) \
+$(OBJ)/scfcri.$(O) \
+$(OBJ)/schmib.$(O) \
+$(OBJ)/schmit.$(O) \
+$(OBJ)/seconds.$(O) \
+$(OBJ)/selmos.$(O) \
+$(OBJ)/set.$(O) \
+$(OBJ)/set_up_MOZYME_arrays.$(O) \
+$(OBJ)/set_up_RAPID.$(O) \
+$(OBJ)/set_up_dentate.$(O) \
+$(OBJ)/setup_mopac_arrays.$(O) \
+$(OBJ)/setupg.$(O) \
+$(OBJ)/setupk.$(O) \
+$(OBJ)/solrot.$(O) \
+$(OBJ)/sp_two_electron.$(O) \
+$(OBJ)/static_polarizability.$(O) \
+$(OBJ)/subs.$(O) \
+$(OBJ)/supdot.$(O) \
+$(OBJ)/superd.$(O) \
+$(OBJ)/swap.$(O) \
+$(OBJ)/switch.$(O) \
+$(OBJ)/symh.$(O) \
+$(OBJ)/symmetry_C.$(O) \
+$(OBJ)/symoir.$(O) \
+$(OBJ)/symopr.$(O) \
+$(OBJ)/sympop.$(O) \
+$(OBJ)/symr.$(O) \
+$(OBJ)/symt.$(O) \
+$(OBJ)/symtry.$(O) \
+$(OBJ)/symtrz.$(O) \
+$(OBJ)/thermo.$(O) \
+$(OBJ)/tidy.$(O) \
+$(OBJ)/timer.$(O) \
+$(OBJ)/timout.$(O) \
+$(OBJ)/to_screen.$(O) \
+$(OBJ)/to_screen_C.$(O) \
+$(OBJ)/txtype.$(O) \
+$(OBJ)/upcase.$(O) \
+$(OBJ)/update.$(O) \
+$(OBJ)/vecprt.$(O) \
+$(OBJ)/vecprt_for_MOZYME.$(O) \
+$(OBJ)/volume.$(O) \
+$(OBJ)/write_trajectory.$(O) \
+$(OBJ)/writmo.$(O) \
+$(OBJ)/wrt_diffs.$(O) \
+$(OBJ)/wrtkey.$(O) \
+$(OBJ)/wrttxt.$(O) \
+$(OBJ)/xxx.$(O) \
+$(OBJ)/xyzcry.$(O) \
+$(OBJ)/xyzint.$(O) \
+#
+#
+#
+# Define targets
+#
+
+all: $(OBJ)  $(MOPAC_OBJECTS)
+	$(FORTRAN_LINKER)  -o $(EXE)  $(MOPAC_OBJECTS)  $(MATH_LINK)
+
+clean:
+	@echo  All object and mod files will be deleted
+	@rm -f $(OBJ)/*.$(O) $(OBJ)/*.mod *.mod *.$(O)
+	@echo  All object and mod files have been deleted
+#
+#
+#
+#                All dependencies
+#
+#
+#
+#
+$(OBJ):
+	mkdir $(OBJ)
+#
+# Dependencies of MOPAC Fortran source files
+#
+#
+$(OBJ)/ci.$(O): \
+  $(MOPAC_SRC)/ci.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ci.F90
+
+$(OBJ)/rci.$(O): \
+  $(MOPAC_SRC)/rci.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/rci.F90
+
+$(OBJ)/MOZYME_eigs.$(O): \
+  $(MOPAC_SRC)/MOZYME_eigs.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/MOZYME_eigs.F90
+
+$(OBJ)/cosci.$(O): \
+  $(MOPAC_SRC)/cosci.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/cosci.F90
+
+$(OBJ)/input.$(O): \
+  $(MOPAC_SRC)/input.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/input.F90
+
+$(OBJ)/ddiag.$(O): \
+  $(MOPAC_SRC)/ddiag.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ddiag.F90
+
+$(OBJ)/excite.$(O): \
+  $(MOPAC_SRC)/excite.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/excite.F90
+
+$(OBJ)/subs.$(O): \
+  $(MOPAC_SRC)/subs.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/subs.F90
+
+$(OBJ)/ovlp.$(O): \
+  $(MOPAC_SRC)/ovlp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ovlp.F90
+
+$(OBJ)/scf.$(O): \
+  $(MOPAC_SRC)/scf.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/scf.F90
+
+$(OBJ)/molsym.$(O): \
+  $(MOPAC_SRC)/molsym.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/molsym.F90
+
+$(OBJ)/integral.$(O): \
+  $(MOPAC_SRC)/integral.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/integral.F90
+
+$(OBJ)/seconds.$(O): \
+  $(MOPAC_SRC)/seconds.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/seconds.F90
+
+$(OBJ)/density_for_GPU.$(O): \
+  $(MOPAC_SRC)/density_for_GPU.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/density_for_GPU.F90
+
+$(OBJ)/Hydrogen_bond_corrections.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/Hydrogen_bond_corrections.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/Hydrogen_bond_corrections.F90
+
+$(OBJ)/H_bond_correction_PM6_DH_type.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/H_bond_correction_PM6_DH_type.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/H_bond_correction_PM6_DH_type.F90
+
+$(OBJ)/reimers_C.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/reimers_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/reimers_C.F90
+
+$(OBJ)/parameters_for_INDO_C.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/parameters_for_INDO_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_INDO_C.F90
+
+$(OBJ)/disp_DnX.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/disp_DnX.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/disp_DnX.F90
+
+$(OBJ)/gdisp.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/gdisp.F90 \
+  $(MOPAC_SRC)/gdisp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/gdisp.F90
+
+$(OBJ)/addhb.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/addhb.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/addhb.F90
+
+$(OBJ)/H_bonds4.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/H_bonds4.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/H_bonds4.F90
+
+$(OBJ)/orient_water.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/orient_water.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/orient_water.F90
+
+$(OBJ)/big_swap.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(MOPAC_SRC)/big_swap.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/big_swap.F90
+
+$(OBJ)/aababc.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(MOPAC_SRC)/aababc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/aababc.F90
+
+$(OBJ)/aabacd.$(O): \
+  $(MOPAC_SRC)/aabacd.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/aabacd.F90
+
+$(OBJ)/aabbcd.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(MOPAC_SRC)/aabbcd.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/aabbcd.F90
+
+$(OBJ)/Common_arrays_C.$(O): \
+  $(MOPAC_SRC)/Common_arrays_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/Common_arrays_C.F90
+
+$(OBJ)/add_more_interactions.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/iter_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/add_more_interactions.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/add_more_interactions.F90
+
+$(OBJ)/adjvec.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/adjvec.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/adjvec.F90
+
+$(OBJ)/alpb_and_xfac_am1.$(O): \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/alpb_and_xfac_am1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/alpb_and_xfac_am1.F90
+
+$(OBJ)/alpb_and_xfac_mndo.$(O): \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/alpb_and_xfac_mndo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/alpb_and_xfac_mndo.F90
+
+$(OBJ)/alpb_and_xfac_mndod.$(O): \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/alpb_and_xfac_mndod.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/alpb_and_xfac_mndod.F90
+
+$(OBJ)/alpb_and_xfac_pm3.$(O): \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/alpb_and_xfac_pm3.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/alpb_and_xfac_pm3.F90
+
+$(OBJ)/analyt.$(O): \
+  $(OBJ)/analyt_C.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O) \
+  $(MOPAC_SRC)/analyt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/analyt.F90
+
+$(OBJ)/analyt_C.$(O): \
+  $(MOPAC_SRC)/analyt_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/analyt_C.F90
+
+$(OBJ)/anavib.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/anavib.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/anavib.F90
+
+$(OBJ)/atomrs.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/atomrs.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/atomrs.F90
+
+$(OBJ)/axis.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/axis.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/axis.F90
+
+$(OBJ)/babbbc.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(MOPAC_SRC)/babbbc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/babbbc.F90
+
+$(OBJ)/babbcd.$(O): \
+  $(MOPAC_SRC)/babbcd.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/babbcd.F90
+
+$(OBJ)/bangle.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/bangle.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/bangle.F90
+
+$(OBJ)/bfn.$(O): \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(MOPAC_SRC)/bfn.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/bfn.F90
+
+$(OBJ)/bldsym.$(O): \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/bldsym.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/bldsym.F90
+
+$(OBJ)/bonds.$(O): \
+  $(MOPAC_SRC)/bonds.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/bonds.F90
+
+$(OBJ)/bonds_for_MOZYME.$(O): \
+  $(MOPAC_SRC)/bonds_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/bonds_for_MOZYME.F90
+
+$(OBJ)/buildf.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/buildf.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/buildf.F90
+
+$(OBJ)/calpar.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/reimers_C.$(O) \
+  $(MOPAC_SRC)/calpar.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/calpar.F90
+
+$(OBJ)/capcor.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/capcor.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/capcor.F90
+
+$(OBJ)/chanel_C.$(O): \
+  $(MOPAC_SRC)/chanel_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/chanel_C.F90
+
+$(OBJ)/charmo.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/charmo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/charmo.F90
+
+$(OBJ)/charst.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/charst.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/charst.F90
+
+$(OBJ)/charvi.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/charvi.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/charvi.F90
+
+$(OBJ)/check.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/check.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/check.F90
+
+$(OBJ)/chkion.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/mod_atomradii_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/chkion.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/chkion.F90
+
+$(OBJ)/chklew.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/chklew.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/chklew.F90
+
+$(OBJ)/chrge.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/chrge.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/chrge.F90
+
+$(OBJ)/chrge_for_MOZYME.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/chrge_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/chrge_for_MOZYME.F90
+
+$(OBJ)/ciosci.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/ciosci.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ciosci.F90
+
+$(OBJ)/cnvg.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/cnvg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/cnvg.F90
+
+$(OBJ)/cnvgz.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/cnvgz.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/cnvgz.F90
+
+$(OBJ)/coe.$(O): \
+  $(MOPAC_SRC)/coe.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/coe.F90
+
+$(OBJ)/compct.$(O): \
+  $(MOPAC_SRC)/compct.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/compct.F90
+
+$(OBJ)/compfg.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/linear_cosmo.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/molmec_C.$(O)  \
+  $(MOPAC_SRC)/compfg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/compfg.F90
+
+$(OBJ)/conref_C.$(O): \
+  $(MOPAC_SRC)/conref_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/conref_C.F90
+
+$(OBJ)/convert_storage.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/convert_storage.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/convert_storage.F90
+
+$(OBJ)/linear_cosmo.$(O): \
+  $(OBJ)/afmm_mod.$(O) \
+  $(OBJ)/cosmo_C.$(O) \
+  $(MOPAC_SRC)/linear_cosmo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/linear_cosmo.F90
+
+$(OBJ)/cosmo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/cosmo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/cosmo.F90
+
+$(OBJ)/cosmo_C.$(O): \
+  $(MOPAC_SRC)/cosmo_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/cosmo_C.F90
+
+$(OBJ)/dang.$(O): \
+  $(MOPAC_SRC)/dang.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dang.F90
+
+$(OBJ)/datin.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/datin.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/datin.F90
+
+$(OBJ)/dcart.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/molmec_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/dcart.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dcart.F90
+
+$(OBJ)/dcart_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/dcart_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dcart_for_MOZYME.F90
+
+$(OBJ)/delsta.$(O): \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/delsta.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/delsta.F90
+
+$(OBJ)/denrot.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/denrot.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/denrot.F90
+
+$(OBJ)/denrot_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/denrot_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/denrot_for_MOZYME.F90
+
+$(OBJ)/densit.$(O): \
+  $(MOPAC_SRC)/densit.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/densit.F90
+
+$(OBJ)/density_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/density_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/density_for_MOZYME.F90
+
+$(OBJ)/deri0.$(O): \
+  $(MOPAC_SRC)/deri0.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deri0.F90
+
+$(OBJ)/deri1.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/deri1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deri1.F90
+
+$(OBJ)/deri2.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/deri2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deri2.F90
+
+$(OBJ)/deri21.$(O): \
+  $(MOPAC_SRC)/deri21.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deri21.F90
+
+$(OBJ)/deri22.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/deri22.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deri22.F90
+
+$(OBJ)/deri23.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/deri23.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deri23.F90
+
+$(OBJ)/deritr.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/deritr.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deritr.F90
+
+$(OBJ)/deriv.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/deriv.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/deriv.F90
+
+$(OBJ)/dernvo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dernvo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dernvo.F90
+
+$(OBJ)/dfield.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/dfield.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dfield.F90
+
+$(OBJ)/dfock2.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dfock2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dfock2.F90
+
+$(OBJ)/dfpsav.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dfpsav.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dfpsav.F90
+
+$(OBJ)/dhc.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dhc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dhc.F90
+
+$(OBJ)/dhcore.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dhcore.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dhcore.F90
+
+$(OBJ)/diag.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/diag.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/diag.F90
+
+$(OBJ)/diagg.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/diagg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/diagg.F90
+
+$(OBJ)/diagg1.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/diagg1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/diagg1.F90
+
+$(OBJ)/diagg2.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/diagg2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/diagg2.F90
+
+$(OBJ)/diagi.$(O): \
+  $(MOPAC_SRC)/diagi.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/diagi.F90
+
+$(OBJ)/diat.$(O): \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/diat.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/diat.F90
+
+$(OBJ)/digit.$(O): \
+  $(MOPAC_SRC)/digit.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/digit.F90
+
+$(OBJ)/dihed.$(O): \
+  $(OBJ)/funcon_C.$(O)  \
+  $(MOPAC_SRC)/dihed.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dihed.F90
+
+$(OBJ)/dijkl1.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dijkl1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dijkl1.F90
+
+$(OBJ)/dijkl2.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dijkl2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dijkl2.F90
+
+$(OBJ)/dimens.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/dimens.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dimens.F90
+
+$(OBJ)/dipole.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/dipole.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dipole.F90
+
+$(OBJ)/dipole_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/dipole_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dipole_for_MOZYME.F90
+
+$(OBJ)/dot.$(O): \
+  $(MOPAC_SRC)/dot.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dot.F90
+
+$(OBJ)/drc.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/drc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/drc.F90
+
+$(OBJ)/drcout.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/drcout.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/drcout.F90
+
+$(OBJ)/dtran2.$(O): \
+  $(OBJ)/funcon_C.$(O)  \
+  $(MOPAC_SRC)/dtran2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dtran2.F90
+
+$(OBJ)/dtrans.$(O): \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/dtrans.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dtrans.F90
+
+$(OBJ)/ef.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/eigenvectors_LAPACK.$(O) \
+  $(MOPAC_SRC)/ef.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ef.F90
+
+$(OBJ)/ef_C.$(O): \
+  $(MOPAC_SRC)/ef_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ef_C.F90
+
+$(OBJ)/eigen.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/eigen.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/eigen.F90
+
+$(OBJ)/eigenvectors_LAPACK.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/eigenvectors_LAPACK.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/eigenvectors_LAPACK.F90
+
+$(OBJ)/eimp.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/eimp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/eimp.F90
+
+$(OBJ)/elemts_C.$(O): \
+  $(MOPAC_SRC)/elemts_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/elemts_C.F90
+
+$(OBJ)/enpart.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/enpart.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/enpart.F90
+
+$(OBJ)/epseta.$(O): \
+  $(MOPAC_SRC)/epseta.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/epseta.F90
+
+$(OBJ)/esp.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/esp_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/esp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/esp.F90
+
+$(OBJ)/esp_C.$(O): \
+  $(MOPAC_SRC)/esp_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/esp_C.F90
+
+$(OBJ)/esp_utilities.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/esp_utilities.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/esp_utilities.F90
+
+$(OBJ)/exchng.$(O): \
+  $(MOPAC_SRC)/exchng.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/exchng.F90
+
+$(OBJ)/fillij.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(MOPAC_SRC)/fillij.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/fillij.F90
+
+$(OBJ)/findn1.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/findn1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/findn1.F90
+
+$(OBJ)/flepo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/flepo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/flepo.F90
+
+$(OBJ)/fmat.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/fmat.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/fmat.F90
+
+$(OBJ)/fock1.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/fock1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/fock1.F90
+
+$(OBJ)/fock1_for_MOZYME.$(O): \
+  $(MOPAC_SRC)/fock1_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/fock1_for_MOZYME.F90
+
+$(OBJ)/fock2.$(O): \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/fock2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/fock2.F90
+
+$(OBJ)/fock2z.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/fock2z.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/fock2z.F90
+
+$(OBJ)/force.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/force.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/force.F90
+
+$(OBJ)/formxy.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/formxy.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/formxy.F90
+
+$(OBJ)/forsav.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/forsav.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/forsav.F90
+
+$(OBJ)/frame.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/frame.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/frame.F90
+
+$(OBJ)/freqcy.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/freqcy.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/freqcy.F90
+
+$(OBJ)/funcon_C.$(O): \
+  $(MOPAC_SRC)/funcon_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/funcon_C.F90
+
+$(OBJ)/genun.$(O): \
+  $(MOPAC_SRC)/genun.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/genun.F90
+
+$(OBJ)/geochk.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/mod_atomradii_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/geochk.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/geochk.F90
+
+$(OBJ)/output_rama.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/mod_atomradii_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/output_rama.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/output_rama.F90
+
+$(OBJ)/geochk_bits_1.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/mod_atomradii_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/geochk_bits_1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/geochk_bits_1.F90
+
+$(OBJ)/geochk_bits_2.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/mod_atomradii_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/geochk_bits_2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/geochk_bits_2.F90
+
+$(OBJ)/geout.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/geout.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/geout.F90
+
+$(OBJ)/geoutg.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/geoutg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/geoutg.F90
+
+$(OBJ)/getdat.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/getdat.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/getdat.F90
+
+$(OBJ)/GetDateStamp.$(O): \
+  $(MOPAC_SRC)/GetDateStamp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/GetDateStamp.F90
+
+$(OBJ)/afmm_mod.$(O): \
+  $(MOPAC_SRC)/afmm_mod.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/afmm_mod.F90
+
+$(OBJ)/getgeg.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/getgeg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/getgeg.F90
+
+$(OBJ)/getgeo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/getgeo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/getgeo.F90
+
+$(OBJ)/getpdb.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/getpdb.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/getpdb.F90
+
+$(OBJ)/getsym.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/getsym.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/getsym.F90
+
+$(OBJ)/gettxt.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/gettxt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/gettxt.F90
+
+$(OBJ)/getval.$(O): \
+  $(MOPAC_SRC)/getval.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/getval.F90
+
+$(OBJ)/gmetry.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/gmetry.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/gmetry.F90
+
+$(OBJ)/greek.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/greek.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/greek.F90
+
+$(OBJ)/grid.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/grid.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/grid.F90
+
+$(OBJ)/h1elec.$(O): \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/h1elec.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/h1elec.F90
+
+$(OBJ)/hbonds.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/hbonds.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/hbonds.F90
+
+$(OBJ)/hcore.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/hcore.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/hcore.F90
+
+$(OBJ)/hcore_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/hcore_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/hcore_for_MOZYME.F90
+
+$(OBJ)/helect.$(O): \
+  $(MOPAC_SRC)/helect.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/helect.F90
+
+$(OBJ)/helecz.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/helecz.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/helecz.F90
+
+$(OBJ)/hybrid.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/hybrid.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/hybrid.F90
+
+$(OBJ)/ijbo.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(MOPAC_SRC)/ijbo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ijbo.F90
+
+$(OBJ)/ijkl.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/ijkl.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ijkl.F90
+
+$(OBJ)/init_filenames.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/init_filenames.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/init_filenames.F90
+
+$(OBJ)/interp.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/interp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/interp.F90
+
+$(OBJ)/intfc.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/intfc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/intfc.F90
+
+$(OBJ)/isitsc.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/isitsc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/isitsc.F90
+
+$(OBJ)/iter.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/eigenvectors_LAPACK.$(O) \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/iter_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/iter.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/iter.F90
+
+$(OBJ)/iter_C.$(O): \
+  $(MOPAC_SRC)/iter_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/iter_C.F90
+
+$(OBJ)/iter_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/iter_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/iter_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/iter_for_MOZYME.F90
+
+$(OBJ)/jab.$(O): \
+  $(MOPAC_SRC)/jab.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/jab.F90
+
+$(OBJ)/jab_for_MOZYME.$(O): \
+  $(MOPAC_SRC)/jab_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/jab_for_MOZYME.F90
+
+$(OBJ)/jcarin.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/jcarin.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/jcarin.F90
+
+$(OBJ)/journal_references_C.$(O): \
+  $(MOPAC_SRC)/journal_references_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/journal_references_C.F90
+
+$(OBJ)/kab.$(O): \
+  $(MOPAC_SRC)/kab.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/kab.F90
+
+$(OBJ)/kab_for_MOZYME.$(O): \
+  $(MOPAC_SRC)/kab_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/kab_for_MOZYME.F90
+
+$(OBJ)/lbfgs.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/lbfgs.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/lbfgs.F90
+
+$(OBJ)/lewis.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/lewis.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/lewis.F90
+
+$(OBJ)/ligand.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/ligand.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ligand.F90
+
+$(OBJ)/linmin.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/linmin.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/linmin.F90
+
+$(OBJ)/linpack.$(O): \
+  $(MOPAC_SRC)/linpack.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/linpack.F90
+
+$(OBJ)/local.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/local.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/local.F90
+
+$(OBJ)/local2.$(O): \
+  $(MOPAC_SRC)/local2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/local2.F90
+
+$(OBJ)/locmin.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/locmin.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/locmin.F90
+
+$(OBJ)/lyse.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/lyse.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/lyse.F90
+
+$(OBJ)/maksym.$(O): \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/maksym.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/maksym.F90
+
+$(OBJ)/makvec.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/makvec.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/makvec.F90
+
+$(OBJ)/mamult.$(O): \
+  $(MOPAC_SRC)/mamult.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mamult.F90
+
+$(OBJ)/maps_C.$(O): \
+  $(MOPAC_SRC)/maps_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/maps_C.F90
+
+$(OBJ)/mat33.$(O): \
+  $(MOPAC_SRC)/mat33.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mat33.F90
+
+$(OBJ)/matou1.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/matou1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/matou1.F90
+
+$(OBJ)/matout.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/matout.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/matout.F90
+
+$(OBJ)/mbonds.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/mbonds.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mbonds.F90
+
+$(OBJ)/meci.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/mndod_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/meci.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/meci.F90
+
+$(OBJ)/meci_C.$(O): \
+  $(MOPAC_SRC)/meci_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/meci_C.F90
+
+$(OBJ)/mecid.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(MOPAC_SRC)/mecid.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mecid.F90
+
+$(OBJ)/mecih.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(MOPAC_SRC)/mecih.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mecih.F90
+
+$(OBJ)/mecip.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/mecip.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mecip.F90
+
+$(OBJ)/minv.$(O): \
+  $(MOPAC_SRC)/minv.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/minv.F90
+
+$(OBJ)/mlmo.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/mlmo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mlmo.F90
+
+$(OBJ)/mndod.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/mndod_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/mndod.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mndod.F90
+
+$(OBJ)/mndod_C.$(O): \
+  $(MOPAC_SRC)/mndod_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mndod_C.F90
+
+$(OBJ)/mod_atomradii_C.$(O): \
+  $(MOPAC_SRC)/mod_atomradii_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mod_atomradii_C.F90
+
+$(OBJ)/modchg.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/modchg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/modchg.F90
+
+$(OBJ)/modgra.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/modgra.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/modgra.F90
+
+$(OBJ)/moldat.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/molmec_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/moldat.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/moldat.F90
+
+$(OBJ)/molkst_C.$(O): \
+  $(MOPAC_SRC)/molkst_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/molkst_C.F90
+
+$(OBJ)/molmec_C.$(O): \
+  $(MOPAC_SRC)/molmec_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/molmec_C.F90
+
+$(OBJ)/molval.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/molval.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/molval.F90
+
+$(OBJ)/mopac.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_for_PM7_Sparkles_C.$(O) \
+  $(MOPAC_SRC)/mopac.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mopac.F90
+
+$(OBJ)/mopend.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/mopend.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mopend.F90
+
+$(OBJ)/MOZYME_C.$(O): \
+  $(MOPAC_SRC)/MOZYME_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/MOZYME_C.F90
+
+$(OBJ)/mpcsyb.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/mpcsyb.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mpcsyb.F90
+
+$(OBJ)/mtxm.$(O): \
+  $(MOPAC_SRC)/mtxm.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mtxm.F90
+
+$(OBJ)/mtxmc.$(O): \
+  $(MOPAC_SRC)/mtxmc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mtxmc.F90
+
+$(OBJ)/mullik.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/mullik.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mullik.F90
+
+$(OBJ)/mult.$(O): \
+  $(MOPAC_SRC)/mult.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mult.F90
+
+$(OBJ)/mult33.$(O): \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/mult33.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mult33.F90
+
+$(OBJ)/mxm.$(O): \
+  $(MOPAC_SRC)/mxm.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mxm.F90
+
+$(OBJ)/mxmt.$(O): \
+  $(MOPAC_SRC)/mxmt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/mxmt.F90
+
+$(OBJ)/myword.$(O): \
+  $(MOPAC_SRC)/myword.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/myword.F90
+
+$(OBJ)/names.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/names.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/names.F90
+
+$(OBJ)/new_esp.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/esp_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/new_esp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/new_esp.F90
+
+$(OBJ)/nllsq.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/nllsq.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/nllsq.F90
+
+$(OBJ)/nuchar.$(O): \
+  $(MOPAC_SRC)/nuchar.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/nuchar.F90
+
+$(OBJ)/nxtmer.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(MOPAC_SRC)/nxtmer.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/nxtmer.F90
+
+$(OBJ)/osinv.$(O): \
+  $(MOPAC_SRC)/osinv.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/osinv.F90
+
+$(OBJ)/outer1.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/outer1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/outer1.F90
+
+$(OBJ)/outer2.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/outer2.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/outer2.F90
+
+$(OBJ)/overlaps_C.$(O): \
+  $(MOPAC_SRC)/overlaps_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/overlaps_C.F90
+
+$(OBJ)/parameters_C.$(O): \
+  $(MOPAC_SRC)/parameters_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_C.F90
+
+$(OBJ)/parameters_for_AM1_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_AM1_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_AM1_C.F90
+
+$(OBJ)/parameters_for_mndo_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_mndo_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_mndo_C.F90
+
+$(OBJ)/parameters_for_mndod_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_mndod_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_mndod_C.F90
+
+$(OBJ)/parameters_for_PM3_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM3_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM3_C.F90
+
+$(OBJ)/parameters_for_PM6_C.$(O): \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/parameters_for_PM6_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM6_C.F90
+
+$(OBJ)/parameters_for_PM7_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM7_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM7_C.F90
+
+$(OBJ)/parameters_for_PM8_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM8_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM8_C.F90
+
+$(OBJ)/parameters_for_PM7_TS_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM7_TS_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM7_TS_C.F90
+
+$(OBJ)/parameters_for_AM1_Sparkles_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_AM1_Sparkles_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_AM1_Sparkles_C.F90
+
+$(OBJ)/parameters_for_PM3_Sparkles_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM3_Sparkles_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM3_Sparkles_C.F90
+
+$(OBJ)/parameters_for_PM7_Sparkles_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM7_Sparkles_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM7_Sparkles_C.F90
+
+$(OBJ)/parameters_for_RM1_Sparkles_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_RM1_Sparkles_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_RM1_Sparkles_C.F90
+
+$(OBJ)/parameters_for_PM6_Sparkles_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_PM6_Sparkles_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_PM6_Sparkles_C.F90
+
+$(OBJ)/parameters_for_RM1_C.$(O): \
+  $(MOPAC_SRC)/parameters_for_RM1_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parameters_for_RM1_C.F90
+
+$(OBJ)/parsav.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/parsav.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/parsav.F90
+
+$(OBJ)/partxy.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/partxy.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/partxy.F90
+
+$(OBJ)/Password.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/Password.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/Password.F90
+
+$(OBJ)/pathk.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/pathk.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/pathk.F90
+
+$(OBJ)/paths.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/paths.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/paths.F90
+
+$(OBJ)/pdbout.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/pdbout.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/pdbout.F90
+
+$(OBJ)/perm.$(O): \
+  $(OBJ)/meci_C.$(O)  \
+  $(MOPAC_SRC)/perm.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/perm.F90
+
+$(OBJ)/picopt.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/picopt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/picopt.F90
+
+$(OBJ)/pinout.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/pinout.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/pinout.F90
+
+$(OBJ)/pmep.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/rotate_C.$(O)  \
+  $(MOPAC_SRC)/pmep.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/pmep.F90
+
+$(OBJ)/polar.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/polar_C.$(O)  \
+  $(MOPAC_SRC)/polar.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/polar.F90
+
+$(OBJ)/polar_C.$(O): \
+  $(MOPAC_SRC)/polar_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/polar_C.F90
+
+$(OBJ)/powsq.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/powsq.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/powsq.F90
+
+$(OBJ)/prtdrc.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/prtdrc.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/prtdrc.F90
+
+$(OBJ)/prtgra.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/prtgra.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/prtgra.F90
+
+$(OBJ)/prtlmo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/prtlmo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/prtlmo.F90
+
+$(OBJ)/prtpka.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/prtpka.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/prtpka.F90
+
+$(OBJ)/prttim.$(O): \
+  $(MOPAC_SRC)/prttim.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/prttim.F90
+
+$(OBJ)/pulay.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/pulay.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/pulay.F90
+
+$(OBJ)/quadr.$(O): \
+  $(MOPAC_SRC)/quadr.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/quadr.F90
+
+$(OBJ)/react1.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/react1.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/react1.F90
+
+$(OBJ)/reada.$(O): \
+  $(MOPAC_SRC)/reada.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/reada.F90
+
+$(OBJ)/geo_ref.$(O): \
+  $(MOPAC_SRC)/geo_ref.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/geo_ref.F90
+
+$(OBJ)/readmo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/readmo.F90
+	 $(FORTRAN_COMPILER) $(MOPAC_SRC)/readmo.F90
+
+$(OBJ)/refer.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/journal_references_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_for_PM6_Sparkles_C.$(O) \
+  $(OBJ)/parameters_for_AM1_Sparkles_C.$(O) \
+  $(OBJ)/parameters_for_PM3_Sparkles_C.$(O) \
+  $(MOPAC_SRC)/refer.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/refer.F90
+
+$(OBJ)/reorth.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/reorth.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/reorth.F90
+
+$(OBJ)/reseq.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/reseq.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/reseq.F90
+
+$(OBJ)/resolv.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/resolv.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/resolv.F90
+
+$(OBJ)/rotate.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/rotate.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/rotate.F90
+
+$(OBJ)/rotate_C.$(O): \
+  $(MOPAC_SRC)/rotate_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/rotate_C.F90
+
+$(OBJ)/rotmol.$(O): \
+  $(MOPAC_SRC)/rotmol.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/rotmol.F90
+
+$(OBJ)/rsp.$(O): \
+  $(MOPAC_SRC)/rsp.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/rsp.F90
+
+$(OBJ)/run_mopac.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(OBJ)/parameters_for_PM7_Sparkles_C.$(O)  \
+  $(MOPAC_SRC)/run_mopac.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/run_mopac.F90
+
+$(OBJ)/scfcri.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/scfcri.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/scfcri.F90
+
+$(OBJ)/schmib.$(O): \
+  $(MOPAC_SRC)/schmib.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/schmib.F90
+
+$(OBJ)/schmit.$(O): \
+  $(MOPAC_SRC)/schmit.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/schmit.F90
+
+$(OBJ)/selmos.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/selmos.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/selmos.F90
+
+$(OBJ)/set.$(O): \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(MOPAC_SRC)/set.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/set.F90
+
+$(OBJ)/set_up_dentate.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/set_up_dentate.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/set_up_dentate.F90
+
+$(OBJ)/set_up_MOZYME_arrays.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/iter_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/set_up_MOZYME_arrays.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/set_up_MOZYME_arrays.F90
+
+$(OBJ)/set_up_RAPID.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/set_up_RAPID.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/set_up_RAPID.F90
+
+$(OBJ)/setup_mopac_arrays.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/esp_C.$(O)  \
+  $(OBJ)/iter_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/setup_mopac_arrays.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/setup_mopac_arrays.F90
+
+$(OBJ)/setupg.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/overlaps_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/setupg.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/setupg.F90
+
+$(OBJ)/setupk.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/setupk.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/setupk.F90
+
+$(OBJ)/solrot.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/solrot.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/solrot.F90
+
+$(OBJ)/sp_two_electron.$(O): \
+  $(OBJ)/mndod_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/sp_two_electron.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/sp_two_electron.F90
+
+$(OBJ)/static_polarizability.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/static_polarizability.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/static_polarizability.F90
+
+$(OBJ)/supdot.$(O): \
+  $(MOPAC_SRC)/supdot.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/supdot.F90
+
+$(OBJ)/superd.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(MOPAC_SRC)/superd.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/superd.F90
+
+$(OBJ)/swap.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/iter_C.$(O)  \
+  $(MOPAC_SRC)/swap.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/swap.F90
+
+$(OBJ)/switch.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/conref_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/parameters_for_AM1_C.$(O)  \
+  $(OBJ)/parameters_for_mndo_C.$(O)  \
+  $(OBJ)/parameters_for_mndod_C.$(O)  \
+  $(OBJ)/parameters_for_PM3_C.$(O)  \
+  $(OBJ)/parameters_for_PM6_C.$(O)  \
+  $(OBJ)/parameters_for_PM7_TS_C.$(O)  \
+  $(OBJ)/parameters_for_RM1_Sparkles_C.$(O)  \
+  $(OBJ)/parameters_for_PM7_C.$(O)  \
+  $(OBJ)/parameters_for_PM8_C.$(O)  \
+  $(OBJ)/parameters_for_RM1_C.$(O)  \
+  $(OBJ)/parameters_for_INDO_C.$(O)  \
+  $(MOPAC_SRC)/switch.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/switch.F90
+
+$(OBJ)/symh.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/symh.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symh.F90
+
+$(OBJ)/symmetry_C.$(O): \
+  $(MOPAC_SRC)/symmetry_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symmetry_C.F90
+
+$(OBJ)/symoir.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/symoir.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symoir.F90
+
+$(OBJ)/symopr.$(O): \
+  $(MOPAC_SRC)/symopr.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symopr.F90
+
+$(OBJ)/sympop.$(O): \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/sympop.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/sympop.F90
+
+$(OBJ)/symr.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/symr.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symr.F90
+
+$(OBJ)/symt.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/symt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symt.F90
+
+$(OBJ)/symtry.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/symtry.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symtry.F90
+
+$(OBJ)/symtrz.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/symtrz.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/symtrz.F90
+
+$(OBJ)/thermo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/thermo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/thermo.F90
+
+$(OBJ)/tidy.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(MOPAC_SRC)/tidy.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/tidy.F90
+
+$(OBJ)/timer.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(MOPAC_SRC)/timer.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/timer.F90
+
+$(OBJ)/timout.$(O): \
+  $(MOPAC_SRC)/timout.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/timout.F90
+
+$(OBJ)/to_screen.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/polar_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/ef_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(OBJ)/to_screen_C.$(O)  \
+  $(MOPAC_SRC)/to_screen.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/to_screen.F90
+
+$(OBJ)/to_screen_C.$(O): \
+  $(MOPAC_SRC)/to_screen_C.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/to_screen_C.F90
+
+$(OBJ)/txtype.$(O): \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(MOPAC_SRC)/txtype.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/txtype.F90
+
+$(OBJ)/upcase.$(O): \
+  $(MOPAC_SRC)/upcase.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/upcase.F90
+
+$(OBJ)/update.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(MOPAC_SRC)/update.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/update.F90
+
+$(OBJ)/vecprt.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/vecprt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/vecprt.F90
+
+$(OBJ)/vecprt_for_MOZYME.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/vecprt_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/vecprt_for_MOZYME.F90
+
+$(OBJ)/volume.$(O): \
+  $(MOPAC_SRC)/volume.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/volume.F90
+
+$(OBJ)/write_trajectory.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/write_trajectory.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/write_trajectory.F90
+
+$(OBJ)/writmo.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/conref_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/maps_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/symmetry_C.$(O)  \
+  $(MOPAC_SRC)/writmo.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/writmo.F90
+
+$(OBJ)/wrtkey.$(O): \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/conref_C.$(O)  \
+  $(OBJ)/cosmo_C.$(O)  \
+  $(OBJ)/meci_C.$(O)  \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/wrtkey.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/wrtkey.F90
+
+$(OBJ)/wrttxt.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/wrttxt.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/wrttxt.F90
+
+$(OBJ)/xxx.$(O): \
+  $(MOPAC_SRC)/xxx.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/xxx.F90
+
+$(OBJ)/xyzcry.$(O): \
+  $(MOPAC_SRC)/xyzcry.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/xyzcry.F90
+
+$(OBJ)/xyzint.$(O): \
+  $(OBJ)/funcon_C.$(O)  \
+  $(MOPAC_SRC)/xyzint.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/xyzint.F90
+
+$(OBJ)/wrt_diffs.$(O): \
+  $(MOPAC_SRC)/wrt_diffs.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/wrt_diffs.F90
+
+$(OBJ)/add_hydrogen_atoms.$(O): \
+  $(OBJ)/mod_atomradii_C.$(O)  \
+  $(MOPAC_SRC)/add_hydrogen_atoms.F90
+	$(FORTRAN_COMPILER) $(MOPAC_SRC)/add_hydrogen_atoms.F90
+
+$(OBJ)/dfport.$(O): \
+  $(MOPAC_SRC)/dfport.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dfport.F90
+
+$(OBJ)/dftd3.$(O): \
+  $(MOPAC_SRC)/dftd3.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dftd3.F90
+
+$(OBJ)/copyc6.$(O): \
+  $(MOPAC_SRC)/copyc6.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/copyc6.F90
+
+$(OBJ)/dftd3_bits.$(O): \
+  $(MOPAC_SRC)/dftd3_bits.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/dftd3_bits.F90
+
+$(OBJ)/ccrep.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(MOPAC_SRC)/ccrep.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/ccrep.F90
+
+$(OBJ)/post_scf_corrections.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(MOPAC_SRC)/post_scf_corrections.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/post_scf_corrections.F90
+
+$(OBJ)/H_bond_correction_bits.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/to_screen.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(MOPAC_SRC)/H_bond_correction_bits.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/H_bond_correction_bits.F90
+
+$(OBJ)/H_bond_correction_PM6_DH_Dispersion.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(OBJ)/elemts_C.$(O)  \
+  $(MOPAC_SRC)/H_bond_correction_PM6_DH_Dispersion.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/H_bond_correction_PM6_DH_Dispersion.F90
+
+$(OBJ)/H_bond_correction_EC_plus_ER.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(MOPAC_SRC)/H_bond_correction_EC_plus_ER.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/H_bond_correction_EC_plus_ER.F90
+
+$(OBJ)/H_bond_correction_EH_plus.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(MOPAC_SRC)/H_bond_correction_EH_plus.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/H_bond_correction_EH_plus.F90
+
+$(OBJ)/local_for_MOZYME.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/MOZYME_C.$(O)  \
+  $(OBJ)/chanel_C.$(O)  \
+  $(MOPAC_SRC)/local_for_MOZYME.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/local_for_MOZYME.F90
+
+$(OBJ)/CPE_Energy.$(O): \
+  $(OBJ)/molkst_C.$(O)  \
+  $(OBJ)/funcon_C.$(O)  \
+  $(OBJ)/parameters_C.$(O)  \
+  $(OBJ)/Common_arrays_C.$(O)  \
+  $(MOPAC_SRC)/CPE_Energy.F90
+	 $(FORTRAN_COMPILER)  $(MOPAC_SRC)/CPE_Energy.F90
+
+#
+# Dependencies of PARAM Fortran source files
+#
+
+$(OBJ)/param.$(O): \
+  $(OBJ)/param_global_C.$(O)  \
+  $(PARAM_SRC)/param.F90
+		 $(FORTRAN_COMPILER)   $(PARAM_SRC)/param.F90
+
+$(OBJ)/param_global_C.$(O): \
+  $(PARAM_SRC)/param_global_C.F90
+		 $(FORTRAN_COMPILER)   $(PARAM_SRC)/param_global_C.F90
+
+$(OBJ)/datinp.$(O): $(OBJ)/Param_global_C.$(O) $(PARAM_SRC)/datinp.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/datinp.F90
+
+$(OBJ)/pparsav.$(O): $(PARAM_SRC)/pparsav.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/pparsav.F90
+
+$(OBJ)/chkpar.$(O): $(PARAM_SRC)/chkpar.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/chkpar.F90
+
+$(OBJ)/direct.$(O): $(PARAM_SRC)/direct.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/direct.F90
+
+$(OBJ)/extract_parameter.$(O): $(PARAM_SRC)/extract_parameter.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/extract_parameter.F90
+
+$(OBJ)/savgeo.$(O):   $(PARAM_SRC)/savgeo.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/savgeo.F90
+
+$(OBJ)/parkey.$(O):   $(PARAM_SRC)/parkey.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/parkey.F90
+
+$(OBJ)/partab.$(O):   $(PARAM_SRC)/partab.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/partab.F90
+
+$(OBJ)/rapid0.$(O):   $(PARAM_SRC)/rapid0.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/rapid0.F90
+
+$(OBJ)/parfg.$(O):   $(PARAM_SRC)/parfg.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/parfg.F90
+
+$(OBJ)/resetp.$(O):   $(PARAM_SRC)/resetp.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/resetp.F90
+
+$(OBJ)/depfn.$(O):   $(PARAM_SRC)/depfn.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/depfn.F90
+
+$(OBJ)/optgeo.$(O):   $(PARAM_SRC)/optgeo.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/optgeo.F90
+
+$(OBJ)/getmol.$(O):   $(PARAM_SRC)/getmol.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/getmol.F90
+
+$(OBJ)/getpar.$(O):   $(PARAM_SRC)/getpar.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/pargeo.F90
+
+$(OBJ)/empire.$(O):   $(PARAM_SRC)/empire.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/empire.F90
+
+$(OBJ)/parips.$(O):   $(PARAM_SRC)/parips.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/parips.F90
+
+$(OBJ)/filusp.$(O):   $(PARAM_SRC)/filusp.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/filusp.F90
+
+$(OBJ)/psort.$(O):   $(PARAM_SRC)/psort.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/psort.F90
+
+$(OBJ)/rapid1.$(O):  $(PARAM_SRC)/rapid1.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/rapid1.F90
+
+$(OBJ)/rapid2.$(O): $(PARAM_SRC)/rapid2.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/rapid2.F90
+
+$(OBJ)/rapid3.$(O): $(PARAM_SRC)/rapid3.F90
+	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/rapid3.F90

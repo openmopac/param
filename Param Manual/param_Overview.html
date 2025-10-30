@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+<TITLE>General Description of PARAM</TITLE>
+                                                                                                                                                  <style type="text/css">
+.auto-style1 {
+	text-decoration: underline;
+}
+</style>
+                                                                                                                                                  </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<H1 ALIGN="CENTER"><br>
+</A>General Description of PARAM</H1>
+<p>PARAM is a program for optimizing parameters for semiempirical methods. It is 
+controlled by a single data set that specifies the type of operation (usually 
+parameter optimization or a survey to determine errors), the conditions for the 
+operation (PM6, PM6-D3H4X, PM7, etc., or a new method), and the sets of data-files to be 
+used.</p>
+
+  
+  
+<p>Given one or more sets of reference data, the program PARAM can optimize 
+parameters for elements for use in semiempirical methods. </p>
+
+  
+  
+<p>The program PARAM is the central program used for method development.&nbsp; 
+There are several utility programs (see <a href="Utility%20Programs.html">
+UTILITY PROGRAMS</a>) that are useful in 
+manipulating the large files and large number of files.&nbsp; Before using the 
+program PARAM, first become familiar with these utilities.</p>
+
+  
+  
+<p>PARAM uses several types of files.&nbsp; For convenience, these should be 
+stored in different folders, so each folder contains only one type of file.&nbsp; 
+The main types are normal data sets, data sets representing atomic states, data 
+sets for exotic systems, and data sets for intermolecular interactions.&nbsp; PARAM can handle 15,000 reference data 
+in 10,000 reference data files and 4,000 parameters.</p>
+
+  
+  
+<p>If, as is inevitable, things go wrong, there are extensive diagnostics 
+available for finding out what happened.&nbsp; These diagnostics can also 
+indicate what to do, but of course they cannot take any action on their own.&nbsp; 
+Options also exist to identify faulty data, and, depending on the keywords used, 
+either ignore, i.e., exclude, the faulty data or stop the calculation, so the 
+user can take appropriate action.</p>
+
+  
+  
+<h2>Causes of error in Semiempirical 
+methods</h2>
+<p align="left">There are only three possible sources of error in semiempirical 
+methods, and if these are eliminated, then semiempirical methods would be 
+completely accurate.&nbsp; These sources of error are:</p>
+<p align="left">(1) The reference data are inaccurate.<br>
+(2) The underlying theory is faulty.<br>
+(3) The parameter optimization is incomplete.</p>
+<p align="left">Of these, only the parameter optimization is robust.&nbsp; 
+Historically, parameter optimization was fraught with problems, but over the 
+past 30-40 years these have all been solved. Most of the theory used in MOPAC is 
+satisfactory, however the range of chemical phenomena is enormous and there is 
+always room for improvement, for example in recent years techniques for modeling 
+non-covalent interactions have improved significantly.&nbsp; By far the weakest 
+link in semi-empirical methods is in reference data. </p>
+<h3 align="left">Faults in Reference Data</h3>
+<p align="left">Most reference data are obtained from experimental measurements.&nbsp; 
+Only about 10,000 thermochemical measurements of gas-phase species exist, and 
+many of these are of questionable accuracy.&nbsp; A set of
+<a href="https://webbook.nist.gov/cgi/cbook.cgi?Source=2004STE6-10&amp;Mask=1" target="_blank">
+34 data</a> in the NIST WebBook were found to be severely in error, and were 
+updated.&nbsp; An examination of the &quot;<a href="https://link.springer.com/article/10.1007/s00894-003-0157-6" target="_blank">before 
+and after</a>&quot; values provides a dramatic illustration of the size of errors 
+involved. No further work on detecting and correcting errors in experimental 
+thermochemical data has been done, mainly because the average unsigned errors in 
+heats of formation predicted using semiempirical methods is still large, and 
+allocating discrepancies between calculated and reference data would be 
+problematic.</p>
+<p align="left">The accuracy of semiempirical methods could be improved if 
+better reference data were available, not just more accurate data, but data that 
+explored a wider range of chemistry, for example there are no reliable 
+thermochemical data on gaseous silver compounds. As an estimate, for simple 
+organic compounds the error in heats of formation could be reduced by 20-40%, 
+and for more exotic systems by at least 50%.</p>
+<p align="left">So <span class="auto-style1"><strong><em>the main focus in 
+improving the accuracy of semiempirical methods should be on generating accurate 
+reference data on a wide range of chemical systems</em></strong></span>.</p>
+<p align="left">&nbsp;</p>
+                                                <p>&nbsp;</p>
+
+  
+  
+<p>&nbsp;</p>
+
+  
+  
+</BODY>
+</HTML>

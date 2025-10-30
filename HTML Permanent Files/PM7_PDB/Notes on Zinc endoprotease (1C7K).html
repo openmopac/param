@@ -1,0 +1,27 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+
+<head> 
+<meta http-equiv="Content-Language" content="en-us">
+<title> Notes on individual protein systems </title></head>
+
+<body>
+
+<h1 align="center">Notes on Zinc endoprotease (1C7K)</h1>
+
+<p align="left">Only one severe error has been found in modeling proteins using 
+PM6-D3H4.&nbsp; In the zinc endoprotease 1C7K, one of the sulfur atoms in a 
+cystine formed from Cys-112 and Cys-99 forms a covalent bond with N<sub>&epsilon;</sub> 
+of Arg-79, as can be seen in the Specific Script detail of the unconstrained 
+PM6-D3H4 structure of 1C7K. Because of this, care should be exercised whenever a cysteine 
+group is near to a nitrogen atom of an arginine.&nbsp; If this occurred, and a 
+sulfur-nitrogen bond formed, the MOZYME procedure would detect an unreasonable 
+Lewis structure and report it.</p>
+
+<p align="left">This error could be corrected by re-parameterizing the two S-N 
+diatomic repulsion terms ALPB and XFAC. If this was done, nothing else in 
+PM6-D3H4 would be affected.</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+*
+*  Verify that SSQ from the end of the previous job will be reproduced if the job is re-started.
+*  
+*
+*     Keywords used
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define all the folders that contain reference data for systems defined by SET. 
+*
+set="../sets/Stand-alone core.txt" &
+ref= &
+"../../reference data/Data Intermolecular interactions/S22 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S22 Separated"; &
+"../../reference data/Data Intermolecular interactions/S66 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S66 Separated"; &
+"../../reference data/Data Intermolecular interactions/L7 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/L7 Separated"; &
+"../../reference data/Data Intermolecular interactions/S12L Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/X40 Separated"; &
+"../../reference data/Data Intermolecular interactions/X40 intermolecular"; &
+"../../reference data/Data Intermolecular interactions/Water dimers all"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Separated"; &
+"../../reference data/Data normal"; &
+"../../reference data/Data levels"; &
+"../../reference data/Data erratic" &
+*
+*  Use the current PM8 method 
+*
+ external=CHNOXSP.rp cycles=1
+*
+* No more continuation symbols, "&", so now define the parameters to be optimized
+* Only USS for each element is used.  This selects the same systems as were used 
+* in the previous job.
+*
+(H C N O F Cl Br I S P)(Uss)  
+*
+*  And end the parameter list with the word "end"
+*          
+end

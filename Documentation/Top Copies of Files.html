@@ -1,0 +1,45 @@
+<!-- saved from url=(0020)http://OpenMOPAC.net -->
+<html>
+<head>
+<title>Top Copies of Files</title>
+    
+  
+<style type="text/css">
+.auto-style1 {
+	text-align: left;
+}
+</style></head>
+
+    
+  
+<body>
+
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;
+<h1 align="center"><b>
+Top Copies of Files</b></h1>
+
+<p class="auto-style1">Both programs, MOPAC and PARAM, run on Windows, Mac, and 
+Linux systems.&nbsp; Running on more than one system causes problems regarding 
+which files are the top copy.&nbsp; For example, if a source-code file in PARAM 
+on a Linux system is edited, and the modified file is an improvement, what 
+should be done to propagate the change to other platforms?&nbsp; Put another 
+way, file maintenance is an issue that must be addressed.</p>
+<p class="auto-style1">The recommended approach to file maintenance is to have 
+all top-copy files on the Windows platform.&nbsp; This involves source code, 
+compilation files such as Visual Studio and Makefiles, reference data files, and 
+optimized parameter files. Large jobs - jobs taking several hours to a few weeks 
+- should not be run on the Windows platform.&nbsp; Almost always the first 
+attempt to run a large job will fail because of faults in the input data, for 
+this reason preliminary testing of large jobs should be done on the Windows platform, in one 
+of the Sandbox folders where faults in the datasets can easily be identified and corrected </p>
+<p class="auto-style1">The other platforms, Mac and Linux, would then be used as 
+pure compute engines.&nbsp;&nbsp;Some utility files are available to help in 
+setting up the <a href="../Source%20Code/Scripts%20for%20Mac">Mac</a> and
+<a href="../Source%20Code/Scripts%20for%20Linux">Linux</a> systems.</p>
+
+</body>
+
+</html>

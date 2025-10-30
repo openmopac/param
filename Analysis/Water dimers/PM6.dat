@@ -1,0 +1,16 @@
+*
+*  Run a survey of Intermolecular Interaction Energies
+*  
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET.
+* SURVEY:     Survey.  
+*
+set="Water dimers set for survey.txt" ref="../../reference data/Data Intermolecular interactions/Water dimers all" survey references="../../Reference data/references.txt" PM6
+*
+*
+*
+end
+

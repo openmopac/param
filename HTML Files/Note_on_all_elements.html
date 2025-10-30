@@ -1,0 +1,33 @@
+<HTML><HEAD><TITLE> Note regarding large errors for all elements </TITLE>
+</HEAD>
+ &nbsp;<H2 ALIGN="CENTER"> Note regarding large errors for all elements (all 
+data)</H2> <p align="center">(<a href="../index.html">Home</a>
+- <a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> - <a href="../manual/index.html">Manual</a><a href="table_of_HoF_for_all_elements.html">)</a><p align="left">
+For many elements, there was, and still is, a severe lack of high quality 
+experimental reference data.&nbsp; A consequence of this is that in order to 
+have a training data set large enough to allow parameter optimization, extra 
+data on geometries and heats of formation were generated using a relatively 
+quick <i>ab-initio </i>method,&nbsp; the B88-PW91 density functional with a 
+6-31(G)d basis set.&nbsp; These data were useful during the development of PM6, 
+however during the development of PM7 strong evidence was found that many of 
+these theoretical reference data, particularly ionized species, were severely in 
+error.&nbsp; These errors only became obvious when attempts were made to model 
+solids.&nbsp; For example, when parameters were optimized to reproduce the 
+B88-PW91 reference heat of formation of the hexacyanoferrate ion, [Fe(II)(CN)6]<sup>4-</sup>, 
+all attempts to model solid potassium hexacyanoferrate gave bad results.&nbsp; 
+When the ion was removed from the training set much better results were 
+obtained.&nbsp; <p align="left">The protocol adopted in generating the tables 
+included reporting all calculated results, unless unambiguous evidence 
+existed that a reference datum was inaccurate, in which case it was deleted from 
+all files. PM6 was parameterized using many <i>ab-initio</i> data, and therefore 
+errors relative to <i>ab-initio</i> reference data are small.&nbsp; In 
+parameterizing PM7, a lot of <i>ab-initio</i> data was excluded, as they were 
+incompatible with experimental results.&nbsp; <b>Original 2013 note: </b>Despite the fact that these data 
+were excluded from the parameterization, the protocols adopted in reporting PM7 
+results required that these data should be included in determining accuracy, and 
+this had the unfortunate effect of making PM7 look worse than PM6.&nbsp; 
+Hopefully, convincing evidence that the theoretical reference data are indeed 
+inaccurate will soon be developed, at which point the reference data involved 
+can be eliminated. <b>Revised 2020 note: </b>Although PM7 is more accurate than 
+PM6-D3H4 in predicting the properties of some inorganic solids, in general the 
+faults noted earlier were found to be real.</html>

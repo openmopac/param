@@ -1,0 +1,91 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Thu Feb 25 04:58:09 2021
+                                                       No. of days remaining = 364
+
+           Empirical Formula: O16 Tl12 P4  =    32 atoms
+
+ MERS=(2,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Trithallium(i) phosphate (Tl3PO4)
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =      -1200.48077 KCAL/MOL =   -5022.81155 KJ/MOL
+          H.o.F. per unit cell    =       -300.12019 KCAL, for 4 unit cells, unit cell = O4 Tl3 P1
+          TOTAL ENERGY            =      -6158.23854 EV
+          ELECTRONIC ENERGY       =  -14686223.00787 EV
+          CORE-CORE REPULSION     =   14680064.76933 EV
+
+          VOLUME OF UNIT CELL     =        294.684 CUBIC ANGSTROMS
+
+          DENSITY                 =          7.980 GRAMS/CC
+                              A   =          6.238 ANGSTROMS
+                              B   =          7.384 ANGSTROMS
+                              C   =          7.385 ANGSTROMS
+                            ALPHA =        119.973 DEGREES
+                            BETA  =         90.340 DEGREES
+                            GAMMA =         89.834 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =        589.36750 ANGSTROMS**3 =  354.925 CM**3/MOLE
+ 
+          GRADIENT NORM           =          4.81935 = 0.85195 PER ATOM
+          NO. OF FILLED LEVELS    =         76
+          IONIZATION POTENTIAL    =          8.177564 EV
+          HOMO LUMO ENERGIES (EV) =         -8.178 -0.450
+          MOLECULAR WEIGHT        =       2832.3254
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:  -0.09 GPa
+           Tv(  34)  Pressure:  -0.02 GPa
+           Tv(  35)  Pressure:  -0.01 GPa
+          SCF CALCULATIONS        =         16
+          WALL-CLOCK TIME         =  6 MINUTES AND 51.293 SECONDS
+          COMPUTATION TIME        =  6 MINUTES AND 36.432 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(2,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Trithallium(i) phosphate (Tl3PO4)
+
+ Tl    -0.71092495 +1   0.04433678 +1  -0.11598062 +1
+  P     1.48686890 +1  -2.92724363 +1  -0.21064409 +1
+  O     2.84574653 +1  -1.99658454 +1  -0.21452454 +1
+  O     1.19427359 +1  -3.23783488 +1   1.25258186 +1
+  O     0.41257944 +1  -2.06839583 +1  -0.86671123 +1
+  O     1.83016651 +1  -4.17137248 +1  -1.02140640 +1
+ Tl     0.16126776 +1  -1.24097240 +1  -3.22764868 +1
+ Tl    -4.35415806 +1  -0.17330637 +1   1.12843923 +1
+ Tl     3.83408019 +1  -1.15515938 +1  -2.22000939 +1
+ Tl     0.69426133 +1   3.52832467 +1  -5.28095539 +1
+  O    -1.84496503 +1  -0.59509688 +1  -2.11414931 +1
+  O     1.55525857 +1   1.87839182 +1  -3.60737272 +1
+  O    -4.22994786 +1  -0.74252044 +1  -1.30208763 +1
+  O     2.30988827 +1   0.69825015 +1  -1.48532409 +1
+ Tl    -1.80941958 +1   1.62177172 +1  -3.00916580 +1
+  P    -3.20475620 +1  -1.52827084 +1  -2.10998190 +1
+ Tl     4.39553787 +1   3.56190190 +1  -0.08488307 +1
+  P     6.62491717 +1   0.61146377 +1  -0.18216010 +1
+  O     7.98785883 +1   1.53707185 +1  -0.16304419 +1
+  O     6.32745671 +1   0.30000378 +1   1.27994483 +1
+  O     5.55555792 +1   1.47425521 +1  -0.84085369 +1
+  O     6.96820488 +1  -0.63159957 +1  -0.99504922 +1
+ Tl     5.30938494 +1   2.30894562 +1  -3.19975664 +1
+ Tl     0.79498194 +1   3.36561450 +1   1.12168119 +1
+ Tl     8.99811716 +1   2.38059445 +1  -2.15124191 +1
+ Tl     5.84095097 +1   7.04310606 +1  -5.18988645 +1
+  O     3.28861023 +1   2.94967897 +1  -2.11008239 +1
+  O     6.68678398 +1   5.38381343 +1  -3.49795289 +1
+  O     0.89495821 +1   2.79919753 +1  -1.32813401 +1
+  O     7.47477881 +1   4.22395271 +1  -1.37856128 +1
+ Tl     3.34964693 +1   5.17453471 +1  -2.98140979 +1
+  P     1.92587156 +1   2.02120010 +1  -2.13680106 +1
+ Tv    10.27991955 +1   7.06851297 +1   0.07668175 +1 
+ Tv    -1.87955150 +1   2.69945446 +1   6.61113931 +1 
+ Tv     4.14266264 +1  -6.09718608 +1  -0.45377522 +1 
+ 

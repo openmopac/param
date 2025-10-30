@@ -1,0 +1,21 @@
+﻿Build started 11/6/2019 5:49:52 AM.
+     1>Project "M:\PARAM\Source Code\MOPAC and PARAM source code\MOPAC_CUDA_files\MOPAC_CUDA_files_vs2010.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\Win32\MOPAC_CUDA_files.lib" /NOLOGO /LTCG ..\Win32\cublas_drivers.cu.obj
+         ..\Win32\diag_density_cuda.cu.obj
+         ..\Win32\gpu_info.cu.obj
+         ..\Win32\mamult_cuda.cu.obj
+         MOPAC_CUDA_files_vs2010.vcxproj -> M:\PARAM\Source Code\MOPAC and PARAM source code\MOPAC_CUDA_files\..\Win32\MOPAC_CUDA_files.lib
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "..\Win32\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "..\Win32\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "..\Win32\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+     1>Done Building Project "M:\PARAM\Source Code\MOPAC and PARAM source code\MOPAC_CUDA_files\MOPAC_CUDA_files_vs2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

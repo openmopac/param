@@ -1,0 +1,225 @@
+<HTML><HEAD><TITLE>Zinc Finger (3ZNF)</TITLE></HEAD>
+<style type="text/css">
+.auto-style4 {
+margin-top: 0px;
+text-align: center;
+line-height: 85%;
+}
+.auto-style5 {
+text-decoration: none;
+}
+</style>
+<!--
+ 
+   Start of JSmol script
+ 
+-->
+<meta charset="utf-8"> <script type="text/javascript" src="../jsmol/JSmol.min.js"></script>  
+<script type="text/javascript">
+
+$(document).ready(function() {Info = {
+          width: 1500,
+          height: 1000,
+          color: "0xB0B0B0",
+          disableInitialConsole: true, 
+          addSelectionOptions: false,
+          j2sPath: "../jsmol/j2s",
+          jarPath: "../jsmol/java",
+          use: "HTML5", script: 
+           
+// Data set to be loaded
+ 
+"load \
+          'Zinc Finger (3ZNF).pdb'; \
+          set measurementUnits ANGSTROMS; \
+          set bondRadiusMilliAngstroms (50); \
+          spacefill 15%; \
+          set display selected; \
+          hBonds calculate; \
+          set defaultDistanceLabel '%0.3VALUE %UNITS'; \
+          select none; \
+          set perspectivedepth off; \
+          connect 0.8  1.5 (hydrogen) (phosphorus) create; \
+          set zoomLarge false;" 
+} 
+$("#mydiv").html(Jmol.getAppletHtml("jmolApplet0",Info))}); 
+</script>
+<!--
+ 
+   End of JSmol script
+ 
+-->
+<h1 align="center">Zinc&nbsp;Finger&nbsp;(3ZNF)</h1>
+<BODY  BGCOLOR="#ffffff">
+<TABLE>
+<TD>
+<TABLE>
+<TR>
+<TD colspan="2">
+<TABLE>
+<TR><TD> Date:</TD><TD> &nbsp;&nbsp; &nbsp;</TD><TD>Jan 31 2021 10:37</TD></TR>
+<TR><TD> No. atoms:</TD><TD> &nbsp;&nbsp; &nbsp;</TD><TD>  494</TD></TR>
+<TR><TD> Formula:</TD><TD> &nbsp;&nbsp; &nbsp;</TD><TD>C<sub>157</sub>H<sub>244</sub>N<sub>48</sub>O<sub>41</sub>S<sub>3</sub>Zn</TD></TR>
+<TR><TD> Net charge:</TD><TD> &nbsp;&nbsp; &nbsp;</TD><TD>Zero</TD></TR>
+<TR><TD> Heat of Formation:</TD><TD> &nbsp;&nbsp; &nbsp;</TD><TD>   -2147.874
+ Kcal/mol</TD></TR>
+</TABLE>
+</TD></TR><TR>
+<TD><a href="javascript:Jmol.script(jmolApplet0,'
+if (isOK1);  Display *; zoom 0; isOK1 = FALSE; else hide *; 
+ ARG0001A       = FALSE; PRO0002A       = FALSE; TYR0003A       = FALSE; HIS0004A       = FALSE; CYS0005A       = FALSE; SER0006A       = FALSE;
+ TYR0007A       = FALSE; CYS0008A       = FALSE; ASN0009A       = FALSE; PHE0010A       = FALSE; SER0011A       = FALSE; PHE0012A       = FALSE;
+ LYS0013A       = FALSE; THR0014A       = FALSE; LYS0015A       = FALSE; GLY0016A       = FALSE; ASN0017A       = FALSE; LEU0018A       = FALSE;
+ THR0019A       = FALSE; LYS0020A       = FALSE; HIS0021A       = FALSE; MET0022A       = FALSE; LYS0023A       = FALSE; SER0024A       = FALSE;
+ LYS0025A       = FALSE; ALA0026A       = FALSE; HIS0027A       = FALSE; SER0028A       = FALSE; LYS0029A       = FALSE; LYS0030A       = FALSE;
+  ZN0031B       = FALSE;
+isOK1 = TRUE; isOK2 = FALSE; lzoom = TRUE; lcenter = TRUE;
+endif;')">Toggle display all</a>
+</TD>
+<TD><a href="javascript:Jmol.script(jmolApplet0,'
+if (lcenter);  lcenter = FALSE; else lcenter = TRUE; center {visible}; end if;
+')">Toggle center picture</a> </TD>
+</TR> <TR>
+<TD><a href="javascript:Jmol.script(jmolApplet0,'console;')">Console</a> </TD> 
+
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (lzoom); zoom 0; select */2.1; color bonds green; select none; lzoom = FALSE; else lzoom = TRUE; end if ')">Fit to screen</a> </TD></TR><TR>
+<TD><a href="javascript:Jmol.script(jmolApplet0,'display within(3,visible);select */2.1; color bonds green; select none; if (lzoom); zoom 0; end if ')">Near Neighbors</a> </TD> 
+<TD><a href="javascript:Jmol.script(jmolApplet0,'connect (all) (all) delete; connect; display add connected(visible); select *; hbonds calculate; select  */2.1; color bonds green; select none; if (lzoom); delay 0.001; zoom 0; end if ')">Connected Neighbors</a> </TD> 
+<TR><TD>
+<a href="javascript:Jmol.script(jmolApplet0,'if (!lcharge_x); 
+var use = {visible}; var sel = {selected};
+var z = 0; for (var i IN @sel){z = 3}
+if (z = 3); use = sel; end if;
+for (var x IN @use){select @x; var txt =  (x.temperature > 0 ? \'+\':\'\')+format(\'%1.2f\',x.temperature ); label @txt; color label black;
+set labelOffset 0 0;}  select @sel; lcharge_x= TRUE;
+else lcharge_x= FALSE; var use = {visible}; var sel = {selected};
+var z = 0; for (var i IN @sel){z = 3}
+if (z = 3); use = sel; end if;
+select @use; label OFF; select @sel; end if ')">Charges as Nos.</a>
+</TD><TD>
+<a href="javascript:Jmol.script(jmolApplet0,'if (!lcharge_s); 
+var use = {visible}; var sel = {selected};
+var z = 0; for (var i IN @sel){z = 3}
+if (z = 3); use = sel; end if;
+for (var x IN @use)
+{select @x; var txt =  @x.temperature*0.5;
+if (@txt > 0){spacefill @txt; color atom deepskyblue;}
+if (!@txt > 0){txt = -txt; spacefill @txt; color atom deeppink;}}
+select @sel; lcharge_s= TRUE;
+else lcharge_s= FALSE; var use = {visible}; var sel = {selected};
+var z = 0; for (var i IN @sel){z = 3}
+if (z = 3); use = sel; end if;
+select @use; spacefill 15%; color cpk; select @sel; end if ')">Charges as Sizes</a>
+</TD></TR>
+<TR>
+<TD colspan="2"><a href="javascript:Jmol.script(jmolApplet0,'script common.txt;')"><strong style="font-size:20px">Common Script</strong>
+</a>&nbsp; (Read file from:<br> "<a href="common.txt"  target="_blank">common.txt</a>")</TD>
+</TR> <TR>
+<TD colspan="2"><a href="javascript:Jmol.script(jmolApplet0,'script \'Zinc Finger (3ZNF).txt\';')"><strong style="font-size:20px">Specific Script</strong>
+</a>&nbsp; (Read file from:<br> "<a href="Zinc Finger (3ZNF).txt"  target="_blank">Zinc Finger (3ZNF).txt</a>")</TD>
+</TR></TABLE>
+<p align="center">Toggle Individual Residues</p>
+<TABLE>
+<TR>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!ARG0001A      );   display ADD [ARG]1:A;  ARG0001A       = TRUE; else 
+ hide ADD [ARG]1:A;  ARG0001A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">R<br>1</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!PRO0002A      );   display ADD [PRO]2:A;  PRO0002A       = TRUE; else 
+ hide ADD [PRO]2:A;  PRO0002A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">P<br>2</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!TYR0003A      );   display ADD [TYR]3:A;  TYR0003A       = TRUE; else 
+ hide ADD [TYR]3:A;  TYR0003A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">Y<br>3</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!HIS0004A      );   display ADD [HIS]4:A;  HIS0004A       = TRUE; else 
+ hide ADD [HIS]4:A;  HIS0004A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">H<br>4</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!CYS0005A      );   display ADD [CYS]5:A;  CYS0005A       = TRUE; else 
+ hide ADD [CYS]5:A;  CYS0005A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">C<br>5</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!SER0006A      );   display ADD [SER]6:A;  SER0006A       = TRUE; else 
+ hide ADD [SER]6:A;  SER0006A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">S<br>6</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!TYR0007A      );   display ADD [TYR]7:A;  TYR0007A       = TRUE; else 
+ hide ADD [TYR]7:A;  TYR0007A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">Y<br>7</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!CYS0008A      );   display ADD [CYS]8:A;  CYS0008A       = TRUE; else 
+ hide ADD [CYS]8:A;  CYS0008A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">C<br>8</p> </a></TD>
+</TR> <TR>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!ASN0009A      );   display ADD [ASN] 9:A;  ASN0009A       = TRUE; else 
+ hide ADD [ASN] 9:A;  ASN0009A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">N<br> 9</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!PHE0010A      );   display ADD [PHE]10:A;  PHE0010A       = TRUE; else 
+ hide ADD [PHE]10:A;  PHE0010A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">F<br>10</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!SER0011A      );   display ADD [SER]11:A;  SER0011A       = TRUE; else 
+ hide ADD [SER]11:A;  SER0011A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">S<br>11</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!PHE0012A      );   display ADD [PHE]12:A;  PHE0012A       = TRUE; else 
+ hide ADD [PHE]12:A;  PHE0012A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">F<br>12</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0013A      );   display ADD [LYS]13:A;  LYS0013A       = TRUE; else 
+ hide ADD [LYS]13:A;  LYS0013A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>13</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!THR0014A      );   display ADD [THR]14:A;  THR0014A       = TRUE; else 
+ hide ADD [THR]14:A;  THR0014A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">T<br>14</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0015A      );   display ADD [LYS]15:A;  LYS0015A       = TRUE; else 
+ hide ADD [LYS]15:A;  LYS0015A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>15</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!GLY0016A      );   display ADD [GLY]16:A;  GLY0016A       = TRUE; else 
+ hide ADD [GLY]16:A;  GLY0016A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">G<br>16</p> </a></TD>
+</TR> <TR>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!ASN0017A      );   display ADD [ASN]17:A;  ASN0017A       = TRUE; else 
+ hide ADD [ASN]17:A;  ASN0017A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">N<br>17</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LEU0018A      );   display ADD [LEU]18:A;  LEU0018A       = TRUE; else 
+ hide ADD [LEU]18:A;  LEU0018A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">L<br>18</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!THR0019A      );   display ADD [THR]19:A;  THR0019A       = TRUE; else 
+ hide ADD [THR]19:A;  THR0019A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">T<br>19</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0020A      );   display ADD [LYS]20:A;  LYS0020A       = TRUE; else 
+ hide ADD [LYS]20:A;  LYS0020A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>20</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!HIS0021A      );   display ADD [HIS]21:A;  HIS0021A       = TRUE; else 
+ hide ADD [HIS]21:A;  HIS0021A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">H<br>21</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!MET0022A      );   display ADD [MET]22:A;  MET0022A       = TRUE; else 
+ hide ADD [MET]22:A;  MET0022A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">M<br>22</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0023A      );   display ADD [LYS]23:A;  LYS0023A       = TRUE; else 
+ hide ADD [LYS]23:A;  LYS0023A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>23</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!SER0024A      );   display ADD [SER]24:A;  SER0024A       = TRUE; else 
+ hide ADD [SER]24:A;  SER0024A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">S<br>24</p> </a></TD>
+</TR> <TR>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0025A      );   display ADD [LYS]25:A;  LYS0025A       = TRUE; else 
+ hide ADD [LYS]25:A;  LYS0025A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>25</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!ALA0026A      );   display ADD [ALA]26:A;  ALA0026A       = TRUE; else 
+ hide ADD [ALA]26:A;  ALA0026A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">A<br>26</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!HIS0027A      );   display ADD [HIS]27:A;  HIS0027A       = TRUE; else 
+ hide ADD [HIS]27:A;  HIS0027A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">H<br>27</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!SER0028A      );   display ADD [SER]28:A;  SER0028A       = TRUE; else 
+ hide ADD [SER]28:A;  SER0028A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">S<br>28</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0029A      );   display ADD [LYS]29:A;  LYS0029A       = TRUE; else 
+ hide ADD [LYS]29:A;  LYS0029A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>29</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (!LYS0030A      );   display ADD [LYS]30:A;  LYS0030A       = TRUE; else 
+ hide ADD [LYS]30:A;  LYS0030A       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">K<br>30</p> </a></TD>
+<TD> <a href="javascript:Jmol.script(jmolApplet0,'if (! ZN0031B      );   display ADD      31:B;   ZN0031B       = TRUE; else 
+ hide ADD      31:B;   ZN0031B       = FALSE; end if; if (lcenter); center {visible}; end if; if (lzoom); zoom 0; end if;')" class="auto-style5">  
+<p class="auto-style4">X<br>31</p> </a></TD>
+</TR>
+</TABLE><br> 
+ </TD><TD>
+<span id=mydiv></span><a href="javascript:Jmol.script(jmolApplet0)"></a></TD></TABLE>
+</BODY>
+</HTML>

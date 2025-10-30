@@ -1,0 +1,16 @@
+*
+*  Run an optimization of the PM7 parameters for intermolecular interactions
+*  
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET.  
+*
+dep PM6-D3H4 &
+external="../CHNOXSP/CHNOXSP.rp"; &
+"../Elements/Group IA.rp"; &
+"../Elements/Group IIA.rp"; &
+"../Elements/Group IIIA.rp"; &
+"../Elements/Si.rp"; &
+"../Elements/Bi.rp"

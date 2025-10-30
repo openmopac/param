@@ -1,0 +1,71 @@
+<html><head>
+<title>Program MOPAC2016</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Relationship of the Programs MOPAC2016 and PARAM</h1>
+<p class="auto-style1">Program MOPAC2016 and program PARAM allow new methods to 
+be parameterized and tested. MOPAC is a stand-alone program, and PARAM uses 
+almost all of MOPAC as an embedded compute engine.&nbsp; Both MOPAC and PARAM 
+use the same set of source code.&nbsp; This has the advantage that when a change is 
+made in the source code of one program, that change will automatically be made 
+in the other program.&nbsp; MOPAC does not use any of the PARAM source code but PARAM 
+uses almost all of the MOPAC source code, so any change made to the MOPAC source 
+code will affect PARAM, but any change to PARAM source code will not affect 
+MOPAC.&nbsp; It might help to regard MOPAC as a compute engine embedded within 
+PARAM.&nbsp; In principle, many parts of MOPAC could be deleted, for example the 
+MOZYME function is not used in PARAM and therefore could be deleted.&nbsp; However by 
+not modifying the copy of MOPAC used in PARAM, one potential path for 
+introducing complications is eliminated. </p>
+<p class="auto-style1">Individual manuals on MOPAC and PARAM give detailed 
+information on how each of these programs work.</p>
+<h2>Adding a new method to MOPAC</h2>
+<p>For convenience, all the changes needed for adding a new method to MOPAC have 
+already been made.&nbsp; Each method needs a name, and as the obvious next name 
+in the PMx series in PM8, that name has been chosen for the new method.&nbsp; 
+This name, PM8, should not be regarded as fixed.&nbsp; If a different name is 
+preferred, editing the MOPAC files that refer to PM8 to change it to the 
+preferred name is straightforward.</p>
+<p>Both MOPAC and PARAM have their own Visual Studio solutions that allow 
+development, running, and debugging of the programs.&nbsp; There are also 
+Makefiles for Windows, Mac and Linux.&nbsp; Unlike the Visual Studio solutions, 
+where MOPAC and PARAM files are in separate folders, the Makefiles use only one 
+common set of source files.&nbsp; This set can be constructed by copying all the 
+files for MOPAC and PARAM into a new folder.&nbsp; The Makefiles allow MOPAC and 
+PARAM to be compiled for different platforms.&nbsp; All small jobs should be run 
+on the Windows platform, with larger jobs being run on other platforms, as 
+needed.</p>
+<p>Quite large parameter files are generated during method development.&nbsp; 
+Eventually these files become irritating in that they can significantly increase 
+the size of PARAM and MOPAC output files.&nbsp; These files can be eliminated by 
+running a PARAM with a&nbsp; data set that contains one line with the text &quot; DEP 
+EXTERNAL=&lt;text&gt;&quot; or MOPAC job with a data-set consisting of four lines.&nbsp; 
+The first line should be the text: &quot;PM8 DEP DEBUG EXTERNAL=&lt;text&gt;&quot;, lines 2 and 
+3 can be blank, and line 4 should contain a chemical symbol, e.g., &quot; H &quot; For 
+both MOPAC and PARAM, keyword &quot;<a href="http://openmopac.net/manual/external.html"><tt>EXTERNAL=&lt;text&gt;</tt></a>&quot; 
+indicates the name and location of the file that holds the new parameters.</p>
+<p>Output from that job will include a file with the name 
+&quot;parameters_for_PM8_C.F90&quot; that contains all the parameters for the method with 
+old parameters being replaced with those in the &quot;<tt>EXTERNAL</tt>&quot; file. The 
+file &quot;parameters_for_PM8_C.F90&quot; can then be moved or copied to the folder that 
+holds the MOPAC source files.&nbsp; When MOPAC or PARAM are recompiled, the 
+updated parameters for PM8 will be used.&nbsp; This operation is easy to do and 
+takes only a minute or two. </p>
+<h2>Compiling MOPAC and PARAM on other platforms</h2>
+<p>Utility files for compiling MOPAC and PARAM on
+<a href="../Source%20Code/Scripts%20for%20Mac">Mac</a> and
+<a href="../Source%20Code/Scripts%20for%20Linux">Linux</a> systems are provided.&nbsp; 
+To reduce the frequency of errors caused by using multiple copies of files, the
+<a href="Top%20Copies%20of%20Files.html">top copies of all files</a> should be 
+on the Windows platform.</p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+

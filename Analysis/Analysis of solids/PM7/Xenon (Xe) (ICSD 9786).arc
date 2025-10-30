@@ -1,0 +1,95 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Thu Feb 25 07:34:57 2021
+                                                       No. of days remaining = 364
+
+           Empirical Formula: Xe36  =    36 atoms
+
+ MERS=(2,3,3)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Xenon (Xe) (ICSD 9786)
+ H=0 hr=element
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =        -57.81691 KCAL/MOL =    -241.90594 KJ/MOL
+          H.o.F. per unit cell    =         -1.60603 KCAL, for 36 unit cells, unit cell = Xe1
+          TOTAL ENERGY            =     -13124.17499 EV
+          ELECTRONIC ENERGY       =   -8289157.84037 EV
+          CORE-CORE REPULSION     =    8276033.66537 EV
+
+          VOLUME OF UNIT CELL     =        131.534 CUBIC ANGSTROMS
+
+          DENSITY                 =          3.315 GRAMS/CC
+                              A   =          7.389 ANGSTROMS
+                              B   =          4.516 ANGSTROMS
+                              C   =          4.508 ANGSTROMS
+                            ALPHA =        119.024 DEGREES
+                            BETA  =         90.199 DEGREES
+                            GAMMA =         90.366 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =       2367.60370 ANGSTROMS**3 = 1425.803 CM**3/MOLE
+ 
+          GRADIENT NORM           =          3.56525 = 0.59421 PER ATOM
+          NO. OF FILLED LEVELS    =        108
+          IONIZATION POTENTIAL    =         13.177760 EV
+          HOMO LUMO ENERGIES (EV) =        -13.178 -9.417
+          MOLECULAR WEIGHT        =       4726.8000
+           Pressure required to constrain translation vectors
+           Tv(  37)  Pressure:  -0.01 GPa
+           Tv(  38)  Pressure:  -0.06 GPa
+           Tv(  39)  Pressure:  -0.06 GPa
+          SCF CALCULATIONS        =          1
+          WALL-CLOCK TIME         =          2.848 SECONDS
+          COMPUTATION TIME        =          2.832 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(2,3,3)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Xenon (Xe) (ICSD 9786)
+ H=0 hr=element
+ Xe    -0.03879753 +1  -0.03256137 +1   0.19599489 +1
+ Xe    -3.76790708 +1  -1.11663980 +1   2.41784063 +1
+ Xe     5.98469628 +1   4.22858392 +1   0.19891308 +1
+ Xe     2.23683499 +1   3.13809890 +1   2.41987215 +1
+ Xe    -2.28520754 +1   3.11459395 +1  -2.09818082 +1
+ Xe    -6.02416897 +1   2.02355147 +1   0.12794622 +1
+ Xe     3.74292467 +1   7.37889755 +1  -2.09111755 +1
+ Xe    -0.00815076 +1   6.28692541 +1   0.13013844 +1
+ Xe    -4.53184204 +1   6.25947731 +1  -4.40622674 +1
+ Xe    -8.25995833 +1   5.16981784 +1  -2.17091329 +1
+ Xe     1.48885075 +1  10.51688079 +1  -4.40029238 +1
+ Xe    -2.24913869 +1   9.43037122 +1  -2.16795317 +1
+ Xe     2.18551301 +1  -3.18602065 +1  -2.07789509 +1
+ Xe    -1.54314419 +1  -4.29925226 +1   0.16261521 +1
+ Xe     8.20328409 +1   1.07208226 +1  -2.07248412 +1
+ Xe     4.47943369 +1  -0.03784471 +1   0.17395546 +1
+ Xe    -0.06069233 +1  -0.04232116 +1  -4.37071763 +1
+ Xe    -3.79862099 +1  -1.15624137 +1  -2.14867163 +1
+ Xe     5.96894979 +1   4.22485723 +1  -4.36947640 +1
+ Xe     2.23264084 +1   3.10978884 +1  -2.14023811 +1
+ Xe    -2.31011517 +1   3.10603942 +1  -6.68647991 +1
+ Xe    -6.03862270 +1   1.99083821 +1  -4.44465422 +1
+ Xe     3.71322890 +1   7.36518512 +1  -6.68017487 +1
+ Xe    -0.01236373 +1   6.25291651 +1  -4.43453503 +1
+ Xe     4.42130045 +1  -6.36193683 +1  -4.33828153 +1
+ Xe     0.67922261 +1  -7.44869295 +1  -2.11217964 +1
+ Xe    10.42999996 +1  -2.10173239 +1  -4.33721799 +1
+ Xe     6.70069201 +1  -3.19019157 +1  -2.10155582 +1
+ Xe     2.18004848 +1  -3.21893524 +1  -6.63598241 +1
+ Xe    -1.57571093 +1  -4.31027881 +1  -4.42268958 +1
+ Xe     8.19312341 +1   1.04643268 +1  -6.63745400 +1
+ Xe     4.45407474 +1  -0.04528306 +1  -4.41309615 +1
+ Xe    -0.06479829 +1  -0.06957648 +1  -8.90483828 +1
+ Xe    -3.81701577 +1  -1.16120649 +1  -6.71482004 +1
+ Xe     5.93885451 +1   4.18468500 +1  -8.92338824 +1
+ Xe     2.21136654 +1   3.10275416 +1  -6.70250384 +1
+ Tv    12.06027060 +1   8.54028566 +1   0.03543289 +1 
+ Tv    -6.79314975 +1   9.47199877 +1  -6.90497197 +1 
+ Tv     6.72119382 +1  -9.54430973 +1  -6.83007911 +1 
+ 

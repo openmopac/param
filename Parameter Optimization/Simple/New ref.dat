@@ -1,0 +1,27 @@
+*
+* Lines that start with an asterisk, *, are comment lines and are ignored by PARAM
+*
+* Run a survey using the same reference data-set files as those used in "Simple parameter optimization.dat"
+* and output the optimized reference data set files to folder "Updated reference geometries"
+*
+*  
+* 
+*                            Keywords used
+*
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define the folder that contain reference data for systems defined by SET. 
+* ONLY:       Use only reference data-set systems where at least one parameter for each 
+*               element present is marked for optimization
+* NEW_REF:    The name of the folder where the optimized reference data set files are to be written to.
+*
+set="../sets/Stand-alone core.txt" &
+ref="../../reference data/Data normal" &
+external="Simple parameter optimization.rp" &
+only &
+new_ref="Updated reference geometries"
+*
+* Use the same set of parameters as were used in the job "Simple parameter optimization.dat"
+*
+ (H C N O)(All) 
+end

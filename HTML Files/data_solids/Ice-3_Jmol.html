@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<HTML>
+<meta charset="utf-8"> <script type="text/javascript" src="../../jsmol/JSmol.min.js"></script>
+ Time stamp: Thu Mar 11 08:55:57 2021
+<TITLE>Ice-3</TITLE>
+ 
+<script type="text/javascript">
+$(document).ready(function() {InfoRef = {width: 560, height: 560, color: "0x000000",
+disableInitialConsole: true, addSelectionOptions: false,
+j2sPath: "../../jsmol/j2s",
+jarPath: "../../jsmol/java",
+use: "HTML5", script: "load Ice-3_(Ref).xyz; set measurementUnits ANGSTROMS; hBonds calculate; connect 0.8  1.5 (hydrogen) (phosphorus) create;"}
+$("#Ref").html(Jmol.getAppletHtml("jmolAppletRef",InfoRef))});
+</script>
+ 
+<script type="text/javascript">
+$(document).ready(function() {InfoPM7 = {width: 560, height: 560, color: "0x000000",
+disableInitialConsole: true, addSelectionOptions: false,
+j2sPath: "../../jsmol/j2s",
+jarPath: "../../jsmol/java",
+use: "HTML5", script: "load Ice-3_(PM7).xyz; set measurementUnits ANGSTROMS; hBonds calculate; connect 0.8  1.5 (hydrogen) (phosphorus) create;"}
+$("#PM7").html(Jmol.getAppletHtml("jmolAppletPM7",InfoPM7))});
+</script>
+ 
+<script type="text/javascript">
+$(document).ready(function() {InfoPM6 = {width: 560, height: 560, color: "0x000000",
+disableInitialConsole: true, addSelectionOptions: false,
+j2sPath: "../../jsmol/j2s",
+jarPath: "../../jsmol/java",
+use: "HTML5", script: "load Ice-3_(PM6_D3H4).xyz; set measurementUnits ANGSTROMS; hBonds calculate; connect 0.8  1.5 (hydrogen) (phosphorus) create;"}
+$("#PM6_D3H4").html(Jmol.getAppletHtml("jmolAppletPM6",InfoPM6))});
+</script>
+ 
+<BODY>
+<H3>   79 Ice-3  </H3>  <a href="Ice-2_Jmol.html">  (Previous)</a> &nbsp;&nbsp;&nbsp;Ice-2<BR> <a href="../Survey_of_Solids.html#Ice-3"> (Back)</a>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Elements:
+<a href=".././O.html#Ice-3"> O</A>   1
+<a href=".././H.html#Ice-3"> H</A>   2
+ (Z =   12)
+&nbsp; &nbsp; (<a href=".././Periodic_table_solids.html">Periodic Table</a>) <BR>
+  <a href="Ice-5_Jmol.html">  (Next)</a>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ice-5
+<BR>
+Polymorphs of crystalline H<sub>2</sub>O are: <a href="Ice-2_jmol.html">Ice-2</a>, <a href="Ice-3_jmol.html">Ice-3</a>, <a href="Ice-5_jmol.html">Ice-5</a>, <a href="Ice-6_jmol.html">Ice-6</a>, <a href="Ice-7_jmol.html">Ice-7</a>, <a href="Ice-8_jmol.html">Ice-8</a>, <a href="Ice-10_jmol.html">Ice-10</a>, <a href="Ice-11_jmol.html">Ice-11</a>, <a href="Ice-12_jmol.html">Ice-12</a>, <a href="Ice-13_jmol.html">Ice-13</a>, <a href="Ice-14_jmol.html">Ice-14</a>, <a href="Ice-Ih_jmol.html">Ice-Ih (normal ice)</a><BR>
+<BR>
+<BR>
+<BR>
+<PRE>                      Unit Cell Parameters:       a      b      c   alpha   beta  gamma   Volume  Density       Heat of Formation (Kcal/mol)
+                                     X-ray:     6.73   6.73   6.73  90.00  90.00  90.00    304.82  1.178          -69.0 calc'd using PM7
+                                       PM7:     6.73   6.71   6.58  90.43  90.55  89.86    296.78  1.210          -74.5 calc'd using PM7 (ref:     0.0)
+                                  PM6_D3H4:     6.66   6.47   6.45  90.04  89.33  90.65    277.54  1.293          -63.4 calc'd using PM6_D3H4
+</PRE>
+<PRE>                                 <font size="5"><b> <a href="Ice-3_jmol_XRay_fs.html"  target="_blank">X-Ray</a>                                             <a href="Ice-3_jmol_PM7_fs.html"  target="_blank">PM7</a>                                            <a href="Ice-3_jmol_PM6_fs.html"  target="_blank">PM6_D3H4</a></PRE>
+
+<TABLE>
+<td><span id=Ref></span><a href="javascript:Jmol.script(jmolAppletRef)"></a>
+<font face="Courier New" style="font-size: 14pt"> Calc'd on: Feb 25 2021 @ 22:03:02    </font></td>
+<td><span id=PM7></span><a href="javascript:Jmol.script(jmolAppletPM7)"></a>
+<font face="Courier New" style="font-size: 14pt"> Feb 23 2021 @ 22:25:03    
+<a href="./Ice-3_(PM7).html"  target="_blank">ARC file</a></font></td>
+<td><span id=PM6_D3H4></span><a href="javascript:Jmol.script(jmolAppletPM6)"></a>
+<font face="Courier New" style="font-size: 14pt"> Feb 25 2021 @ 05:30:49    </font></td>
+</TABLE>
+<PRE>  X-Ray data set:
+ MERS=(1,1,1) CHARGE=0 OUTPUT THREADS=1 1SCF GRADIENTS
+ Ice-III
+
+  O     0.00000000 +1    0.0000000 +1    0.0000000 +1
+  H     1.31500000 +1    0.4600000 +1   -1.2139980 +1
+  H     2.05500000 +1    1.5370000 +1   -1.7129980 +1
+  O     2.05400000 +1   -3.3840000 +1   -1.4529980 +1
+  H     2.70800000 +1   -3.1200000 +1   -0.8039970 +1
+  H     2.31800000 +1   -2.7300000 +1   -2.1019980 +1
+  H    -2.05000000 +1    1.4290000 +1   -3.3999980 +1
+  H    -1.31000000 +1    0.3520000 +1   -2.9009980 +1
+  O    -1.29200000 +1    1.2920000 +1   -2.9059980 +1
+  H    -2.01000000 +1   -2.9050000 +1    0.0150020 +1
+  O    -2.76800000 +1   -2.7680000 +1    0.5090020 +1
+  H    -2.75000000 +1   -1.8280000 +1    0.5140020 +1
+  H    -0.83200000 +1    2.6070000 +1   -1.6919970 +1
+  O    -0.69500000 +1    3.3650000 +1   -1.1979970 +1
+  H     0.24500000 +1    3.3470000 +1   -1.1929980 +1
+  H     2.53300000 +1   -0.7180000 +1   -2.9209980 +1
+  H     3.61000000 +1   -1.4580000 +1   -3.4199980 +1
+  O     2.67000000 +1   -1.4760000 +1   -3.4149980 +1
+  H     0.13700000 +1   -0.7580000 +1    0.4940020 +1
+  H    -0.94000000 +1   -0.0180000 +1   -0.0049980 +1
+  H     1.35500000 +1   -1.9360000 +1    2.1010020 +1
+  O     0.59700000 +1   -2.0730000 +1    1.7070020 +1
+  H     0.61500000 +1   -3.0130000 +1    1.7020030 +1
+  H    -1.04700000 +1   -2.1110000 +1   -2.5119980 +1
+  O    -1.31100000 +1   -1.4570000 +1   -3.1609980 +1
+  H    -0.65700000 +1   -1.7210000 +1   -3.8089980 +1
+  H    -3.40300000 +1    0.2450000 +1   -0.3939980 +1
+  O    -2.74900000 +1   -0.0190000 +1    0.2540030 +1
+  H    -3.01300000 +1    0.6350000 +1    0.9030020 +1
+  O     3.36500000 +1    1.8890000 +1    2.1170030 +1
+  H     2.42500000 +1    1.9070000 +1    2.1220030 +1
+  H     3.50200000 +1    2.6470000 +1    1.7230030 +1
+  O     0.61600000 +1    1.9080000 +1    1.9620020 +1
+  H     0.35200000 +1    1.2540000 +1    1.3130030 +1
+  H    -0.03800000 +1    1.6440000 +1    2.5110030 +1
+  O     2.07300000 +1    0.5970000 +1   -1.7079970 +1
+ Tv     0.00000000 +1    0.0000000 +1   -6.7300010 +1 
+ Tv     6.73000000 +1    0.0000000 +1    0.0000000 +1 
+ Tv     0.00000000 +1    6.7300000 +1    0.0000000 +1 
+ 
+<BR></PRE>
+<PRE>  Optimized PM7 data set:
+ MERS=(1,1,1) CHARGE=0 OUTPUT THREADS=1 PM7 GRADIENTS NOTXT EF
+ Ice-III
+
+  O     0.02632210 +1    0.0682867 +1    0.2038923 +1
+  H     1.30672668 +1    0.2678591 +1   -0.9062530 +1
+  H     2.05747794 +1    1.4380023 +1   -1.5787236 +1
+  O     1.96564200 +1   -3.4414165 +1   -1.4629392 +1
+  H     2.59228104 +1   -3.2037998 +1   -0.7483789 +1
+  H     2.21756016 +1   -2.8317750 +1   -2.1898481 +1
+  H    -2.00505347 +1    1.5091493 +1   -3.6585640 +1
+  H    -1.24772210 +1    0.3579729 +1   -2.9607163 +1
+  O    -1.22895520 +1    1.3251080 +1   -3.0964412 +1
+  H    -1.99162193 +1   -3.0333781 +1   -0.3656309 +1
+  O    -2.77367535 +1   -2.8439080 +1    0.1839364 +1
+  H    -2.75041798 +1   -1.8788382 +1    0.3321720 +1
+  H    -0.96705919 +1    2.5528765 +1   -1.9512811 +1
+  O    -0.77366328 +1    3.3164385 +1   -1.3742490 +1
+  H     0.19148139 +1    3.2810362 +1   -1.2260910 +1
+  H     2.43868305 +1   -0.7543185 +1   -2.5821239 +1
+  H     3.62371883 +1   -1.4725958 +1   -3.2823876 +1
+  O     2.65767410 +1   -1.5146884 +1   -3.1515048 +1
+  H     0.24338353 +1   -0.6960208 +1    0.7699408 +1
+  H    -0.93601754 +1    0.0087176 +1    0.0552600 +1
+  H     1.32073058 +1   -1.7552430 +1    2.4582263 +1
+  O     0.55294554 +1   -1.9464228 +1    1.8872908 +1
+  H     0.59161229 +1   -2.9106956 +1    1.7375751 +1
+  H    -1.12639105 +1   -1.9515865 +1   -2.4452536 +1
+  O    -1.38042916 +1   -1.3429679 +1   -3.1699620 +1
+  H    -0.74138425 +1   -1.5576589 +1   -3.8813762 +1
+  H    -3.26216786 +1    0.0626130 +1   -0.5335691 +1
+  O    -2.64065108 +1   -0.1720946 +1    0.1858021 +1
+  H    -2.91219656 +1    0.4177717 +1    0.9209013 +1
+  O     3.35969870 +1    1.7299546 +1    2.0057363 +1
+  H     2.39245793 +1    1.7652370 +1    2.1371366 +1
+  H     3.56435167 +1    2.5024374 +1    1.4464199 +1
+  O     0.69144632 +1    1.9650745 +1    1.9706939 +1
+  H     0.42950134 +1    1.3838861 +1    1.2258609 +1
+  H     0.06964265 +1    1.7080157 +1    2.6842016 +1
+  O     2.08995621 +1    0.4695794 +1   -1.4519910 +1
+ Tv     0.06922116 +1    0.0245113 +1   -6.7276218 +1 
+ Tv     6.70510141 +1    0.0211064 +1    0.0525065 +1 
+ Tv    -0.07094193 +1    6.5780051 +1    0.0858877 +1 
+ 
+<BR></PRE>
+<PRE>  Optimized PM6_D3H4 data set:
+ MERS=(1,1,1) CHARGE=0 EF OUTPUT THREADS=1 PM6-D3H4 GRADIENTS
+ Ice-3 (PM6-D3H4)
+
+  O     0.03943320 +1    0.0963746 +1    0.0136684 +1
+  H     1.22176940 +1    0.3556931 +1   -1.2204494 +1
+  H     2.14973586 +1    1.5275435 +1   -1.8855731 +1
+  O     1.96635051 +1   -3.3145586 +1   -1.4223905 +1
+  H     2.57723710 +1   -3.0619691 +1   -0.6439934 +1
+  H     2.20869297 +1   -2.7305242 +1   -2.2246649 +1
+  H    -2.07212644 +1    1.4385170 +1   -3.3348155 +1
+  H    -1.09810373 +1    0.2936144 +1   -2.6877304 +1
+  O    -1.16810185 +1    1.2818171 +1   -2.9065071 +1
+  H    -1.85003470 +1   -2.8275290 +1   -0.0184348 +1
+  O    -2.74972515 +1   -2.7521765 +1    0.4313369 +1
+  H    -2.91042352 +1   -1.7661098 +1    0.6359156 +1
+  H    -0.88514379 +1    2.4839190 +1   -1.7017178 +1
+  O    -0.78161453 +1    3.3899908 +1   -1.2683574 +1
+  H     0.20111233 +1    3.5134068 +1   -1.0432767 +1
+  H     2.43748301 +1   -0.6679284 +1   -2.8798087 +1
+  H     3.61072726 +1   -1.6093954 +1   -3.5237797 +1
+  O     2.60880438 +1   -1.5518956 +1   -3.3330893 +1
+  H     0.19466008 +1   -0.8022324 +1    0.4426551 +1
+  H    -0.95372171 +1    0.1722908 +1   -0.1939012 +1
+  H     1.42218922 +1   -1.8305006 +1    2.1120654 +1
+  O     0.51561676 +1   -1.9690222 +1    1.6907925 +1
+  H     0.42076796 +1   -2.9690064 +1    1.5022983 +1
+  H    -1.04655106 +1   -1.9142469 +1   -2.3297859 +1
+  O    -1.32193378 +1   -1.3324139 +1   -3.1223183 +1
+  H    -0.68728320 +1   -1.5300754 +1   -3.9015404 +1
+  H    -3.17324076 +1    0.0527206 +1   -0.5675884 +1
+  O    -2.56088229 +1   -0.1719826 +1    0.2215075 +1
+  H    -2.80026277 +1    0.4506567 +1    0.9942883 +1
+  O     3.27423022 +1    1.8382201 +1    2.1357073 +1
+  H     2.28268033 +1    1.7535724 +1    2.3350421 +1
+  H     3.42422291 +1    2.7285513 +1    1.6805249 +1
+  O     0.64868332 +1    1.9218269 +1    1.8872244 +1
+  H     0.45243012 +1    1.2713258 +1    1.1256628 +1
+  H     0.05163114 +1    1.6755987 +1    2.6791969 +1
+  O     2.11316600 +1    0.5390242 +1   -1.6536735 +1
+ Tv    -0.03375746 +1    0.0065967 +1   -6.6564017 +1 
+ Tv     6.46786808 +1    0.1779672 +1    0.0412193 +1 
+ Tv    -0.18148987 +1    6.4417958 +1   -0.0685986 +1 
+ 
+<BR></PRE>
+</BODY></HTML>

@@ -1,0 +1,78 @@
+*
+*  Optimize parameters for H, C, N, and O
+*  using simple compounds of H, C, N, and O plus halogens
+*
+*  Di-atomic parameters involving a halogen and one of H, C, N, and O are optimized,
+*  but no parameters that do not involve H, C, N, or O are optimized.
+*
+ cycles=50 PM7  ref="../../reference data/data normal"; &
+ "../../reference data/data erratic";"../../reference data/data levels"    set="set chno.txt" params= &
+ "CHno.rp"
+ alpb_h H 0.9 5
+xfac_c H 0.1 5 
+xfac_n H 0.1 5       
+xfac_o H 0.1 5       
+FN21 N 0.5 5
+FN21 C 0.5 5
+HSP C 0.5 5
+xfac_O O 0.1 5 
+xfac_F F 0.1 5             
+(H C N O)(All)
+PAR5  -100 100
+PAR6  -100 100
+PAR7  -100 100
+PAR8  -100 100
+PAR9  -100 100
+end
+bicycbutr
+but2yner
+transc4h6r
+but1ener
+cyc4h8r
+ibutener
+tbut2ener
+butaner
+ic4h10r
+cyc5h6r
+spiranr
+neoc5r
+benzener
+fulvener
+chexenr
+cyc6h12r
+c10h8r
+biphenyl, for torsion r
+o-methyl biphenyl, for torsion r
+o,o'-dimethyl biphenyl, for torsion r
+nh3r
+cnr
+hcnr
+ch3nh2r
+ch3cnr
+ch3ncr
+c2h4nhr
+me2nhr
+chccnr
+ch2chcnr
+me3nr
+c4h4nhr
+c5h5nr
+n2r
+c2n2r
+mennmer
+n3r
+triaziner
+h2or
+cor
+ch2or
+ch3ohr
+ch2cor
+ch3chor
+ch3och3r
+ch2chchor
+acetoner
+furanr
+c5or
+nor
+hncor
+hconh2r

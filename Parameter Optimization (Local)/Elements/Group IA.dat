@@ -1,0 +1,20 @@
+*
+*  Optimize parameters for all the Group IA elements
+*  
+*
+*     Keywords used
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define all the folders that contain reference data for systems defined by SET. 
+*
+set="../sets/Lithium.txt";"../sets/Sodium.txt";"../sets/Potassium.txt";"../sets/Rubidium.txt";"../sets/Cesium.txt" &
+ref="../../reference data/Data normal";"../../reference data/Data levels";"../../reference data/Data erratic" &
+PM6-d3h4 cycles=40 external="../CHNOXSP/CHNOXSP.rp";"Group IA.rp"
+*
+* Parameters to be optimized
+*
+(Li Na K Rb Cs)(All)  
+*
+*  
+*          
+end

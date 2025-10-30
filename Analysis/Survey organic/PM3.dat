@@ -1,0 +1,16 @@
+*
+*  Run a survey of ordinary organic compounds using the PM3 method 
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET.
+* SURVEY:     Construct tables comparing calculated and reference data for heats of formation, 
+*             geometries, I.P.s, and dipole moments.
+* REFERENCES: Location and name of the file that contains the abbreviation for the references used
+*             plus the references themseves.
+*
+ref="..\..\Reference Data/data normal" &
+set=Survey_organic.txt  &
+references="..\..\Reference Data/references.txt" &
+ SURVEY  PM3

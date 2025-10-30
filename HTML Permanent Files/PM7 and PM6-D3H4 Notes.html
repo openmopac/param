@@ -1,0 +1,201 @@
+ 
+ <head>
+ <TITLE>Notes on the Accuracy of PM7 and PM6-D3H4</TITLE>
+ </head>
+
+<HTML>
+<h1 ALIGN="CENTER" dir="ltr"> Notes on the Accuracy of PM7 and PM6-D3H4</h1> 
+<p align="center" dir="ltr">  <a href="SURVEY_OF_SOLIDS.html"> (All solids</a> - <a href="Periodic_table_solids.html">Periodic Table</a>
+ - <a href="../index.html">Home</a> -
+<a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> - <a href="../manual/index.html">Manual</a>)
+</p>
+ <h2 align="left" dir="ltr">Preface</h2>
+ <p align="left" dir="ltr">A frequently asked question is, &quot;Which method in MOPAC is the most accurate?&quot;&nbsp; 
+Although apparently a simple question, there is no simple answer other than that 
+ PM7 and PM6-D3H4 are the two most accurate methods in MOPAC.&nbsp; These 
+ methods should be used for all routine use. There are several other methods, 
+ but they should only be used when necessary.&nbsp; The data in the
+ <a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> 
+ web-page provides an unbroken chain of logic from raw experimental data to a 
+ summary of a statistical analysis of the errors in various properties, and 
+ provides enough information to allow users of MOPAC to 
+ decide which method to use. </p>
+ <p align="left" dir="ltr">The methods in MOPAC were designed to provide 
+ practical chemists with a tool for modeling chemical systems.&nbsp; To this 
+ end, the focus has been on main-stream chemistry - think sulfuric acid - and on 
+ systems with common but interesting structures, for example hydrogen bonds in 
+ enzymes.&nbsp; Modeling methods are of little practical use unless they can be 
+ used without much effort, i.e., in a reasonable time on readily available 
+ hardware.&nbsp; These objectives can be contrasted with the philosophy behind 
+ many high-level methods, where the objective is to generate accurate data on 
+ small systems, or to model exotic systems or exotic phenomena.&nbsp; Such 
+ methods are often very time consuming.&nbsp; This is not an attempt to 
+ disparage such methods: if semiempirical methods are to be improved, they will 
+ have to depend on reference data generated using high level methods.&nbsp;</p>
+ 
+ 
+ 
+ 
+
+ 
+ <h2 align="left" dir="ltr">Purpose of these tables</h2>
+ 
+ 
+ 
+ 
+
+ 
+ <h3 align="left" dir="ltr">1 Research</h3>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">Before starting any research that uses the methods in 
+ MOPAC, an estimate should be made of how accurately the two most important 
+ methods, PM7 and PM6-D3H4, predict properties of interest. This section of the 
+ manual contains a large number of tables and summaries that provide information 
+ that should be useful in making that estimate.&nbsp; </p>
+ 
+ 
+ 
+ 
+
+ 
+ <h3 align="left" dir="ltr">2 Teaching</h3>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">Information on a large number of chemical systems - 
+ atoms, molecules, biomolecular systems, and solids is presented, both as 
+ graphics and as text. Examples of data-sets for different types of calculation 
+ are given in the form of .arc files; these can be run directly using MOPAC, 
+ although it would normally be preferable to re-name them as .mop files to avoid 
+ over-writing the .arc file. </p>
+ 
+ 
+ 
+ 
+
+ 
+ <h3 align="left" dir="ltr">3. Development</h3>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">Method developers can use the tables to identify 
+ strengths and weaknesses in semiempirical methods, and the automated tools for 
+ generating these tables can be used in determining the accuracy of a new 
+ method.&nbsp; Provided the raw data are selected in an unbiased manner, and given that the automated tools do not introduce any bias, the 
+ resulting tables and statistics can be regarded as unbiased.</p>
+ 
+ 
+ 
+ 
+
+ 
+ <h2 align="left" dir="ltr">Summary of PM7</h2>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr"><u><b>Advantages:</b></u> The best method for general 
+ chemistry, and for solids. Optimized to reproduce the Standard Heat of 
+ Formation, &Delta;H<sub>f</sub>.</p>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr"><u><b>Disadvantages:</b></u> Less accurate than 
+ PM6-D3H4 for geometries in organic chemistry. See
+ <a href="data_solids/Urea__UREAXX13__Jmol.html">crystal urea</a>.</p>
+ 
+ 
+ 
+ 
+
+ 
+ <h2 align="left" dir="ltr">Summary of PM6-D3H4</h2>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr"><u><b>Advantages: </b></u>Very good for biochemistry 
+ and organic and organometallic chemistry. Very good for non-covalent 
+ interactions.&nbsp;&nbsp; Errors in intermolecular interactions are much 
+ smaller than in PM7</p>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr"><u><b>Disadvantages:</b></u>&nbsp; Often there are 
+ severe errors in inorganic solids. Errors in &Delta;H<sub>f</sub> are
+ <a href="Stats_for_Heats_of_Formation.html">much larger</a> than in PM7. This 
+ is a consequence of the fact that the D3H4 modification was added on to the PM6 
+ method. PM6 was optimized to reproduce &Delta;H<sub>f</sub>, and the addition 
+ of D3H4 resulted in extra stabilization.&nbsp; </p>
+ 
+ 
+ 
+ 
+
+ 
+ <h2 align="left" dir="ltr">When to use PM7 and when to use PM6-D3H4</h2>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">For all organic chemistry, use PM6-D3H4.</p>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">For inorganic solids, use PM7.</p>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">For more information, consult the statistics in the
+ <a href="Accuracy%20of%20PM7%20and%20PM6-D3H4.html">PM7 and PM6-D3H4 Accuracy</a> 
+ web-page. </p>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">&nbsp;</p>
+ 
+ 
+ 
+ 
+
+ 
+ <p align="left" dir="ltr">&nbsp;</p>
+ 
+ 
+ 
+ 
+
+ 
+</HTML>

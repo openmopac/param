@@ -1,0 +1,59 @@
+<html><head>
+<title>Generating an updated FORTRAN Parameter module</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Generating an updated FORTRAN Parameter module</h1>
+<p class="auto-style1">Before any parameterization is done the default
+<a href="PM8.html">PM8</a> method would produce exactly the same results as the 
+PM6-D3H4 method.&nbsp; Each successful parameterization would produce a file 
+that could be read in to new PARAM optimizations using the <tt>EXTERNAL</tt> option.&nbsp; 
+An alternative to using the EXTERNAL option would be to update the PM8 module.&nbsp; 
+If this were to be done, then the resulting PARAM and MOPAC programs would be 
+able to run the new PM8 method without using keyword <tt>EXTERNAL</tt>.</p>
+<p class="auto-style1">After the PM8 module is updated the PM8 method will no 
+longer produce PM6-D3H4 results, instead it will produce PM8 results, i.e., PM8 
+will be a new method.&nbsp; Such an update should not be performed until after 
+enough tests and statistical analyses have been performed that a high degree of 
+confidence exists that the change is an improvement.&nbsp; For example, if the 
+objective of the project is to produce a new, general method, one milestone 
+would be to achieve a significant improvement in the performance of the core 
+elements H, C, N, O, F, P, S, Cl, Br, and I in predicting properties of 
+interest, e.g. heats of formation, geometries, dipole moments, ionization 
+potentials, intermolecular interaction energies and geometries, etc.&nbsp; After 
+such a milestone is achieved, the PM8 module could be updated, and work then 
+started on the next step.&nbsp; This process would be repeated as necessary, 
+i.e., 
+work is done, a milestone achieved, PM8 is updated, and work started on the next 
+step.</p>
+<p class="auto-style1">Whenever PM8 is updated, the previous PM8 module, all 
+PARAM data-sets, and associated reference data, etc., should be archived 
+carefully. There is a 100% probability that at least one update will need to be 
+re-visited, and having access to an archive that would allow work to be resumed 
+on an old version of PM8 is absolutely essential.</p>
+<h2>Updating PM8</h2>
+<p>To perform an update, create a PARAM data-set, update.dat.&nbsp; This data 
+set should contain two keywords
+<a href="http://openmopac.net/param_manual/keyword_EXTERNAL.html">EXTERNAL</a> 
+and <a href="http://openmopac.net/param_manual/keyword_DEP.html">DEP</a>. When 
+update.dat is run using PARAM a new file &quot;parameters_for_PM8_C.F90&quot; is 
+generated.</p>
+<p>Make a backup copy of the existing MOPAC source-code file 
+&quot;parameters_for_PM8_C.F90&quot; The backup should contain a note describing the 
+version of &quot;parameters_for_PM8_C.F90&quot; so that if anything goes wrong, the old 
+file can be restored.&nbsp; Then overwrite &quot;parameters_for_PM8_C.F90&quot; in the 
+MOPAC source code with the new copy.&nbsp; Re-compile both MOPAC and PARAM.&nbsp; 
+Run tests to verify that the update was successful.</p>
+<p class="auto-style1">&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+

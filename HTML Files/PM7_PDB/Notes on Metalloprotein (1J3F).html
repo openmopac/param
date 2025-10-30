@@ -1,0 +1,81 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+
+<head> 
+<meta http-equiv="Content-Language" content="en-us">
+<title> Notes on individual protein systems </title></head>
+
+<body>
+
+<h1 align="center">Notes on Metalloprotein (1J3F)</h1>
+
+<p align="left">PDB entry <a href="https://www.rcsb.org/structure/1J3F">1J3F</a> 
+is an artificial metallo-protein that contains a chromium ion, Cr(III), bonded 
+to a <a href="https://www.rcsb.org/ligand/CZM">CZM</a> ligand.&nbsp; Both the 
+metal ion and the ligand cause problems with MOZYME.&nbsp; The Cr<sup>3+</sup> 
+ion bonds to CZM<sup>-2</sup> and to His-93 and H2O-203.&nbsp; This would
+<span style="font-size:12.0pt;line-height:115%">give the system a net charge of 
++1, but because MOZYME does not have UHF capability, the oxidation state used 
+for the chromium is Cr<sup>2+</sup>; this gives the system a net charge of 
+zero.&nbsp; Using </span><span style="font-size: 12.0pt; line-height: 115%">Cr<sup>2+</sup> 
+is obviously unrealistic, but until a UHF version of MOZYME is written, this is 
+the best approximation available.</span></p>
+
+<p align="left">A more interesting problem is presented by the CZM ligand, 
+residue: CZM-180.&nbsp; 
+At the start of a MOZYME job the Lewis structure is calculated, in the case of CZM there are two possible Lewis structures, the one in the figure on the left 
+is incorrect, the correct structure is on the right.&nbsp; Which of these would 
+be chosen by the Lewis structure generator would depend on subtle clues.&nbsp; 
+Uncertainty of this type can easily ruin a research program.&nbsp; Fortunately, 
+to prevent the incorrect Lewis structure from being selected is straightforward. 
+All that needs to be done is to define one of the C-C bonds adjacent to the 
+oxygen atom in the phenyl ring to be a double-bond, as indicated by the arrow in 
+the correct structure below.</p>
+
+<div align="center">
+  <center>
+  <table border="1" cellspacing="1" width="48%">
+    <tr>
+      <td width="34%" style="border-left-style: solid; border-left-width: 1; border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 1; border-bottom-style: none; border-bottom-width: medium">
+      <p align="center">Wrong Lewis structure for CZM</td>
+      <td width="66%" style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: none; border-bottom-width: medium">
+      <p align="center">Correct Lewis structure for CZM</td>
+    </tr>
+    <tr>
+      <td width="34%" style="border-left-style: solid; border-left-width: 1; border-right-style: none; border-right-width: medium; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1">
+      <img border="0" src="CZM%20wrong%20Lewis%20structure.jpg" width="358" height="374"></td>
+      <td width="66%" style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1">
+      <img border="0" src="CZM%20correct%20Lewis%20structure.jpg" width="358" height="374"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+<p>
+&nbsp;</p>
+
+
+<p>&nbsp;</p>
+<p>In the data-set for this protein the double bond is defined in two steps.&nbsp; 
+First, keyword <a href="../../../manual/setpi.html"><tt>SETPI</tt></a> indicates that &pi;-bonds are to be defined, then at the end 
+of the data-set, the &pi;-bond is defined. Both changes, the keyword and the 
+extra data, can be seen in the ARC files for the various types of calculation.&nbsp; </p>
+
+
+<p>If the Lewis structure generator would have made the correct choice of &pi;-bonding, 
+then the extra data would be redundant, but if there was a possibility of it 
+making the wrong 
+choice, the keyword SETPI would have prevented that from occurring.</p>
+
+
+<p>Finally, this illustrates the limit of automated Lewis structure generation.&nbsp; 
+An informed chemist would know which option to chose, but putting that 
+information into code would be difficult - both structures look reasonable from 
+one perspective or another.</p>
+
+
+<p>&nbsp;</p>
+
+
+</body>
+
+</html>

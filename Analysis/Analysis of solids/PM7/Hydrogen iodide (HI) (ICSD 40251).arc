@@ -1,0 +1,89 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.053M)
+                                                       Tue Feb 23 22:01:10 2021
+                                                       No. of days remaining = 364
+
+           Empirical Formula: H16 I16  =    32 atoms
+
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Hydrogen iodide (HI) (ICSD 40251)
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -132.02339 KCAL/MOL =    -552.38584 KJ/MOL
+          H.o.F. per unit cell    =         -8.25146 KCAL, for 16 unit cells, unit cell = H1 I1
+          TOTAL ENERGY            =      -3800.25525 EV
+          ELECTRONIC ENERGY       =   -5621015.82501 EV
+          CORE-CORE REPULSION     =    5617215.56976 EV
+
+          VOLUME OF UNIT CELL     =        946.284 CUBIC ANGSTROMS
+
+          DENSITY                 =          3.591 GRAMS/CC
+                              A   =          8.695 ANGSTROMS
+                              B   =         12.380 ANGSTROMS
+                              C   =          8.793 ANGSTROMS
+                            ALPHA =         89.574 DEGREES
+                            BETA  =         91.086 DEGREES
+                            GAMMA =         90.397 DEGREES
+ 
+ 
+          GRADIENT NORM           =          4.52512 = 0.79994 PER ATOM
+          NO. OF FILLED LEVELS    =         64
+          IONIZATION POTENTIAL    =          9.983126 EV
+          HOMO LUMO ENERGIES (EV) =         -9.983  1.569
+          MOLECULAR WEIGHT        =       2046.5984
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:  -0.13 GPa
+           Tv(  34)  Pressure:  -0.11 GPa
+           Tv(  35)  Pressure:   0.01 GPa
+          SCF CALCULATIONS        =          7
+          WALL-CLOCK TIME         =  1 MINUTE AND 14.391 SECONDS
+          COMPUTATION TIME        =  1 MINUTE AND 13.877 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Hydrogen iodide (HI) (ICSD 40251)
+
+  H    -1.49285959 +1   0.02327007 +1  -0.30510392 +1
+  H    -3.93506039 +1   1.32636701 +1  -3.02947106 +1
+  H    -5.49458219 +1  -2.31470012 +1  -0.14628288 +1
+  H    -3.06347349 +1  -3.53992357 +1   2.63056206 +1
+  H    -6.92354606 +1  -6.52333738 +1  -0.51705675 +1
+  H    -1.56430721 +1  -6.69517630 +1   0.04335933 +1
+  H     0.31918110 +1  -7.06666026 +1  -4.53670162 +1
+  H    -5.25317191 +1  -6.91191115 +1  -5.05184962 +1
+  H    -5.82087904 +1   1.30814646 +1   3.95286021 +1
+  H    -2.90413530 +1   2.09434414 +1   2.35897536 +1
+  H    -1.10061113 +1  -3.56862703 +1  -4.29094675 +1
+  H    -3.97435171 +1  -4.34120220 +1  -2.72913957 +1
+  H     0.02991595 +1  -3.43494007 +1  -0.44122901 +1
+  H     2.91383210 +1  -2.67068423 +1  -2.06834377 +1
+  H     0.99079732 +1  -0.20803893 +1   3.26298447 +1
+  H    -1.89110854 +1  -0.84363363 +1   4.98752856 +1
+  I    -0.46443733 +1  -0.57767468 +1  -1.42585431 +1
+  I    -4.63709032 +1  -0.10392743 +1  -2.66731985 +1
+  I    -6.44617891 +1  -1.70310222 +1   1.03313553 +1
+  I    -2.22920778 +1  -2.17460811 +1   2.29148501 +1
+  I    -6.10559410 +1  -7.18698763 +1  -1.76560986 +1
+  I    -2.36941450 +1  -8.08905743 +1   0.32771516 +1
+  I    -0.68274579 +1  -6.46888404 +1  -3.39292473 +1
+  I    -4.40504908 +1  -5.59542711 +1  -5.51453758 +1
+  I    -5.12929440 +1   0.10397152 +1   4.81555697 +1
+  I    -3.70117707 +1   1.72827809 +1   0.97761725 +1
+  I    -1.79177632 +1  -2.34993574 +1  -5.13337291 +1
+  I    -3.26652280 +1  -4.00109700 +1  -1.29414322 +1
+  I     0.70373394 +1  -4.69288268 +1   0.35617177 +1
+  I     2.16710981 +1  -3.07104272 +1  -3.46862057 +1
+  I     0.34953091 +1   1.08457723 +1   2.49334878 +1
+  I    -1.10193220 +1  -0.52125512 +1   6.38219502 +1
+ Tv     7.90001153 +1  -1.36388036 +1   3.36532829 +1 
+ Tv    -0.15668256 +1  11.42107236 +1   4.77464668 +1 
+ Tv     3.51942684 +1   3.20935836 +1  -7.39166213 +1 
+ 

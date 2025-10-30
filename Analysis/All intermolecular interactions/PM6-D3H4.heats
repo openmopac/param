@@ -1,0 +1,181 @@
+ Formula        Molecule                                          Heat of Formation   Diff. Ref.
+                                                                   Exp.     Calc.
+ N2H6          01 Ammonia dimer                                   -3.17     -3.85    -0.68     1    NH          01_NH3_dimer
+ H4O2          02 Water dimer                                     -5.02     -5.10    -0.08     1    HO          02_water_dimer
+ C2H4O4        03 Formic acid dimer                              -18.61    -18.60     0.01     1    CHO         03_formic_acid_dimer
+ C2N2H6O2      04 Formamide dimer                                -15.96    -17.29    -1.33     1    CNHO        04_formamide_dimer
+ C8N4H8O4      05 Uracil HB                                      -20.47    -18.93     1.54     1    CNHO        05_uracil_HB
+ C10N3H11O     06 Pyridoxine - aminopyridine                     -16.71    -16.68     0.03     1    CNHO        06_pyridoxine_aminopyridine
+ C10N7H11O2    07 Adenine - thymine WC                           -16.37    -15.85     0.52     1    CNHO        07_adenine_thymine_WC
+ C2H8          08 Methane methane                                 -0.53     -0.44     0.09     1    CH          08_CH4_dimer
+ C4H8          09 Ethylene dimer                                  -1.51     -1.33     0.18     1    CH          09_Ethylene_dimer
+ C7H10         10 Benzene - methane                               -1.50     -1.65    -0.15     1    CH          10_benzene_methane
+ C12H12        11 Benzene dimer stack                             -2.73     -2.80    -0.07     1    CH          11_benzene_dimer_stack
+ C8N4H8        12 Pyrazine dimer                                  -4.42     -4.84    -0.42     1    CNH         12_pyrazine_dimer
+ C8N4H8O4      13 Uracil dimer stack                              -9.88     -9.22     0.66     1    CNHO        13_uracil_dimer_stack
+ C14NH13       14 Indole - benzene stack                          -5.22     -4.11     1.11     1    CNH         14_indole_benzene_stack
+ C10N7H11O2    15 Adenine - thymine stack                        -12.23    -11.14     1.09     1    CNHO        15_adenine_thymine_stack
+ C4H6          16 Ethylene - acetylene                            -1.53     -1.07     0.46     1    CH          16_Ethylene_acetylene
+ C6H8O         17 Benzene - water                                 -3.28     -3.39    -0.11     1    CHO         17_benzene_H2O
+ C6NH9         18 Benzene - ammonia                               -2.35     -2.69    -0.34     1    CNH         18_benzene_NH3
+ C7NH7         19 Benzene - HCN                                   -4.46     -3.43     1.03     1    CNH         19_benzene_HCN
+ C12H12        20 Benzene dimer "T"                               -2.74     -2.70     0.04     1    CH          20_benzene_dimer_T
+ C14NH13       21 Indole - benzene T                              -5.73     -4.92     0.81     1    CNH         21_indole_benzene_T
+ C12H12O2      22 Phenol dimer                                    -7.05     -7.85    -0.80     1    CHO         22_phenol_dimer
+ H4O2          01 Water - Water                                   -4.92     -5.11    -0.19     1    HO          01 Water - Water
+ CH6O2         02 Water - Methanol                                -5.59     -5.69    -0.10     1    CHO         02 Water - Methanol
+ CNH7O         03 Water - MeNH2                                   -6.91     -7.55    -0.64     1    CNHO        03 Water - MeNH2
+ C3NH9O2       04 Water - Peptide                                 -8.10     -8.27    -0.17     1    CNHO        04 Water - Peptide
+ C2H8O2        05 MeOH - MeOH                                     -5.76     -6.44    -0.68     1    CHO         05 MeOH - MeOH
+ C2NH9O        06 MeOH - MeNH2                                    -7.55     -6.99     0.56     1    CNHO        06 MeOH - MeNH2
+ C4NH11O2      07 MeOH - Peptide                                  -8.23     -8.43    -0.20     1    CNHO        07 MeOH - Peptide
+ CH6O2         08 MeOH - Water                                    -5.01     -5.85    -0.84     1    CHO         08 MeOH - Water
+ C2NH9O        09 MeNH2 - MeOH                                    -3.06     -4.14    -1.08     1    CNHO        09 MeNH2 - MeOH
+ C2N2H10       10 MeNH2 - MeNH2                                   -4.16     -4.72    -0.56     1    CNH         10 MeNH2 - MeNH2
+ C4N2H12O      11 MeNH2 - Peptide                                 -5.42     -6.48    -1.06     1    CNHO        11 MeNH2 - Peptide
+ CNH7O         12 MeNH2 - Water                                   -7.27     -7.51    -0.24     1    CNHO        12 MeNH2 - Water
+ C4NH11O2      13 Peptide - MeOH                                  -6.19     -6.49    -0.30     1    CNHO        13 Peptide - MeOH
+ C4N2H12O      14 Peptide - MeNH2                                 -7.45     -7.48    -0.03     1    CNHO        14 Peptide - MeNH2
+ C6N2H14O2     15 Peptide - Peptide                               -8.63     -8.81    -0.18     1    CNHO        15 Peptide - Peptide
+ C3NH9O2       16 Peptide - Water                                 -5.12     -5.54    -0.42     1    CNHO        16 Peptide - Water
+ C8N4H8O4      17 Uracil - Uracil (BP)                           -17.18    -16.80     0.38     1    CNHO        17 Uracil - Uracil (BP)
+ C5NH7O        18 Water - Pyridine                                -6.86     -6.91    -0.05     1    CNHO        18 Water - Pyridine
+ C6NH9O        19 MeOH - Pyridine                                 -7.41     -6.25     1.16     1    CNHO        19 MeOH - Pyridine
+ C4H8O4        20 AcOH - AcOH                                    -19.09    -18.83     0.26     1    CHO         20 AcOH - AcOH
+ C4N2H10O2     21 AnNH2 - AcNH2                                  -16.27    -17.41    -1.14     1    CNHO        21 AnNH2 - AcNH2
+ C6N2H8O4      22 AcOH - Uracil                                  -19.49    -18.82     0.67     1    CNHO        22 AcOH - Uracil
+ C6N3H9O3      23 AcNH2 - Uracil                                 -19.19    -19.39    -0.20     1    CNHO        23 AcNH2 - Uracil
+ C12H12        24 Benzene - Benzene (pi - pi)                     -2.82     -2.51     0.31     1    CH          24 Benzene - Benzene (pi - pi)
+ C10N2H10      25 Pyridine - Pyridine (pi - pi)                   -3.90     -3.75     0.15     1    CNH         25 Pyridine - Pyridine (pi - pi)
+ C8N4H8O4      26 Uracil - Uracil (pi - pi)                       -9.83     -9.25     0.58     1    CNHO        26 Uracil - Uracil (pi - pi)
+ C11NH11       27 Benzene - Pyridine (pi - pi)                    -3.44     -3.22     0.22     1    CNH         27 Benzene - Pyridine (pi - pi)
+ C10N2H10O2    28 Benzene - Uracil (pi - pi)                      -5.71     -5.24     0.47     1    CNHO        28 Benzene - Uracil (pi - pi)
+ C9N3H9O2      29 Pyridine - uracil (pi - pi)                     -6.82     -6.80     0.02     1    CNHO        29 Pyridine - uracil (pi - pi)
+ C8H10         30 Benzene - Ethylene                              -1.43     -1.37     0.06     1    CH          30 Benzene - Ethylene
+ C6N2H8O2      31 Uracil - Ethylene                               -3.38     -3.03     0.35     1    CNHO        31 Uracil - Ethylene
+ C6N2H6O2      32 Uracil - Ethyne                                 -3.74     -2.77     0.97     1    CNHO        32 Uracil - Ethyne
+ C7NH9         33 Pyridine - Ethylene                             -1.87     -1.81     0.06     1    CNH         33 Pyridine - Ethylene
+ C10H24        34 Pentane - Pentane                               -3.78     -3.37     0.41     1    CH          34 Pentane - Pentane
+ C10H24        35 Neopentane - Pentane                            -2.61     -2.62    -0.01     1    CH          35 Neopentane - Pentane
+ C10H24        36 Neopentane - Neopentane                         -1.78     -1.97    -0.19     1    CH          36 Neopentane - Neopentane
+ C10H22        37 Cyclopentane - Neopentane                       -2.40     -2.39     0.01     1    CH          37 Cyclopentane - Neopentane
+ C10H20        38 Cyclopentane - Cyclopentane                     -3.00     -2.28     0.72     1    CH          38 Cyclopentane - Cyclopentane
+ C11H16        39 Benzene - Cyclopentane                          -3.58     -3.33     0.25     1    CH          39 Benzene - Cyclopentane
+ C11H18        40 Benzene - Neopentane                            -2.90     -3.02    -0.12     1    CH          40 Benzene - Neopentane
+ C9N2H16O2     41 Uracil - Pentane                                -4.85     -5.59    -0.74     1    CNHO        41 Uracil - Pentane
+ C9N2H14O2     42 Uracil - Cyclopentane                           -4.14     -4.52    -0.38     1    CNHO        42 Uracil - Cyclopentane
+ C9N2H16O2     43 Uracil - Neopentane                             -3.71     -3.81    -0.10     1    CNHO        43 Uracil - Neopentane
+ C7H16         44 Ethylene - Pentane                              -2.01     -1.92     0.09     1    CH          44 Ethylene - Pentane
+ C7H14         45 Ethyne - Pentane                                -1.75     -1.61     0.14     1    CH          45 Ethyne - Pentane
+ C8NH19O       46 Peptide - Pentane                               -4.26     -4.30    -0.04     1    CNHO        46 Peptide - Pentane
+ C12H12        47 Benzene - Benzene (TS)                          -2.88     -2.79     0.09     1    CH          47 Benzene - Benzene (TS)
+ C10N2H10      48 Pyridine - Pyridine (TS)                        -3.54     -3.27     0.27     1    CNH         48 Pyridine - Pyridine (TS)
+ C11NH11       49 Benzene - Pyridine (TS)                         -3.33     -3.18     0.15     1    CNH         49 Benzene - Pyridine (TS)
+ C8H8          50 Benzene - Ethyne (CH - pi)                      -2.87     -2.34     0.53     1    CH          50 Benzene - Ethyne (CH - pi)
+ C4H4          51 Ethyne - Ethyne (TS)                            -1.52     -0.95     0.57     1    CH          51 Ethyne - Ethyne (TS)
+ C8H10O2       52 Benzene - AcOH (OH - pi)                        -4.36     -3.87     0.49     1    CHO         52 Benzene - AcOH (OH - pi)
+ C8NH11O       53 Benzene - AcNH2 (NH - pi)                       -3.28     -3.97    -0.69     1    CNHO        53 Benzene - AcNH2 (NH - pi)
+ C6H8O         54 Benzene - Water (OH - pi)                       -4.19     -3.47     0.72     1    CHO         54 Benzene - Water (OH - pi)
+ C7H10O        55 Benzene - MeOH (OH - pi)                        -4.71     -3.72     0.99     1    CHO         55 Benzene - MeOH (OH - pi)
+ C7NH11        56 Benzene - MeNH2 (NH - pi)                       -3.23     -3.28    -0.05     1    CNH         56 Benzene - MeNH2 (NH - pi)
+ C9NH13O       57 Benzene - Peptide (NH - pi)                     -5.28     -4.89     0.39     1    CNHO        57 Benzene - Peptide (NH - pi)
+ C10N2H10      58 Pyridine - Pyridine (CH - N)                    -4.15     -3.66     0.49     1    CNH         58 Pyridine - Pyridine (CH - N)
+ C2H4O         59 Ethyne - Water                                  -2.85     -2.10     0.75     1    CHO         59 Ethyne - Water
+ C4H6O2        60 Ethyne - AcOH (OH-pi)                           -4.87     -2.79     2.08     1    CHO         60 Ethyne - AcOH (OH-pi)
+ C7H16O2       61 Pentane - AcOH                                  -2.91     -3.49    -0.58     1    CHO         61 Pentane - AcOH
+ C7NH17O       62 Pentane - AcNH2                                 -3.53     -3.94    -0.41     1    CNHO        62 Pentane - AcNH2
+ C8H10O2       63 Benzene - AcOH                                  -3.80     -4.33    -0.53     1    CHO         63 Benzene - AcOH
+ C5NH11O       64 Peptide - Ethylene                              -3.00     -2.90     0.10     1    CNHO        64 Peptide - Ethylene
+ C7NH7         65 Pyridine - Ethyne                               -3.99     -1.88     2.11     1    CNH         65 Pyridine - Ethyne
+ C6N2H10       66 MeNH2 - Pyridine                                -3.97     -4.58    -0.61     1    CNH         66 MeNH2 - Pyridine
+ CH4F2         01 Methane - F2                                    -0.48      0.08     0.56     1    CHF         01 Methane - F2
+ CH4Cl2        02 Methane - Cl2                                   -1.00     -1.74    -0.74     1    CHCl        02 Methane - Cl2
+ CH4Br2        03 Methane - Br2                                   -1.27     -2.74    -1.47     1    CHBr        03 Methane - Br2
+ CH4I2         04 Methane - I2                                    -1.53     -2.82    -1.29     1    CHI         04 Methane - I2
+ C2H7F         05 Fluoromethane - methane                         -0.58     -0.65    -0.07     1    CHF         05 Fluoromethane - methane
+ C2H7Cl        06 Chloromethane - methane                         -0.85     -1.09    -0.23     1    CHCl        06 Chloromethane - methane
+ C2H5F3        07 Trifluoromethane - methane                      -0.35     -0.52    -0.16     1    CHF         07 Trifluoromethane - methane
+ C2H5Cl3       08 Trichloromethane - methane                      -1.08     -1.52    -0.43     1    CHCl        08 Trichloromethane - methane
+ C2H6F2        09 Fluoromethane dimer                             -1.17     -0.54     0.62     1    CHF         09 Fluoromethane dimer
+ C2H6Cl2       10 Chloromethane dimer                             -1.12     -1.68    -0.56     1    CHCl        10 Chloromethane dimer
+ C2H5ClO       13 Chloromethane - formaldehyde                    -1.03     -1.24    -0.22     1    CHClO       13 Chloromethane - formaldehyde
+ C2H5BrO       14 Bromomethane - formaldehyde                     -1.56     -2.81    -1.25     1    CHBrO       14 Bromomethane - formaldehyde
+ C2H5IO        15 Iodomethane - formaldehyde                      -2.56     -3.57    -1.00     1    CHIO        15 Iodomethane - formaldehyde
+ C2H2ClOF3     16 Trifluorochloromethane - formaldehyde           -2.01     -2.60    -0.59     1    CHClOF      16 Trifluorochloromethane - formaldehyde
+ C2H2BrOF3     17 Trifluorobromomethane - formaldehyde            -2.77     -4.50    -1.73     1    CHBrOF      17 Trifluorobromomethane - formaldehyde
+ C2H2IOF3      18 Trifluoroiodomethane - formaldehyde             -4.14     -6.53    -2.39     1    CHIOF       18 Trifluoroiodomethane - formaldehyde
+ C9H11ClO      19 Chlorobenzenezene - acetone                     -1.31     -1.69    -0.38     1    CHClO       19 Chlorobenzenezene - acetone
+ C9H11BrO      20 Bromobenzenezene - acetone                      -2.22     -3.92    -1.71     1    CHBrO       20 Bromobenzenezene - acetone
+ C9H11IO       21 Iodobenzenezene - acetone                       -3.76     -5.17    -1.42     1    CHIO        21 Iodobenzenezene - acetone
+ C9NH14Cl      22 Chlorobenzenezene - trimethylamine              -2.35     -1.87     0.47     1    CNHCl       22 Chlorobenzenezene - trimethylamine
+ C9NH14Br      23 Bromobenzenezene - trimethylamine               -4.00    -11.23    -7.23     1    CNHBr       23 Bromobenzenezene - trimethylamine
+ C9NH14I       24 Iodobenzenezene - trimethylamine                -6.72     -7.74    -1.02     1    CNHI        24 Iodobenzenezene - trimethylamine
+ C7H9SBr       25 Bromobenzenezene - methanethiol                 -2.47     -1.42     1.06     1    CHSBr       25 Bromobenzenezene - methanethiol
+ C7H9SI        26 Iodobenzenezene - methanethiol                  -3.80     -5.16    -1.36     1    CHSI        26 Iodobenzenezene - methanethiol
+ C7H9Br        27 Bromomethane - benzene                          -1.96     -3.29    -1.33     1    CHBr        27 Bromomethane - benzene
+ C7H9I         28 Iodomethane - benzene                           -3.11     -4.56    -1.45     1    CHI         28 Iodomethane - benzene
+ C7H6BrF3      29 Trifluorobromomethane - benzene                 -3.12     -4.66    -1.54     1    CHBrF       29 Trifluorobromomethane - benzene
+ C7H6IF3       30 Trifluoroiodomethane - benzene                  -4.48     -6.43    -1.95     1    CHIF        30 Trifluoroiodomethane - benzene
+ CH3O2F3       31 Trifluoromethanol - water                       -9.60     -8.69     0.91     1    CHOF        31 Trifluoromethanol - water
+ CH3Cl3O2      32 Trichloromethanol - water                      -10.81     -9.81     0.99     1    CHClO       32 Trichloromethanol - water
+ CH5OF         33 HF - methanol                                   -9.74     -3.92     5.82     1    CHOF        33 HF - methanol
+ CH5ClO        34 HCl - methanol                                  -6.44     -6.32     0.12     1    CHClO       34 HCl - methanol
+ CH5BrO        35 HBr - methanol                                  -5.60     -6.16    -0.56     1    CHBrO       35 HBr - methanol
+ CH5IO         36 HI - methanol                                   -4.11     -5.45    -1.33     1    CHIO        36 HI - methanol
+ CNH6F         37 HF - methylamine                               -15.04     -3.16    11.88     1    CNHF        37 HF - methylamine
+ CNH6Cl        38 HCl - methylamine                              -12.69     -8.72     3.97     1    CNHCl       38 HCl - methylamine
+ C2H7OF        39 methanol - fluoromethane                        -3.54      0.55     4.08     1    CHOF        39 methanol - fluoromethane
+ C2H7ClO       40 methanol - chloromethane                        -3.66     -2.88     0.78     1    CHClO       40 methanol - chloromethane
+ C59N5H23      1 Circumcoronene adenine                          -17.99    -14.90     3.09     1    CNH         1 Circumcoronene adenine
+ C63N8H28O2    2 Circumcoronene GC base pair                     -31.29    -42.08   -10.79     1    CNHO        2 Circumcoronene GC base pair
+ C48H24        3 Coronene dimer                                  -23.22    -16.06     7.16     1    CH          3 Coronene dimer
+ C18N16H20O4   4 GCGC base pair stack                            -15.48    -18.33    -2.85     1    CNHO        4 GCGC base pair stack
+ C15N15H15O3   5 Guanine trimer                                   -2.10     -2.56    -0.46     1    CNHO        5 Guanine trimer
+ C36H76        6 Octadecane dimer                                -12.96     -8.85     4.11     1    CH          6 Octadecane dimer
+ C33N6H42O6    7 Phenylalanine residues trimer                   -25.99    -25.86     0.13     1    CNHO        7 Phenylalanine residues trimer
+ C54N4H34      2a TCNA tweezer                                   -29.90    -33.48    -3.58     2    CNH         2a TCNA tweezer
+ C50N2H34      2b DCB tweezer                                    -20.50    -21.78    -1.28     2    CNH         2b DCB tweezer
+ C55N5H47O19   3a TNF pincer                                     -24.30    -36.90   -12.60     2    CNHO        3a TNF pincer
+ C48N5H44ClO15 3b NDB pincer                                     -20.40    -29.14    -8.74     2    CNHClO      3b NDB pincer
+ C120H28       4a C60 catcher                                    -27.50    -32.73    -5.23     2    CH          4a C60 catcher
+ C130H28       4b C70 catcher                                    -28.70    -35.66    -6.96     2    CH          4b C70 catcher
+ C62N8H68O6    5a GLH mcyle                                      -34.80    -43.24    -8.44     2    CNHO        5a GLH mcyle
+ C64N6H66O6    5b BQ mcyle                                       -21.30    -32.98   -11.68     2    CNHO        5b BQ mcyle
+ C40N25H48O12  6a BuNH4 CB6                                      -77.40   -104.37   -26.97     2    CNHO        6a BuNH4 CB6
+ C39N25H46O12  6b PrNH4 CB6                                      -77.00   -101.79   -24.79     2    CNHO        6b PrNH4 CB6
+ FeC60N30H72O147a FECP CB7                                      -131.50   -147.46   -15.96     2    FeCNHO      7a FECP CB7
+ C52N28H58O15  7b ADOH CB7                                       -22.60    -31.03    -8.43     2    CNHO        7b ADOH CB7
+ H4O2          Water dimer Structure 1 (Non-planar open Cs)       -5.00     -5.38    -0.38     3    HO          Water dimer Structure 0 (Non-planar open Cs)
+ H4O2          Water dimer Structure 2 (Open Ci)                   0.52      0.76     0.24     3    HO          water dimer structure 2 (open ci)
+ H4O2          Water dimer Structure 3 (Planar Open Cs)            0.57      0.57    -0.00     3    HO          water dimer structure 3 (planar open Cs)
+ H4O2          Water dimer Structure 4 (Cyclic Ci)                 0.70      1.11     0.41     3    HO          water dimer structure 4 (cyclic ci)
+ H4O2          Water dimer Structure 5 (Cyclic C2)                 0.95      1.57     0.62     3    HO          water dimer structure 5 (cyclic c2)
+ H4O2          Water dimer Structure 6 (Cyclic C2h)                0.99      1.35     0.36     3    HO          water dimer structure 6 (cyclic c2h)
+ H4O2          Water dimer Structure 7 (Triply Hydrogen Bonded     1.81      2.06     0.25     3    HO          water dimer structure 7 (triply hydrogen bonded Cs)
+ H4O2          Water dimer Structure 8 (Non-planar Bifurcated      3.57      4.15     0.58     3    HO          water dimer structure 8 (non-planar bifurcated C2v)
+ H4O2          Water dimer Structure 9 (Non-planar Bifurcated      1.79      1.89     0.10     3    HO          water dimer structure 9 (non-planar bifurcated C2v)
+ H4O2          Water dimer Structure 10 (Planar Bifurcated C2v     2.71      2.64    -0.07     3    HO          water dimer structure 10 (planar bifurcated C2v)
+ C3NH8O2       acetate ... methylamine                           -11.46    -12.12    -0.67     4    CNHO        acetate ... methylamine
+ C2H5O3        acetate ... water                                 -21.06    -22.51    -1.45     4    CHO         acetate ... water
+ C3H7O3        acetate ... methanol                              -19.75    -19.07     0.68     4    CHO         acetate ... methanol
+ C2N2H11       methylammonium ... methylamine                    -28.56    -29.02    -0.46     4    CNH         methylammonium ... methylamine
+ CNH8O         methylammonium ... water                          -18.51    -18.17     0.34     4    CNHO        methylammonium ... water
+ C2NH8O        methylammonium ... formaldehyde                   -19.10    -20.61    -1.51     4    CNHO        methylammonium ... formaldehyde
+ C2NH10O       methylammonium ... methanol                       -21.23    -19.62     1.60     4    CNHO        methylammonium ... methanol
+ C4N3H10       imidazolium ... methylamine                       -25.98    -22.69     3.29     4    CNH         imidazolium ... methylamine
+ C3N2H7O       imidazolium ... water                             -16.48    -14.10     2.38     4    CNHO        imidazolium ... water
+ C4N2H7O       imidazolium ... formaldehyde                      -16.41    -16.18     0.23     4    CNHO        imidazolium ... formaldehyde
+ C4N2H9O       imidazolium ... methanol                          -18.91    -15.43     3.49     4    CNHO        imidazolium ... methanol
+ C2N4H11       guanidinium ... methylamine                       -20.20    -19.14     1.05     4    CNH         guanidinium ... methylamine
+ CN3H8O        guanidinium ... water                             -17.47    -17.03     0.43     4    CNHO        guanidinium ... water
+ C2N3H8O       guanidinium ... formaldehyde                      -18.09    -19.22    -1.13     4    CNHO        guanidinium ... formaldehyde
+ C2N3H10O      guanidinium ... methanol                          -19.79    -19.12     0.66     4    CNHO        guanidinium ... methanol
+********************************************************************************
+ 
+    1: P. Jurecka, J. Sponer, J. Cerny, P. Hobza,  Phys. Chem. Chem. Phys. Lett. 8, 1985 (2006)
+ 
+    2: T. Risthaus and S. Grimme, Benchmarking of London Dispersion-Accounting Density  Functional Theory Methods on Very Large Molecular Complexes. JCTC, 9, 1580 (2013)
+ 
+    3: G. S. Tschumper, M. L. Leininger, B. C. Hoffman, E. F. Valeev, H. F. Schaefer III,  M. Quack, J. Chem. Phys. 116, 690 (2002)
+ 
+    4:Jan Rezác and Pavel Hobza, "Advanced Corrections of Hydrogen Bonding and Dispersion for Semiempirical Quantum Mechanical Methods" J. Chem. Theory Comput., 2011,  8, 141-151

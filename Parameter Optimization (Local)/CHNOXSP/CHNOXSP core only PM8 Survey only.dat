@@ -1,0 +1,34 @@
+*
+*  Optimize all parameters for H, C, N, O, F, Cl, Br, and I, and all intermolecular interactions, using the method PM8
+*  
+*
+*     Keywords used
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define all the folders that contain reference data for systems defined by SET. 
+*
+set= &
+*    "../sets/All intermolecular interaction sets.txt"; &
+    "../sets/Stand-alone core.txt" &
+ref= &
+"../../reference data/Data Intermolecular interactions/S22 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S22 Separated"; &
+"../../reference data/Data Intermolecular interactions/S66 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S66 Separated"; &
+"../../reference data/Data Intermolecular interactions/L7 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/L7 Separated"; &
+"../../reference data/Data Intermolecular interactions/S12L Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/X40 Separated"; &
+"../../reference data/Data Intermolecular interactions/X40 intermolecular"; &
+"../../reference data/Data Intermolecular interactions/Water dimers all"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Separated"; &
+"../../reference data/Data normal"; &
+"../../reference data/Data levels"; &
+"../../reference data/Data erratic" &
+*
+*  Use the PM7 method as the starting point
+*
+references="../../Reference data/references.txt"   PM8 cycles=100  
+
+end

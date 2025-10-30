@@ -1,0 +1,55 @@
+
+<font FACE="Arial">
+<p align="left">PM6-DH+: Korth M., Pitonák M., 
+
+
+<font FACE="Arial">
+&#344;ezá&#269;,
+</font>
+
+J., Hobza P., &quot;A Transferable H-bonding 
+Correction For Semiempirical Quantum-Chemical Methods&quot;, J. Chem. Theory and 
+Computation 6, 344-352 (2010).</p>
+<p align="left">PM6-DH2: 
+
+
+<font FACE="Arial">
+&#344;ezá&#269;,
+</font>
+
+J., Fanfrlik J., Salahub D., Hobza P., &quot;Semiempirical Quantum 
+Chemical PM6 Method Augmented by Dispersion and H-Bonding Correction Terms 
+Reliably Describes Various Types of Noncovalent Complexes&quot;, J. Chem. Theory and 
+Comp. 5, 1749-1760 (2009).</p>
+<p align="left">PM6-D3H4: <font FACE="Arial">
+&#344;ezá&#269;, J. and Hobza, P.,
+</font>
+
+&quot;Advanced Corrections of Hydrogen Bonding and Dispersion for Semiempirical 
+Quantum Mechanical Methods&quot;, &nbsp; Journal of Chemical Theory and Computation,
+<strong>2012</strong> <em>8</em> (1), 141-151 DOI: 10.1021/ct200751e.</p>
+<p align="left">&nbsp;</p>
+<h3><a name="Calculation of Error">Worked</a> example of the calculation of the error in intermolecular interaction 
+energies</h3>
+<p align="left">The error in the PM7 prediction of the intermolecular interaction energy of a 
+benzene molecule and a water molecule, entry &quot;17 benzene H2O&quot; in the table, can 
+be calculated as follows:</p>
+<p align="left">A MOPAC dataset was constructed using the geometry from the S22 CCSD(T)/CBS 
+results<sup>1</sup>.&nbsp; This <a href="17_benzene_H2O.mop">dataset</a> was run, and from the <a href="17_benzene_H2O.arc">archive file</a>
+archive file the heat of 
+formation was -37.4594 kcal mol<sup>-1</sup>. </p>
+<p align="left">A second dataset was constructed in which the water molecule was moved far 
+from the benzene molecule.&nbsp; This was done in two steps:<br>
+(1) The system was converted into internal coordinates using a simple 
+calculation, see <a href="step_1.mop">step_1.mop</a>.<br>
+(2) The oxygen atom in the resulting geometry was moved far away from the 
+benzene molecule.&nbsp; Because the hydrogen atoms on the water were in internal 
+coordinates, the entire water molecule moved as well.</p>
+<p align="left">The <a href="17_benzene_H2O_well_separated.mop">second dataset</a> was then run, and from the <a href="17_benzene_H2O_well_separated.arc">archive file</a> , the heat of 
+formation was -34.6866 kcal mol<sup>-1</sup>.</p>
+<p align="left">From these two results, the interaction energy for the water - benzene 
+complex, predicted by PM7, was -2.7728 kcal mol<sup>-1</sup>., so the error in 
+PM7, when compared to the reference value of -3.28 kcal mol<sup>-1</sup>, is 0.51 kcal 
+mol-1, in agreement with the value given in the table.</p>
+<p align="left">1:&nbsp; http://www.begdb.com/index.php?action=oneMolecule&amp;state=show&amp;id=97</p>
+</font>

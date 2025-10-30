@@ -1,0 +1,91 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.053M)
+                                                       Wed Feb 24 07:38:20 2021
+                                                       No. of days remaining = 363
+
+           Empirical Formula: Hg16 I16  =    32 atoms
+
+ Z=2 MERS=(1,2,2)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Mercury iodide (Hg2I2) (ICSD 36197)
+  H=-25.3 hr=hwic2002
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =         -6.88808 KCAL/MOL =     -28.81971 KJ/MOL
+          H.o.F. per unit cell    =         -0.86101 KCAL, for 8 unit cells, unit cell = Hg2 I2
+          TOTAL ENERGY            =      -4052.44164 EV
+          ELECTRONIC ENERGY       =   -4744091.82128 EV
+          CORE-CORE REPULSION     =    4740039.37964 EV
+
+          VOLUME OF UNIT CELL     =        412.411 CUBIC ANGSTROMS
+
+          DENSITY                 =          5.275 GRAMS/CC
+                              A   =         12.040 ANGSTROMS
+                              B   =          5.852 ANGSTROMS
+                              C   =          5.853 ANGSTROMS
+                            ALPHA =         89.984 DEGREES
+                            BETA  =         89.939 DEGREES
+                            GAMMA =         89.912 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =       1649.64475 ANGSTROMS**3 =  993.439 CM**3/MOLE
+ 
+          GRADIENT NORM           =          3.28493 = 0.58070 PER ATOM
+          NO. OF FILLED LEVELS    =         72
+          IONIZATION POTENTIAL    =          9.143768 EV
+          HOMO LUMO ENERGIES (EV) =         -9.144 -1.224
+          MOLECULAR WEIGHT        =       5239.9120
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:  -0.13 GPa
+           Tv(  34)  Pressure:  -0.01 GPa
+           Tv(  35)  Pressure:   0.01 GPa
+          SCF CALCULATIONS        =          1
+          WALL-CLOCK TIME         =         11.314 SECONDS
+          COMPUTATION TIME        =         11.292 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ Z=2 MERS=(1,2,2)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Mercury iodide (Hg2I2) (ICSD 36197)
+  H=-25.3 hr=hwic2002
+ Hg    -0.24454611 +1   0.16771900 +1  -0.00725078 +1
+ Hg    -1.06992493 +1   5.43035522 +1   0.00114086 +1
+ Hg    -2.01675601 +1  -1.79360923 +1   0.00272441 +1
+ Hg    -7.34660109 +1  -1.56357180 +1  -0.00375441 +1
+  I     1.51096740 +1   2.10615227 +1  -0.00978278 +1
+  I    -2.79601456 +1   3.46500992 +1   0.00519506 +1
+  I    -3.75092471 +1  -3.75242522 +1   0.00283133 +1
+  I    -5.58883740 +1   0.37406483 +1  -0.00245018 +1
+ Hg     2.84874177 +1  -2.57881939 +1  -4.12210492 +1
+ Hg     2.02446381 +1   2.68311380 +1  -4.13706050 +1
+ Hg     1.08081077 +1  -4.54376163 +1  -4.13425116 +1
+ Hg    -4.24629356 +1  -4.31615155 +1  -4.13865838 +1
+  I     4.60253509 +1  -0.63700231 +1  -4.12374834 +1
+  I     0.27082984 +1   0.74094112 +1  -4.14369499 +1
+  I    -0.65763469 +1  -6.50143948 +1  -4.13479112 +1
+  I    -2.50997485 +1  -2.35896814 +1  -4.13829149 +1
+ Hg     2.84488000 +1  -2.57803238 +1   4.13493537 +1
+ Hg     2.02299883 +1   2.68493278 +1   4.12126042 +1
+ Hg     1.07835040 +1  -4.54461262 +1   4.13946967 +1
+ Hg    -4.24707150 +1  -4.31474418 +1   4.13622678 +1
+  I     4.59792197 +1  -0.63697294 +1   4.14154376 +1
+  I     0.27116914 +1   0.74276455 +1   4.12370310 +1
+  I    -0.65781618 +1  -6.50134551 +1   4.14072498 +1
+  I    -2.51003741 +1  -2.35728552 +1   4.13523741 +1
+ Hg     5.96430693 +1  -5.34227445 +1  -0.00323657 +1
+ Hg     5.13409423 +1  -0.06802279 +1   0.00530970 +1
+ Hg     4.19902795 +1  -7.31011536 +1   0.00614347 +1
+ Hg    -1.13145046 +1  -7.07142490 +1  -0.00214849 +1
+  I     7.68919293 +1  -3.37623517 +1  -0.00645390 +1
+  I     3.37792235 +1  -2.00805605 +1   0.00593767 +1
+  I     2.43640563 +1  -9.24374194 +1   0.00474266 +1
+  I     0.60191131 +1  -5.11183258 +1  -0.00177174 +1
+ Tv     8.04010353 +1   8.96149274 +1   0.00050392 +1 
+ Tv     6.17494637 +1  -5.51541406 +1  -8.27383359 +1 
+ Tv     6.16886330 +1  -5.51844380 +1   8.27786927 +1 
+ 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<HTML>
+<meta charset="utf-8"> <script type="text/javascript" src="../../jsmol/JSmol.min.js"></script>
+<TITLE>Phenolphthalein (NIMDAO) (Ref.)</TITLE>
+ 
+<script type="text/javascript">
+$(document).ready(function() {InfoRef = { color: "0x000000", height: "800", width: "1600",
+disableInitialConsole: true, addSelectionOptions: false, 
+j2sPath: "../../jsmol/j2s",
+jarPath: "../../jsmol/java",
+use: "HTML5", script: "load 	Phenolphthalein__NIMDAO__(Ref).xyz {1,1,1} packed unitcell {    2.649  -10.974   -1.529   11.417    1.455    9.335   11.440    4.815  -14.740};  \
+set measurementUnits ANGSTROMS; hBonds calculate; connect 0.8  1.5 (hydrogen) (phosphorus) create; set zoomLarge false;"} 
+$("#Ref").html(Jmol.getAppletHtml("jmolAppletRef",InfoRef))}); 
+</script>
+</head>
+<body>
+<span id=Ref></span><a href="javascript:Jmol.script(jmolAppletRef)"></a>
+</body>
+</html>

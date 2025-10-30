@@ -1,0 +1,119 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+
+<head> 
+<meta http-equiv="Content-Language" content="en-us">
+<title> Notes on individual protein systems </title></head>
+
+<body>
+
+<h1 align="center">Notes on Importin (<a href="http://www.rcsb.org/structure/1QGK">1QGK</a>)</h1>
+
+<p align="left" dir="ltr">Importin is significant in that it was the largest  
+protein to be optimized; it contains 876 residues and has the empirical formula C<sub>4513</sub>H<sub>7337</sub>N<sub>1229</sub>O<sub>1438</sub>S<sub>49</sub>, 
+resulting in a total of 14,566 atoms.</p>
+
+
+<p align="left" dir="ltr">Preparation of the MOPAC data-set involved only a 
+minimum of operations.&nbsp; Starting with the PDB file downloaded from the 
+Protein Data Bank, the first step was to hydrogenate it followed by formation of 
+salt bridges, by use of&nbsp; keywords ADD-H and SITE=(SALT).&nbsp; The resulting system was then optimized using the following 
+set of keywords:</p>
+
+
+<p align="left"><b>CHARGE=0 GRADIENTS DUMP=2D OUTPUT HTML THREADS=1 MOZYME 
+EPS=78.4 PM6-D3H4 T=2W </b></p>
+
+
+<p align="left">Each keyword was considered necessary for the following reasons:</p>
+
+
+<table border="1" cellspacing="0" style="border-left-width: 0; border-right-width: 0" cellpadding="0">
+  <tr>
+    <td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 0; border-bottom-style: solid; border-bottom-width: 1" width="127">Keyword</td>
+    <td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 0; border-bottom-style: solid; border-bottom-width: 1" width="1377">Reason</td>
+  </tr>
+  <tr>
+    <td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 0; border-bottom-style: solid; border-bottom-width: 0" width="127" valign="top">CHARGE=0</td>
+    <td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 0; border-bottom-style: solid; border-bottom-width: 0" width="1377">By specifying the charge, if a geometric fault occurs that would cause 
+    the charge to change, when a restart was done, the error would be detected 
+    and the job stopped</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">GRADIENTS</td>
+    <td style="border-style: none; border-width: medium" width="1377">To show that the geometry was, in fact, near the bottom of a potential 
+    well. If the final gradient had been large, then the optimization would have 
+    been incomplete.</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">DUMP=2D</td>
+    <td style="border-style: none; border-width: medium" width="1377">This job was run on a Mac computer along with 23 other jobs.&nbsp; There 
+    is a fault in MacOS that can cause a crash if the disk is accessed 
+    frequently.&nbsp; These crashes were avoided by making restart files every 
+    two days instead of two hours.</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">OUTPUT</td>
+    <td style="border-style: none; border-width: medium" width="1377">Output file sizes can be minimized by not printing some geometries.&nbsp; 
+    Only essential geometries are printed when OUTPUT is used.</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">HTML</td>
+    <td style="border-style: none; border-width: medium" width="1377">This causes a simple web-page and a PDB file of the final geometry to be 
+    generated.</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">THREADS=1</td>
+    <td style="border-style: none; border-width: medium" width="1377">Restricts the job to use only one thread.&nbsp; This reduces overhead 
+    when 23 other jobs were also running, and resulted in the machine spending 
+    over 98% of its CPU time working on MOPAC jobs .&nbsp; </td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">MOZYME</td>
+    <td style="border-style: none; border-width: medium" width="1377">Essential for large, i.e., greater than about 600 atoms, systems.</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">EPS=78.4</td>
+    <td style="border-style: none; border-width: medium" width="1377">The system is modeled in aqueous media, using the COSMO implicit 
+    solvation method.</td>
+  </tr>
+  <tr>
+    <td style="border-style: none; border-width: medium" width="127" valign="top">PM6-D3H4</td>
+    <td style="border-style: none; border-width: medium" width="1377">This is the method of choice for modeling protein systems.</td>
+  </tr>
+  <tr>
+    <td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1" width="127" valign="top">T=2W</td>
+    <td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1" width="1377">Each job was allowed to run for a maximum of two weeks.</td>
+  </tr>
+</table>
+
+<p align="left">All 43,698 geometric parameters were flagged for optimization, 
+and a keyword that is normally used when modeling proteins, CUTOFF, was not used 
+in this optimization. The resulting job thus represents the most demanding 
+calculation that could be run.</p>
+
+
+<p align="left">The first job used all two weeks that were allocated, and 
+terminated when it ran out of time.&nbsp; The job was then restarted using 
+the original keywords plus the extra keyword RESTART.&nbsp; This job ran to 
+completion.&nbsp; Together, the two jobs used about 20 CPU days.</p>
+
+
+<p align="left">Because of the large computational effort, only the PM6-D3H4 PDB 
+and unconstrained calculations were run, these produced heats of formation of&nbsp; 
+-79946.7 and -81302.0 kcal mol<sup>-1</sup>, respectively. The two constrained 
+calculations were run using the old options, and should be ignored.</p>
+
+
+<p align="left">The purpose of this calculation was to demonstrate that quite 
+large proteins can be modeled.&nbsp; This is not to suggest that they should be 
+modeled: Any attempt to do any real research work using large proteins would be 
+extremely tedious, and would require extraordinary care - even one simple 
+mistake could invalidate a three CPU week simulation, and result in severe 
+frustration. Instead, the calculation is intended to show that the method can be 
+used in computational research with confidence when smaller proteins, up to say 
+7000 to 8000 atoms, are involved.</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.053M)
+                                                       Tue Feb 23 04:25:19 2021
+                                                       No. of days remaining = 364
+
+           Empirical Formula: As8 Cl24  =    32 atoms
+
+ MERS=(1,2,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Arsenic(iii) chloride (AsCl3)
+ h=-73 hr=guess
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -772.87959 KCAL/MOL =   -3233.72820 KJ/MOL
+          H.o.F. per unit cell    =        -96.60995 KCAL, for 8 unit cells, unit cell = As1 Cl3
+          TOTAL ENERGY            =      -7456.20672 EV
+          ELECTRONIC ENERGY       =  -20763357.40522 EV
+          CORE-CORE REPULSION     =   20755901.19851 EV
+
+          VOLUME OF UNIT CELL     =        320.822 CUBIC ANGSTROMS
+
+          DENSITY                 =          3.753 GRAMS/CC
+                              A   =          7.676 ANGSTROMS
+                              B   =          3.851 ANGSTROMS
+                              C   =         10.968 ANGSTROMS
+                            ALPHA =         90.028 DEGREES
+                            BETA  =         90.190 DEGREES
+                            GAMMA =         98.356 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =        641.64348 ANGSTROMS**3 =  386.406 CM**3/MOLE
+ 
+          GRADIENT NORM           =          4.45013 = 0.78668 PER ATOM
+          NO. OF FILLED LEVELS    =        104
+          IONIZATION POTENTIAL    =          9.018599 EV
+          HOMO LUMO ENERGIES (EV) =         -9.019 -2.411
+          MOLECULAR WEIGHT        =       1450.2448
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:   0.02 GPa
+           Tv(  34)  Pressure:  -0.00 GPa
+           Tv(  35)  Pressure:   0.01 GPa
+          SCF CALCULATIONS        =          9
+          WALL-CLOCK TIME         =  8 MINUTES AND  9.560 SECONDS
+          COMPUTATION TIME        =  8 MINUTES AND  5.961 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,2,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Arsenic(iii) chloride (AsCl3)
+ h=-73 hr=guess
+ As    -0.47144477 +1   1.84371735 +1   0.17799017 +1
+ As     0.59817047 +1  -4.93249598 +1  -0.07820030 +1
+ As    -3.23761838 +1  -3.77437207 +1   0.65094508 +1
+ Cl    -2.93551291 +1  -0.62728896 +1   2.76857561 +1
+ Cl    -1.65355166 +1   1.18119339 +1  -1.80138237 +1
+ Cl    -0.54376383 +1  -6.83592290 +1  -0.83502478 +1
+ Cl    -2.03695646 +1  -3.51658978 +1   2.70533156 +1
+ Cl    -2.57980123 +1   2.40285599 +1   1.13956601 +1
+ Cl     0.70119068 +1  -1.11226249 +1  -1.64377458 +1
+ Cl     0.92831158 +1  -3.42917197 +1   3.71319584 +1
+ Cl    -4.20413078 +1  -5.90797749 +1   3.48065157 +1
+ Cl    -4.96412744 +1   2.17433182 +1   3.07973174 +1
+ Cl    -0.45776366 +1  -0.21959950 +1   0.96432712 +1
+ Cl     1.92629655 +1  -3.15503866 +1   0.79932822 +1
+ Cl    -3.04858054 +1  -5.97236446 +1   0.72329110 +1
+ As    -4.22400248 +1   0.74274021 +1   1.36217071 +1
+ As     1.91204876 +1   1.33814734 +1   3.69537136 +1
+ As     0.97725494 +1  -5.59439098 +1   4.10211979 +1
+ As    -3.01825904 +1  -4.26200122 +1   4.73823044 +1
+ Cl    -1.00087077 +1   0.40829271 +1   7.06797886 +1
+ Cl     0.34944915 +1   2.59441784 +1   2.35655236 +1
+ Cl     0.02503832 +1  -6.15991445 +1   1.95513664 +1
+ Cl    -1.60563032 +1  -2.46847862 +1   5.49957791 +1
+ Cl    -2.13126528 +1   2.16391872 +1   4.43088685 +1
+ Cl     2.69324741 +1  -0.47907296 +1   2.38416603 +1
+ Cl     1.32285472 +1  -1.92986142 +1   6.62122892 +1
+ Cl    -3.65240931 +1  -5.45584154 +1   6.68397659 +1
+ Cl    -3.18681206 +1   3.47221690 +1   7.03811455 +1
+ Cl     0.27417701 +1  -0.29791513 +1   3.97800412 +1
+ Cl     3.76059979 +1  -2.69414159 +1   4.90493025 +1
+ Cl    -1.24067625 +1  -5.73415677 +1   5.09310023 +1
+ As    -1.96329466 +1   0.01654769 +1   4.88323063 +1
+ Tv     6.81503207 +1  -0.40227831 +1  -3.50938772 +1 
+ Tv     2.49832786 +1   1.52300498 +1   7.12557231 +1 
+ Tv    -0.50194692 +1  10.74826277 +1  -2.12718062 +1 
+ 

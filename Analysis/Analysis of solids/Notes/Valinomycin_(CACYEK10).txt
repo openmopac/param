@@ -1,0 +1,6 @@
+There is a fault in the implementation of translational vectors in very large unit cells such as valinomycin.
+This is not an error in theory, or a software error, instead it is an implementation error.
+
+Possible ways to correct this error are:
+(a) Increase the force constant for the translation vectors. This would reduce the step-size.
+(b) Do not allow the heat of formation to rise (in the L-BFGS method, the energy can rise)

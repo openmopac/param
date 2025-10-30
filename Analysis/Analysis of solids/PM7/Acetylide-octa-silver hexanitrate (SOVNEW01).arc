@@ -1,0 +1,91 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.053M)
+                                                       Tue Feb 23 01:43:46 2021
+                                                       No. of days remaining = 364
+
+           Empirical Formula: C2 N6 O18 Ag8  =    34 atoms
+
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Acetylide-octa-silver hexanitrate (SOVNEW01)
+
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =         99.80563 KCAL/MOL =     417.58677 KJ/MOL
+          H.o.F. per unit cell    =         49.90282 KCAL, for 2 unit cells, unit cell = C1 N3 O9 Ag4
+          TOTAL ENERGY            =     -11001.09737 EV
+          ELECTRONIC ENERGY       =  -10985072.42681 EV
+          CORE-CORE REPULSION     =   10974071.32944 EV
+
+          VOLUME OF UNIT CELL     =       1934.045 CUBIC ANGSTROMS
+
+          DENSITY                 =          1.081 GRAMS/CC
+                              A   =          7.265 ANGSTROMS
+                              B   =         17.699 ANGSTROMS
+                              C   =         16.127 ANGSTROMS
+                            ALPHA =         71.675 DEGREES
+                            BETA  =         98.377 DEGREES
+                            GAMMA =         98.945 DEGREES
+ 
+ 
+          GRADIENT NORM           =          3.89220 = 0.66751 PER ATOM
+          NO. OF FILLED LEVELS    =        117
+          IONIZATION POTENTIAL    =          8.863697 EV
+          HOMO LUMO ENERGIES (EV) =         -8.864 -2.081
+          MOLECULAR WEIGHT        =       1258.9954
+           Pressure required to constrain translation vectors
+           Tv(  35)  Pressure:   0.00 GPa
+           Tv(  36)  Pressure:   0.05 GPa
+           Tv(  37)  Pressure:  -0.05 GPa
+          SCF CALCULATIONS        =          1
+          WALL-CLOCK TIME         =          5.724 SECONDS
+          COMPUTATION TIME        =          5.684 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Acetylide-octa-silver hexanitrate (SOVNEW01)
+
+  N     0.38800805 +1   0.19638045 +1  -0.15553711 +1
+  O     1.30230916 +1   0.74165300 +1  -0.86336589 +1
+  O    -0.15515666 +1   0.84262827 +1   0.73674991 +1
+  O     0.10819965 +1  -1.00522202 +1  -0.40241280 +1
+  N     3.13667270 +1   3.04041048 +1  -2.42238814 +1
+  O     3.72956446 +1   3.25630666 +1  -1.34884886 +1
+  O     2.08303593 +1   2.34814341 +1  -2.44933581 +1
+  O     3.60508597 +1   3.49388981 +1  -3.50495784 +1
+  N     0.49121592 +1  -3.08104220 +1  -2.89425775 +1
+  O     0.42704006 +1  -4.19406865 +1  -2.29346490 +1
+  O     1.61813985 +1  -2.57369090 +1  -3.10530571 +1
+  O    -0.62862010 +1  -2.57054624 +1  -3.22432797 +1
+  N     0.03227296 +1   4.40777779 +1  -4.17244229 +1
+  O    -1.06626185 +1   4.00647507 +1  -4.62256082 +1
+  O     1.06841756 +1   3.72323872 +1  -4.18390573 +1
+  O     0.06908099 +1   5.55858713 +1  -3.61922262 +1
+  N    -1.49537895 +1   1.18974435 +1  -2.63175690 +1
+  O    -1.60199734 +1   0.32963678 +1  -3.56386938 +1
+  O    -1.30413641 +1   2.39647340 +1  -2.91486729 +1
+  O    -1.63084421 +1   0.83978561 +1  -1.43475144 +1
+  N     1.06010780 +1   0.24700906 +1  -3.43278270 +1
+  O     0.58066751 +1   1.24567685 +1  -4.06983896 +1
+  O     0.40037563 +1  -0.50846335 +1  -2.71332776 +1
+  O     2.31543572 +1   0.04954186 +1  -3.53833146 +1
+ Ag   -14.62574870 +1   1.76201858 +1  -6.31345454 +1
+ Ag   -14.47835689 +1  -1.62010512 +1  -6.43016233 +1
+ Ag    -1.91524520 +1  -1.22041441 +1  -1.95281710 +1
+ Ag    -1.76848876 +1  -4.23668036 +1  -2.41503868 +1
+ Ag    -1.63457755 +1  -7.19930625 +1  10.38986288 +1
+ Ag   -14.09004546 +1  -4.36320257 +1   5.37659085 +1
+ Ag   -14.35121022 +1  -0.71138602 +1   5.63951679 +1
+  C    -5.72183613 +1  -1.71058353 +1   2.58449447 +1
+ Ag    -1.10502397 +1  -3.73899985 +1  10.11511968 +1
+  C    -6.46885124 +1  -2.57390394 +1   2.83507143 +1
+ Tv    -0.41089733 +1   7.09749129 +1   1.49323581 +1 
+ Tv    16.80096743 +1  -2.84971501 +1   4.78049992 +1 
+ Tv     0.08964910 +1  -5.58280680 +1  15.12987835 +1 
+ 

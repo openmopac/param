@@ -1,0 +1,83 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Wed Feb 24 15:26:47 2021
+                                                       No. of days remaining = 365
+
+           Empirical Formula: O16 K4 Br4  =    24 atoms
+
+ MERS=(1,2,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Potassium perbromate KBrO4) (ICSD 15222)
+ h=-68.8 hr=crc
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -433.75353 KCAL/MOL =   -1814.82475 KJ/MOL
+          H.o.F. per unit cell    =       -108.43838 KCAL, for 4 unit cells, unit cell = O4 K1 Br1
+          TOTAL ENERGY            =      -5627.43905 EV
+          ELECTRONIC ENERGY       =  -11402632.19200 EV
+          CORE-CORE REPULSION     =   11397004.75296 EV
+
+          VOLUME OF UNIT CELL     =        197.758 CUBIC ANGSTROMS
+
+          DENSITY                 =          3.073 GRAMS/CC
+                              A   =          7.388 ANGSTROMS
+                              B   =          3.579 ANGSTROMS
+                              C   =          7.757 ANGSTROMS
+                            ALPHA =         89.831 DEGREES
+                            BETA  =         90.884 DEGREES
+                            GAMMA =        105.369 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =        395.51694 ANGSTROMS**3 =  238.186 CM**3/MOLE
+ 
+          GRADIENT NORM           =          4.35526 = 0.88901 PER ATOM
+          NO. OF FILLED LEVELS    =         64
+          IONIZATION POTENTIAL    =          7.499666 EV
+          HOMO LUMO ENERGIES (EV) =         -7.500  5.630
+          MOLECULAR WEIGHT        =        731.9996
+           Pressure required to constrain translation vectors
+           Tv(  25)  Pressure:  -0.07 GPa
+           Tv(  26)  Pressure:  -0.09 GPa
+           Tv(  27)  Pressure:  -0.08 GPa
+          SCF CALCULATIONS        =         21
+          WALL-CLOCK TIME         =  2 MINUTES AND 29.297 SECONDS
+          COMPUTATION TIME        =  2 MINUTES AND 26.570 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,2,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Potassium perbromate KBrO4) (ICSD 15222)
+ h=-68.8 hr=crc
+  K     0.46549631 +1  -0.29538678 +1  -0.00580290 +1
+  K    -3.21767501 +1   0.97371347 +1   0.30613473 +1
+  K    -4.03257392 +1  -2.73027782 +1   1.27086241 +1
+  K    -0.35213470 +1  -4.00052630 +1   0.95245840 +1
+ Br    -2.15743644 +1  -2.34866566 +1  -2.25643664 +1
+ Br    -6.60262301 +1  -1.05237052 +1  -1.29966095 +1
+ Br    -1.42375368 +1  -0.66640115 +1   3.51527570 +1
+ Br     3.02309164 +1  -1.96880163 +1   2.57227243 +1
+  O    -1.04946261 +1  -3.29076811 +1  -3.38898552 +1
+  O    -5.39743631 +1  -0.88699580 +1  -0.25311904 +1
+  O    -2.52482536 +1   0.27437696 +1   4.65153663 +1
+  O     1.80516655 +1  -2.13363186 +1   1.54112230 +1
+  O    -3.55155766 +1  -3.17300774 +1  -2.92242168 +1
+  O    -7.71284420 +1  -0.12232947 +1  -0.16317596 +1
+  O    -0.02715360 +1   0.15724750 +1   4.17820690 +1
+  O     4.12564269 +1  -2.89355082 +1   1.43009188 +1
+  O    -2.65882451 +1  -1.67748752 +1  -0.88749193 +1
+  O    -6.29387325 +1   0.15670839 +1  -2.32134810 +1
+  O    -1.44543174 +1  -1.95197957 +1   4.48648626 +1
+  O     3.44387955 +1  -0.34929816 +1   1.73857643 +1
+  O    -0.93849187 +1  -1.33501850 +1   2.13906454 +1
+  O     2.72800104 +1  -3.17832994 +1   3.59549869 +1
+  O    -2.12956704 +1  -1.06464622 +1  -3.23049153 +1
+  O    -7.02452868 +1  -2.67230751 +1  -0.46613961 +1
+ Tv     2.30839570 +1   4.18797202 +1   5.63141337 +1 
+ Tv     0.07603494 +1   4.30330546 +1  -5.72048333 +1 
+ Tv     7.29067659 +1  -2.14837878 +1  -1.54784767 +1 
+ 

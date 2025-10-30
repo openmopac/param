@@ -1,0 +1,11 @@
+set echo top left
+echo "An error in PM6 causes a covalent bond to form between Ne of Arg79 and Sg of Cys112"
+color echo black
+display 79, 99, 112
+center 112:A.SG
+zoom 0
+reset;center {25.94090697674418 21.600674418604658 9.619069767441859}; rotate z 94.38; rotate y 110.34; rotate z -119.4; zoom 456.85; set rotationRadius 38.77;
+measure (112:A.SG) (79:A.NE)
+measure (112:A.SG) (99:A.SG)
+measure (112:A.SG) (112:A.CB)
+

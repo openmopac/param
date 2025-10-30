@@ -1,0 +1,1 @@
+cd %PARAM_start%/Small_data_set

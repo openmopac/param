@@ -1,0 +1,52 @@
+<html><head>
+<title>Method PM8</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Method PM8</h1>
+<p class="auto-style1">Given that the ultimate purpose of parameter optimization 
+is to produce a new or a modified semiempirical method, a name for this method 
+must be chosen.&nbsp; This name would then be used in MOPAC as a keyword, and in 
+the source-code of MOPAC as a set of parameters and semiempirical options.&nbsp; 
+</p>
+<p class="auto-style1">Within the programs PARAM and MOPAC, parameter sets are stored in files 
+having names that use the format parameters_for_&lt;name&gt;_C.F90, 
+and control of the options used by each method is provided by logical variable 
+named method_&lt;name&gt;.&nbsp; It's obvious that any new method must have a name, so 
+by default the name 
+&quot;PM8&quot; was chosen.&nbsp; This results in the parameter file having the name 
+parameters_for_PM8_C.F90 and the logical options name being method_PM8.&nbsp; The name &quot;PM8&quot; should 
+be regarded as a placeholder until another name is chosen. </p>
+<p class="auto-style1">Until its parameters are modified, PM8 can be defined as 
+being the same as PM6-D3H4, in that it has exactly the same functional form as 
+PM6-D3H4, and the parameters in PM8 are exactly the same as those for PM6.&nbsp; 
+This can be verified by comparing the results of PM8 and PM6-D3H4 calculations 
+on any arbitrary systems. PM6-D3H4 was chosen instead of PM7 as the starting 
+method because of its improved treatment of non-covalent interactions.</p>
+<p class="auto-style1">However, as soon as the PM8 parameters are changed, i.e., 
+as soon as a parameter optimization is performed, PM8 will start to differ from 
+PM6-D3H4.&nbsp; Perhaps surprisingly, even a simple optimization of the set of core elements 
+always 
+produces a dramatic decrease in error.&nbsp; That this happens can be understood 
+given that PM6-D3H4 was originally made by 
+adding corrections to the PM6 method; these corrections were successful in 
+producing a large increase in the accuracy of prediction of non-covalent 
+interactions, but, since the corrections were added to a method that had already 
+been optimized to minimize errors in heats of formation, the corrections 
+resulted in a significant lowering of predicted heats of formation, resulting in a large decrease in overall accuracy.&nbsp; Parameter optimization can easily 
+correct errors of this type, so a superficial comparison of PM8 and PM6-D3H4 
+might give the misleading impression that PM8 was significantly better than 
+earlier methods.&nbsp; </p>
+<p class="auto-style1">&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+

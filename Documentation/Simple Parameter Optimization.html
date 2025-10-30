@@ -1,0 +1,57 @@
+<html><head>
+<title>Simple optimization</title>
+
+<style type="text/css">
+.auto-style1 {
+	border: 1px solid #000000;
+}
+.auto-style2 {
+	text-align: center;
+}
+.auto-style3 {
+	border: 0 solid #000000;
+}
+</style>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1>A simple parameter optimization</h1>
+<p>In its simplest form, a parameter optimization job 
+requires three types of data: A list of names of reference data files, the 
+location of the folder where those files are stored, and a list of parameters to 
+be optimized. An example of such a data-set is shown in the box
+<table align="left">
+	<tr>
+		<td class="auto-style2">A simple parameter optimization data-set </td>
+		<td class="auto-style2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="auto-style1">
+<pre>set="../sets/Stand-alone core.txt" &amp;
+ref="../../reference data/Data normal"
+(H C N O)(All)  
+</pre>
+		</td>
+		<td class="auto-style3">
+		&nbsp;</td>
+	</tr>
+</table>
+below.<p>Two PARAM keywords are used. The location of the file that holds the 
+names of the reference data files is specified by 
+<a href="http://openmopac.net/param_manual/keyword_set.html"><tt>SET</tt></a>, and the location of the 
+folder where the reference data files are stored is specified by 
+<a href="http://openmopac.net/param_manual/keyword_ref.html"><tt>REF</tt></a>. All 
+keywords must be on the same line, but for convenience the symbol &quot;<a href="http://openmopac.net/param_manual/Keyword_ampersand.html">&amp;</a>&quot; is 
+provided.&nbsp; This symbol means that the text in the following line should be 
+concatenated to the current line.</p>
+<p>The third line of the data-set defines the set of parameters to be optimized.&nbsp; </p>
+</body>
+</html>
+
+
+

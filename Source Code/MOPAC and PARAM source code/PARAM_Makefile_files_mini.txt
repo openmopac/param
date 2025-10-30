@@ -1,0 +1,22 @@
+PARAM_OBJECTS = \
+$(OBJ)/PARAM.$(O)
+
+#
+#   Link everything together
+#
+all: $(OBJ)  $(PARAM_OBJECTS)
+	$(FORTRAN_LINKER)   -o $(EXE) $(PARAM_OBJECTS) $(MATH_LINK)
+#
+#
+clean: 
+	@echo  All object and mod files will be deleted
+	@rm -f $(OBJ)/*.$(O) $(OBJ)/*.mod 
+	@echo  All object and mod files have been deleted
+#
+#  Dependencies
+#
+
+$(OBJ)/param.$(O): \
+  $(PARAM_SRC)/param.F90
+	 	 $(FORTRAN_COMPILER)   $(PARAM_SRC)/param.F90
+  

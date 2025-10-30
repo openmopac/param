@@ -1,0 +1,29 @@
+*
+*  Run an optimization of the PM7 parameters for intermolecular interactions
+*  
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET.
+* CYCLES:     Run 50 cycles and then stop.  
+*
+set="Intermolecular interactions in water dimer set.txt" ref="../../reference data/Data Intermolecular interactions/Water dimers all" cycles=50
+*
+*
+FN11        H
+FN21        H
+FN31        H
+FN11        O
+FN21        O
+FN31        O
+ALPB_O      H
+XFAC_O      H  0 2
+PAR7 1 3
+PAR8 -1 0
+PAR9 -1 0
+*
+* Terminate the list of parameters to be optimized.
+*
+end
+

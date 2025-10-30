@@ -1,0 +1,26 @@
+*
+* Lines that start with an asterisk, *, are comment lines and are ignored by PARAM
+*
+* A simple parameter optimization
+*
+* Optimize all parameters for H, C, N, and O, using the default method, PM8.
+*  
+* 
+*                            Keywords used
+*
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define the folder that contain reference data for systems defined by SET. 
+* ONLY:       Use only reference data-set systems where at least one parameter for each 
+*               element present is marked for optimization
+*
+set="../sets/Stand-alone core.txt" ref="../../reference data/Data normal" only cycles=50
+*
+* Define the set of parameters that are to be optimized
+*
+(H C N O)(All)  
+*
+*  End the parameter list with the word "end"
+*          
+*
+end

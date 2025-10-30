@@ -1,0 +1,1455 @@
+molstructWIN_Jan_11_2005_12:25:36 40 Benzene - Neopentane (Separated).csf 0x0000
+Written by MOPAC on Wed Apr 01 13:27:37 2015
+Using Data Dictionary         01/30/2004  11:15am
+Version 17
+local_transform
+0.008756 0.000000 0.000000 0.000000
+0.000000 0.008756 0.000000 0.000000
+0.000000 0.000000 0.008756 0.000000
+0.002018 0.001607 -0.031644 1.000000
+object_class atom
+property dflag Linus noUnit 0 1 HEX
+property anum Linus unit 0 1 INTEGER
+property sym Linus noUnit 0 2 STRING
+property chrg Linus charge_au 0 1 INTEGER
+property xyz_coordinates Linus angstrom 6 3 FLOAT
+property pchrg Linus charge_au 3 1 FLOAT
+property rflag Linus noUnit 0 1 HEX
+ID dflag anum sym chrg xyz_coordinates                 pchrg  rflag
+ 1   0x9    6   C    0  -0.000010   0.000000  0.000000 -0.147 0x5010
+ 2   0x9    1   H    0   0.430173   0.992346 -0.015133  0.147 0x5010
+ 3   0x9    6   C    0   0.830219  -1.119098  0.039363 -0.147 0x5010
+ 4   0x9    1   H    0   1.904548  -0.995273  0.055651  0.147 0x5010
+ 5   0x9    6   C    0   0.275841  -2.397710  0.057445 -0.147 0x5010
+ 6   0x9    1   H    0   0.919949  -3.265865  0.088523  0.147 0x5010
+ 7   0x9    6   C    0  -1.108621  -2.557399  0.036264 -0.147 0x5010
+ 8   0x9    1   H    0  -1.538738  -3.549468  0.051938  0.147 0x5010
+ 9   0x9    6   C    0  -1.938856  -1.438497 -0.002531 -0.147 0x5010
+10   0x9    1   H    0  -3.013085  -1.562373 -0.016884  0.147 0x5010
+11   0x9    6   C    0  -1.384628  -0.159817 -0.020725 -0.147 0x5010
+12   0x9    1   H    0  -2.028937   0.708378 -0.050779  0.147 0x5010
+13   0x8    6   C    0 -76.402252 -26.228630  4.337995  0.142 0x5010
+14   0x8    6   C    0 -74.956003 -26.049843  3.883034 -0.468 0x5010
+15   0x8    1   H    0 -74.540147 -25.116565  4.266456  0.144 0x5010
+16   0x8    1   H    0 -74.332604 -26.870458  4.241887  0.144 0x5010
+17   0x8    1   H    0 -74.895394 -26.030451  2.794099  0.144 0x5010
+18   0x8    6   C    0 -76.456643 -26.260001  5.862861 -0.468 0x5010
+19   0x8    1   H    0 -77.482433 -26.387422  6.211948  0.144 0x5010
+20   0x8    1   H    0 -75.861237 -27.085688  6.255414  0.144 0x5010
+21   0x8    1   H    0 -76.068349 -25.332117  6.285766  0.144 0x5010
+22   0x8    6   C    0 -76.951632 -27.538122  3.777699 -0.468 0x5010
+23   0x8    1   H    0 -77.986506 -27.688397  4.090371  0.144 0x5010
+24   0x8    1   H    0 -76.365175 -28.387096  4.133510  0.144 0x5010
+25   0x8    1   H    0 -76.922852 -27.538575  2.687385  0.144 0x5010
+26   0x8    6   C    0 -77.243625 -25.064058  3.821790 -0.468 0x5010
+27   0x8    1   H    0 -77.222084 -25.028028  2.731791  0.144 0x5010
+28   0x8    1   H    0 -78.283414 -25.167828  4.136272  0.144 0x5010
+29   0x8    1   H    0 -76.867972 -24.113364  4.203896  0.144 0x5010
+property_flags:
+object_class bond
+property dflag Linus noUnit 0 1 HEX
+property type Linus noUnit 0 1 NAME
+property rflag Linus noUnit 0 1 HEX
+property bond_order MOPAC noUnit 4 1 FLOAT
+ID dflag type   rflag  bond_order
+ 1   0x9 single 0xf083     0.9659
+ 2   0x9 single 0xf083     1.4423
+ 3   0x9 double 0xf083     1.4423
+ 4   0x9 single 0xf083     0.9659
+ 5   0x9 double 0xf083     1.4424
+ 6   0x9 single 0xf083     0.9659
+ 7   0x9 single 0xf083     1.4423
+ 8   0x9 single 0xf083     0.9659
+ 9   0x9 double 0xf083     1.4423
+10   0x9 single 0xf083     0.9659
+11   0x9 single 0xf083     1.4424
+12   0x9 single 0xf083     0.9659
+13   0x8 single 0xf083     0.9961
+14   0x8 single 0xf083     0.9962
+15   0x8 single 0xf083     0.9961
+16   0x8 single 0xf083     0.9961
+17   0x8 single 0xf083     0.9710
+18   0x8 single 0xf083     0.9710
+19   0x8 single 0xf083     0.9710
+20   0x8 single 0xf083     0.9710
+21   0x8 single 0xf083     0.9710
+22   0x8 single 0xf083     0.9709
+23   0x8 single 0xf083     0.9710
+24   0x8 single 0xf083     0.9710
+25   0x8 single 0xf083     0.9710
+26   0x8 single 0xf083     0.9710
+27   0x8 single 0xf083     0.9710
+28   0x8 single 0xf083     0.9710
+property_flags:
+object_class connector
+property dflag MOPAC noUnit 0 1 HEX
+property objCls1 Erich noUnit 0 1 NAME
+property objCls2 Erich noUnit 0 1 NAME
+property objID1 Erich noUnit 0 1 INTEGER
+property objID2 Erich noUnit 0 1 INTEGER
+ID  dflag objCls1             objCls2       objID1 objID2
+  1  0xa0                atom          bond      1      1
+  2  0xa0                atom          bond      2      1
+  3  0xa0                atom          bond      1      2
+  4  0xa0                atom          bond      3      2
+  5  0xa0                atom          bond      1      3
+  6  0xa0                atom          bond     11      3
+  7  0xa0                atom          bond      3      4
+  8  0xa0                atom          bond      4      4
+  9  0xa0                atom          bond      3      5
+ 10  0xa0                atom          bond      5      5
+ 11  0xa0                atom          bond      5      6
+ 12  0xa0                atom          bond      6      6
+ 13  0xa0                atom          bond      5      7
+ 14  0xa0                atom          bond      7      7
+ 15  0xa0                atom          bond      7      8
+ 16  0xa0                atom          bond      8      8
+ 17  0xa0                atom          bond      7      9
+ 18  0xa0                atom          bond      9      9
+ 19  0xa0                atom          bond      9     10
+ 20  0xa0                atom          bond     10     10
+ 21  0xa0                atom          bond      9     11
+ 22  0xa0                atom          bond     11     11
+ 23  0xa0                atom          bond     11     12
+ 24  0xa0                atom          bond     12     12
+ 25  0xa0                atom          bond     13     13
+ 26  0xa0                atom          bond     14     13
+ 27  0xa0                atom          bond     13     14
+ 28  0xa0                atom          bond     18     14
+ 29  0xa0                atom          bond     13     15
+ 30  0xa0                atom          bond     22     15
+ 31  0xa0                atom          bond     13     16
+ 32  0xa0                atom          bond     26     16
+ 33  0xa0                atom          bond     14     17
+ 34  0xa0                atom          bond     15     17
+ 35  0xa0                atom          bond     14     18
+ 36  0xa0                atom          bond     16     18
+ 37  0xa0                atom          bond     14     19
+ 38  0xa0                atom          bond     17     19
+ 39  0xa0                atom          bond     18     20
+ 40  0xa0                atom          bond     19     20
+ 41  0xa0                atom          bond     18     21
+ 42  0xa0                atom          bond     20     21
+ 43  0xa0                atom          bond     18     22
+ 44  0xa0                atom          bond     21     22
+ 45  0xa0                atom          bond     22     23
+ 46  0xa0                atom          bond     23     23
+ 47  0xa0                atom          bond     22     24
+ 48  0xa0                atom          bond     24     24
+ 49  0xa0                atom          bond     22     25
+ 50  0xa0                atom          bond     25     25
+ 51  0xa0                atom          bond     26     26
+ 52  0xa0                atom          bond     27     26
+ 53  0xa0                atom          bond     26     27
+ 54  0xa0                atom          bond     28     27
+ 55  0xa0                atom          bond     26     28
+ 56  0xa0                atom          bond     29     28
+ 57  0xa0                atom      AtomView      1      1
+ 58  0xa0          WindowView      AtomView      1      1
+ 59  0xa0                atom      AtomView      2      2
+ 60  0xa0          WindowView      AtomView      1      2
+ 61  0xa0                atom      AtomView      3      3
+ 62  0xa0          WindowView      AtomView      1      3
+ 63  0xa0                atom      AtomView      4      4
+ 64  0xa0          WindowView      AtomView      1      4
+ 65  0xa0                atom      AtomView      5      5
+ 66  0xa0          WindowView      AtomView      1      5
+ 67  0xa0                atom      AtomView      6      6
+ 68  0xa0          WindowView      AtomView      1      6
+ 69  0xa0                atom      AtomView      7      7
+ 70  0xa0          WindowView      AtomView      1      7
+ 71  0xa0                atom      AtomView      8      8
+ 72  0xa0          WindowView      AtomView      1      8
+ 73  0xa0                atom      AtomView      9      9
+ 74  0xa0          WindowView      AtomView      1      9
+ 75  0xa0                atom      AtomView     10     10
+ 76  0xa0          WindowView      AtomView      1     10
+ 77  0xa0                atom      AtomView     11     11
+ 78  0xa0          WindowView      AtomView      1     11
+ 79  0xa0                atom      AtomView     12     12
+ 80  0xa0          WindowView      AtomView      1     12
+ 81  0xa0                atom      AtomView     13     13
+ 82  0xa0          WindowView      AtomView      1     13
+ 83  0xa0                atom      AtomView     14     14
+ 84  0xa0          WindowView      AtomView      1     14
+ 85  0xa0                atom      AtomView     15     15
+ 86  0xa0          WindowView      AtomView      1     15
+ 87  0xa0                atom      AtomView     16     16
+ 88  0xa0          WindowView      AtomView      1     16
+ 89  0xa0                atom      AtomView     17     17
+ 90  0xa0          WindowView      AtomView      1     17
+ 91  0xa0                atom      AtomView     18     18
+ 92  0xa0          WindowView      AtomView      1     18
+ 93  0xa0                atom      AtomView     19     19
+ 94  0xa0          WindowView      AtomView      1     19
+ 95  0xa0                atom      AtomView     20     20
+ 96  0xa0          WindowView      AtomView      1     20
+ 97  0xa0                atom      AtomView     21     21
+ 98  0xa0          WindowView      AtomView      1     21
+ 99  0xa0                atom      AtomView     22     22
+100  0xa0          WindowView      AtomView      1     22
+101  0xa0                atom      AtomView     23     23
+102  0xa0          WindowView      AtomView      1     23
+103  0xa0                atom      AtomView     24     24
+104  0xa0          WindowView      AtomView      1     24
+105  0xa0                atom      AtomView     25     25
+106  0xa0          WindowView      AtomView      1     25
+107  0xa0                atom      AtomView     26     26
+108  0xa0          WindowView      AtomView      1     26
+109  0xa0                atom      AtomView     27     27
+110  0xa0          WindowView      AtomView      1     27
+111  0xa0                atom      AtomView     28     28
+112  0xa0          WindowView      AtomView      1     28
+113  0xa0                atom      AtomView     29     29
+114  0xa0          WindowView      AtomView      1     29
+115  0xa0                bond      BondView      1      1
+116  0xa0          WindowView      BondView      1      1
+117  0xa0                bond      BondView      2      2
+118  0xa0          WindowView      BondView      1      2
+119  0xa0                bond      BondView      3      3
+120  0xa0          WindowView      BondView      1      3
+121  0xa0                bond      BondView      4      4
+122  0xa0          WindowView      BondView      1      4
+123  0xa0                bond      BondView      5      5
+124  0xa0          WindowView      BondView      1      5
+125  0xa0                bond      BondView      6      6
+126  0xa0          WindowView      BondView      1      6
+127  0xa0                bond      BondView      7      7
+128  0xa0          WindowView      BondView      1      7
+129  0xa0                bond      BondView      8      8
+130  0xa0          WindowView      BondView      1      8
+131  0xa0                bond      BondView      9      9
+132  0xa0          WindowView      BondView      1      9
+133  0xa0                bond      BondView     10     10
+134  0xa0          WindowView      BondView      1     10
+135  0xa0                bond      BondView     11     11
+136  0xa0          WindowView      BondView      1     11
+137  0xa0                bond      BondView     12     12
+138  0xa0          WindowView      BondView      1     12
+139  0xa0                bond      BondView     13     13
+140  0xa0          WindowView      BondView      1     13
+141  0xa0                bond      BondView     14     14
+142  0xa0          WindowView      BondView      1     14
+143  0xa0                bond      BondView     15     15
+144  0xa0          WindowView      BondView      1     15
+145  0xa0                bond      BondView     16     16
+146  0xa0          WindowView      BondView      1     16
+147  0xa0                bond      BondView     17     17
+148  0xa0          WindowView      BondView      1     17
+149  0xa0                bond      BondView     18     18
+150  0xa0          WindowView      BondView      1     18
+151  0xa0                bond      BondView     19     19
+152  0xa0          WindowView      BondView      1     19
+153  0xa0                bond      BondView     20     20
+154  0xa0          WindowView      BondView      1     20
+155  0xa0                bond      BondView     21     21
+156  0xa0          WindowView      BondView      1     21
+157  0xa0                bond      BondView     22     22
+158  0xa0          WindowView      BondView      1     22
+159  0xa0                bond      BondView     23     23
+160  0xa0          WindowView      BondView      1     23
+161  0xa0                bond      BondView     24     24
+162  0xa0          WindowView      BondView      1     24
+163  0xa0                bond      BondView     25     25
+164  0xa0          WindowView      BondView      1     25
+165  0xa0                bond      BondView     26     26
+166  0xa0          WindowView      BondView      1     26
+167  0xa0                bond      BondView     27     27
+168  0xa0          WindowView      BondView      1     27
+169  0xa0                bond      BondView     28     28
+170  0xa0          WindowView      BondView      1     28
+171  0xa0          WindowView  MoleculeView      1      1
+172  0xa0          WindowView     3DDLPView      1      1
+173  0x80 calculation_history   mol_orbital     14      1
+174  0xa0                atom sto_basis_fxn      1      1
+175  0xa0                atom sto_basis_fxn      1      2
+176  0xa0                atom sto_basis_fxn      1      3
+177  0xa0                atom sto_basis_fxn      1      4
+178  0xa0                atom sto_basis_fxn      2      5
+179  0xa0                atom sto_basis_fxn      3      6
+180  0xa0                atom sto_basis_fxn      3      7
+181  0xa0                atom sto_basis_fxn      3      8
+182  0xa0                atom sto_basis_fxn      3      9
+183  0xa0                atom sto_basis_fxn      4     10
+184  0xa0                atom sto_basis_fxn      5     11
+185  0xa0                atom sto_basis_fxn      5     12
+186  0xa0                atom sto_basis_fxn      5     13
+187  0xa0                atom sto_basis_fxn      5     14
+188  0xa0                atom sto_basis_fxn      6     15
+189  0xa0                atom sto_basis_fxn      7     16
+190  0xa0                atom sto_basis_fxn      7     17
+191  0xa0                atom sto_basis_fxn      7     18
+192  0xa0                atom sto_basis_fxn      7     19
+193  0xa0                atom sto_basis_fxn      8     20
+194  0xa0                atom sto_basis_fxn      9     21
+195  0xa0                atom sto_basis_fxn      9     22
+196  0xa0                atom sto_basis_fxn      9     23
+197  0xa0                atom sto_basis_fxn      9     24
+198  0xa0                atom sto_basis_fxn     10     25
+199  0xa0                atom sto_basis_fxn     11     26
+200  0xa0                atom sto_basis_fxn     11     27
+201  0xa0                atom sto_basis_fxn     11     28
+202  0xa0                atom sto_basis_fxn     11     29
+203  0xa0                atom sto_basis_fxn     12     30
+204  0xa0                atom sto_basis_fxn     13     31
+205  0xa0                atom sto_basis_fxn     13     32
+206  0xa0                atom sto_basis_fxn     13     33
+207  0xa0                atom sto_basis_fxn     13     34
+208  0xa0                atom sto_basis_fxn     14     35
+209  0xa0                atom sto_basis_fxn     14     36
+210  0xa0                atom sto_basis_fxn     14     37
+211  0xa0                atom sto_basis_fxn     14     38
+212  0xa0                atom sto_basis_fxn     15     39
+213  0xa0                atom sto_basis_fxn     16     40
+214  0xa0                atom sto_basis_fxn     17     41
+215  0xa0                atom sto_basis_fxn     18     42
+216  0xa0                atom sto_basis_fxn     18     43
+217  0xa0                atom sto_basis_fxn     18     44
+218  0xa0                atom sto_basis_fxn     18     45
+219  0xa0                atom sto_basis_fxn     19     46
+220  0xa0                atom sto_basis_fxn     20     47
+221  0xa0                atom sto_basis_fxn     21     48
+222  0xa0                atom sto_basis_fxn     22     49
+223  0xa0                atom sto_basis_fxn     22     50
+224  0xa0                atom sto_basis_fxn     22     51
+225  0xa0                atom sto_basis_fxn     22     52
+226  0xa0                atom sto_basis_fxn     23     53
+227  0xa0                atom sto_basis_fxn     24     54
+228  0xa0                atom sto_basis_fxn     25     55
+229  0xa0                atom sto_basis_fxn     26     56
+230  0xa0                atom sto_basis_fxn     26     57
+231  0xa0                atom sto_basis_fxn     26     58
+232  0xa0                atom sto_basis_fxn     26     59
+233  0xa0                atom sto_basis_fxn     27     60
+234  0xa0                atom sto_basis_fxn     28     61
+235  0xa0                atom sto_basis_fxn     29     62
+property_flags:
+object_class notes
+property dflag Linus noUnit 0 1 HEX
+property comment Linus noUnit 0 80 STRING
+ID dflag comment
+ 1   0x0 M:\S66?set\40?Benzene?-?Neopentane.arc
+property_flags:
+object_class WindowView
+property dflag Linus noUnit 0 1 HEX
+property ViewerName Linus noUnit 0 32 STRING
+property ViewClass Linus noUnit 0 9 STRING
+property WindowRect_TLBR Linus noUnit 0 4 INTEGER
+property WindowOrder Linus noUnit 0 1 INTEGER
+ID dflag ViewerName ViewClass WindowRect_TLBR WindowOrder
+ 1   0x0      CAChe  CViewMol  25 25 749 1591           0
+property_flags:
+object_class AtomView
+property dflag Linus noUnit 0 1 HEX
+property ViewOptions Linus noUnit 0 1 INTEGER
+property ColorBy Linus noUnit 0 1 INTEGER
+property ColorLabelBy Linus noUnit 0 1 INTEGER
+property SphereType Linus noUnit 0 1 INTEGER
+property RadiusType Linus noUnit 0 1 INTEGER
+property ColorIndex Linus noUnit 0 1 INTEGER
+property ScaleFactor Linus angstrom 3 1 FLOAT
+property ShapeType Linus noUnit 0 1 INTEGER
+property PolyhedraScaleFactor Linus noUnit 3 1 FLOAT
+property ThermalProbability Linus noUnit 3 1 FLOAT
+property GroupColor Linus noUnit 0 1 INTEGER
+ID dflag ViewOptions ColorBy ColorLabelBy SphereType RadiusType ColorIndex
+ 1   0x8         800       0            0          0          0          3
+ 2   0x8         800       0            0          0          0          3
+ 3   0x8         800       0            0          0          0          3
+ 4   0x8         800       0            0          0          0          3
+ 5   0x8         800       0            0          0          0          3
+ 6   0x8         800       0            0          0          0          3
+ 7   0x8         800       0            0          0          0          3
+ 8   0x8         800       0            0          0          0          3
+ 9   0x8         800       0            0          0          0          3
+10   0x8         800       0            0          0          0          3
+11   0x8         800       0            0          0          0          3
+12   0x8         800       0            0          0          0          3
+13   0x8         800       0            0          0          0          3
+14   0x8         800       0            0          0          0          3
+15   0x8         800       0            0          0          0          3
+16   0x8         800       0            0          0          0          3
+17   0x8         800       0            0          0          0          3
+18   0x8         800       0            0          0          0          3
+19   0x8         800       0            0          0          0          3
+20   0x8         800       0            0          0          0          3
+21   0x8         800       0            0          0          0          3
+22   0x8         800       0            0          0          0          3
+23   0x8         800       0            0          0          0          3
+24   0x8         800       0            0          0          0          3
+25   0x8         800       0            0          0          0          3
+26   0x8         800       0            0          0          0          3
+27   0x8         800       0            0          0          0          3
+28   0x8         800       0            0          0          0          3
+29   0x8         800       0            0          0          0          3
+property_flags:
+ID ScaleFactor ShapeType PolyhedraScaleFactor ThermalProbability GroupColor
+ 1       0.100         0                1.000              0.500          3
+ 2       0.100         0                1.000              0.500          3
+ 3       0.100         0                1.000              0.500          3
+ 4       0.100         0                1.000              0.500          3
+ 5       0.100         0                1.000              0.500          3
+ 6       0.100         0                1.000              0.500          3
+ 7       0.100         0                1.000              0.500          3
+ 8       0.100         0                1.000              0.500          3
+ 9       0.100         0                1.000              0.500          3
+10       0.100         0                1.000              0.500          3
+11       0.100         0                1.000              0.500          3
+12       0.100         0                1.000              0.500          3
+13       0.100         0                1.000              0.500          3
+14       0.100         0                1.000              0.500          3
+15       0.100         0                1.000              0.500          3
+16       0.100         0                1.000              0.500          3
+17       0.100         0                1.000              0.500          3
+18       0.100         0                1.000              0.500          3
+19       0.100         0                1.000              0.500          3
+20       0.100         0                1.000              0.500          3
+21       0.100         0                1.000              0.500          3
+22       0.100         0                1.000              0.500          3
+23       0.100         0                1.000              0.500          3
+24       0.100         0                1.000              0.500          3
+25       0.100         0                1.000              0.500          3
+26       0.100         0                1.000              0.500          3
+27       0.100         0                1.000              0.500          3
+28       0.100         0                1.000              0.500          3
+29       0.100         0                1.000              0.500          3
+property_flags:
+object_class BondView
+property dflag Linus noUnit 0 1 HEX
+property Visible Linus noUnit 0 1 INTEGER
+property ColorBy Linus noUnit 0 1 INTEGER
+property ColorIndex Linus noUnit 0 1 INTEGER
+property DrawType Linus noUnit 0 1 INTEGER
+property RadiusType Linus noUnit 0 1 INTEGER
+property ScaleFactor Linus angstrom 3 1 FLOAT
+ID dflag Visible ColorBy ColorIndex DrawType RadiusType ScaleFactor
+ 1   0x8       1       0          4        3          0       0.030
+ 2   0x8       1       0          4        3          0       0.030
+ 3   0x8       1       0          4        3          0       0.030
+ 4   0x8       1       0          4        3          0       0.030
+ 5   0x8       1       0          4        3          0       0.030
+ 6   0x8       1       0          4        3          0       0.030
+ 7   0x8       1       0          4        3          0       0.030
+ 8   0x8       1       0          4        3          0       0.030
+ 9   0x8       1       0          4        3          0       0.030
+10   0x8       1       0          4        3          0       0.030
+11   0x8       1       0          4        3          0       0.030
+12   0x8       1       0          4        3          0       0.030
+13   0x8       1       0          4        3          0       0.030
+14   0x8       1       0          4        3          0       0.030
+15   0x8       1       0          4        3          0       0.030
+16   0x8       1       0          4        3          0       0.030
+17   0x8       1       0          4        3          0       0.030
+18   0x8       1       0          4        3          0       0.030
+19   0x8       1       0          4        3          0       0.030
+20   0x8       1       0          4        3          0       0.030
+21   0x8       1       0          4        3          0       0.030
+22   0x8       1       0          4        3          0       0.030
+23   0x8       1       0          4        3          0       0.030
+24   0x8       1       0          4        3          0       0.030
+25   0x8       1       0          4        3          0       0.030
+26   0x8       1       0          4        3          0       0.030
+27   0x8       1       0          4        3          0       0.030
+28   0x8       1       0          4        3          0       0.030
+property_flags:
+object_class MoleculeView
+property dflag Linus noUnit 0 1 HEX
+property ShowHExcep Linus noUnit 0 1 INTEGER
+property ShowEExcep Linus noUnit 0 1 INTEGER
+property ShowHydrogens Linus noUnit 0 1 INTEGER
+property ShowElectrons Linus noUnit 0 1 INTEGER
+property ShowScrollbar Linus noUnit 0 1 INTEGER
+property ShowRibbon Linus noUnit 0 1 INTEGER
+property ElemHistory Linus noUnit 0 7 INTEGER
+property SelSimOpts Linus noUnit 0 7 INTEGER
+property chrg Linus charge_au 0 1 INTEGER
+property conf Linus noUnit 0 1 NAME
+property type Linus noUnit 0 1 NAME
+property ShowAsymmetricCell Linus noUnit 0 1 INTEGER
+property ShowUnitCell Linus noUnit 0 1 INTEGER
+property ShowLatticeBoundaries Linus noUnit 0 1 INTEGER
+property ShowNonCarbonHydrogen Linus noUnit 0 1 INTEGER
+property BackboneStyle Linus noUnit 0 1 NAME
+property ResTypeMethod Linus noUnit 0 1 INTEGER
+property SeqProtocol Linus noUnit 0 1 INTEGER
+property ResBoxColor Linus noUnit 0 1 INTEGER
+property SeqPropMin Linus noUnit 0 1 FLOAT
+property SeqPropMax Linus noUnit 0 1 FLOAT
+ID dflag ShowHExcep ShowEExcep ShowHydrogens ShowElectrons ShowScrollbar
+ 1   0x0          1          0             1             0             1
+property_flags:
+ID ShowRibbon ElemHistory        SelSimOpts    chrg conf type
+ 1          1 38 8 37 6 17 52 73 0 1 1 0 0 0 1    0  sp3 single
+property_flags:
+ID ShowAsymmetricCell ShowUnitCell ShowLatticeBoundaries ShowNonCarbonHydrogen
+ 1                  0            0                     0                     1
+property_flags:
+ID BackboneStyle ResTypeMethod SeqProtocol ResBoxColor SeqPropMin SeqPropMax
+ 1          none            16           0           2          0          0
+property_flags:
+object_class 3DDLPView
+property dflag Linus noUnit 0 1 HEX
+property Projection Linus noUnit 0 1 INTEGER
+property EyePosition Linus noUnit 0 1 FLOAT
+property EyeSeparation Linus noUnit 0 1 FLOAT
+property FrontClip Linus noUnit 0 1 FLOAT
+property BackClip Linus noUnit 0 1 FLOAT
+property Stereo Linus noUnit 0 1 INTEGER
+property UserColors Linus noUnit 0 12 HEX
+property SpecialColors Linus noUnit 0 3 HEX
+property FasterMotion Linus noUnit 0 1 INTEGER
+property LineWidthIdx Linus noUnit 0 1 INTEGER
+property TextWidthIdx Linus noUnit 0 1 INTEGER
+property TBActive Linus noUnit 0 1 INTEGER
+property TBCenterRot Linus noUnit 0 1 INTEGER
+property TBManipCursor Linus noUnit 0 1 INTEGER
+property Show3DCursor Linus noUnit 0 1 INTEGER
+property transform Linus noUnit 4 16 FLOAT
+property PrintOptions Linus noUnit 0 1 INTEGER
+property TextureMapping Linus noUnit 0 1 INTEGER
+property SpecularHighlight Linus noUnit 0 1 INTEGER
+property HighQualitySpheres Linus noUnit 0 1 INTEGER
+property SwapLeftRightBuffers Linus noUnit 0 1 INTEGER
+ID dflag Projection EyePosition EyeSeparation FrontClip BackClip Stereo
+ 1   0x0          0         148             5         5       -5      0
+property_flags:
+ID UserColors
+ 1 0xffffff 0x969696 0x3300ff 0x33ffff 0xff00 0xff3333 0xff00ff 0xffff00
+ 1 0x9928ff 0xbee6 0x64eefa 0xc85763
+property_flags:
+ID SpecialColors     FasterMotion LineWidthIdx TextWidthIdx TBActive TBCenterRot
+ 1 0x0 0x2969696 0x0            0            0            0        1           0
+property_flags:
+ID TBManipCursor Show3DCursor
+ 1             0            0
+property_flags:
+ID transform
+ 1 0.0088 0.0000 0.0000 0.0000 0.0000 0.0088 0.0000 0.0000 0.0000 0.0000 0.0088
+ 1 0.0000 0.0020 0.0016 -0.0316 1.0000
+property_flags:
+ID PrintOptions TextureMapping SpecularHighlight HighQualitySpheres
+ 1            0              0                 0                  0
+property_flags:
+ID SwapLeftRightBuffers
+ 1                    0
+property_flags:
+object_class calculation_history
+property dflag MOPAC noUnit 0 1 HEX
+property calc_source MOPAC noUnit 0 1 NAME
+property version MOPAC noUnit 0 10 STRING
+property date_time MOPAC noUnit 0 25 STRING
+property calc_server MOPAC noUnit 0 25 STRING
+property Model MOPAC noUnit 0 32 STRING
+property calc_comment MOPAC noUnit 0 104 STRING
+property calc_energy MOPAC kcal/mole 6 1 FLOAT
+property dipoleVector MOPAC debye 6 3 FLOAT
+property dipole MOPAC debye 6 1 FLOAT
+property molecularWeight MOPAC mass_au 6 1 FLOAT
+property calc_gradient MOPAC Kcal/mol/angstrom 6 1 FLOAT
+property SolventAccessibleSurfaceArea MOPAC angstromsquare 6 1 FLOAT
+ID dflag calc_source version     date_time                calc_server     Model
+ 1   0x0       MOPAC JS-22-06-04 Sat_Aug_20_12:25:26_2011 cache@localhost  MNDO
+ 2   0x0       MOPAC JS-22-06-04 Tue_Aug_23_10:08:08_2011 cache@localhost  MNDO
+ 3   0x0       MOPAC JS-22-06-04 Tue_Aug_23_11:08:11_2011 cache@localhost  MNDO
+ 4   0x0       MOPAC JS-22-06-04 Tue_Aug_23_15:29:34_2011 cache@localhost  MNDO
+ 5   0x0       MOPAC JS-22-06-04 Wed_Aug_24_08:30:33_2011 cache@localhost  MNDO
+ 6   0x0       MOPAC JS-22-06-04 Wed_Aug_24_21:36:50_2011 cache@localhost  MNDO
+ 7   0x0       MOPAC JS-22-06-04 Wed_Aug_24_22:40:39_2011 cache@localhost  MNDO
+ 8   0x0       MOPAC JS-22-06-04 Thu_Aug_25_09:24:22_2011 cache@localhost  MNDO
+ 9   0x0       MOPAC JS-22-06-04 Thu_Sep_22_15:09:08_2011 cache@localhost  MNDO
+10   0x0       MOPAC JS-22-06-04 Sat_Sep_24_16:52:09_2011 cache@localhost  MNDO
+11   0x0       MOPAC JS-22-06-04 Sun_Sep_25_21:27:21_2011 cache@localhost  MNDO
+12   0x0       MOPAC JS-22-06-04 Wed_Sep_28_08:50:10_2011 cache@localhost  MNDO
+13   0x0       MOPAC JS-22-06-04 Mon_May_07_09:07:36_2012 cache@localhost  MNDO
+14   0x0       MOPAC   6.1.12.33 Wed_Apr_01_13:27:37_2015 cache@localhost  MNDO
+property_flags:
+ID calc_comment
+ 1 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D__PM7_
+ 2 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 2 RAM_PLATFORM\PM7.TXT_PULAY
+ 3 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 3 RAM_PLATFORM\PM7.TXT_PULAY
+ 4 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 4 RAM_PLATFORM\PM7.TXT_PULAY
+ 5 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 5 RAM_PLATFORM\PM7.TXT_PULAY
+ 6 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 6 RAM_PLATFORM\PM7.TXT_PULAY
+ 7 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 7 RAM_PLATFORM\PM7.TXT_PULAY
+ 8 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 8 RAM_PLATFORM\PM7.TXT_PULAY
+ 9 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+ 9 RAM_PLATFORM\PM7.TXT_PULAY
+10 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+10 RAM_PLATFORM\PM7.TXT_PULAY
+11 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+11 RAM_PLATFORM\PM7.TXT_PULAY
+12 (11.038W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7__EXTERNAL=Y:\PA
+12 RAM_PLATFORM\PM7.TXT_PULAY
+13 (12.128W)_1SCF_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7
+14 (13.162W)_1SCF_NOMM_NOXYZ_XYZ_NODIIS_GRAPH_T=10D
+
+property_flags:
+ID calc_energy dipoleVector                 dipole   molecularWeight
+ 1  -11.637019 -0.003990 -0.008664 0.007836 0.012345      150.263200
+ 2  -12.119587 -0.003775 -0.008193 0.007425 0.011683      150.263200
+ 3  -12.503496 -0.003812 -0.008273 0.007477 0.011785      150.263200
+ 4  -12.720514 -0.003644 -0.007926 0.007134 0.011269      150.263200
+ 5  -12.720514 -0.003644 -0.007926 0.007134 0.011269      150.263200
+ 6  -11.682227 -0.003815 -0.008289 0.007467 0.011791      150.263200
+ 7  -12.135933 -0.003816 -0.008290 0.007475 0.011797      150.263200
+ 8  -11.836578 -0.003848 -0.008359 0.007546 0.011901      150.263200
+ 9  -12.204504 -0.003936 -0.008568 0.007677 0.012160      150.263200
+10  -12.087150 -0.004036 -0.008780 0.007877 0.012467      150.263200
+11  -12.010618 -0.004084 -0.008880 0.007995 0.012628      150.263200
+12  -12.012004 -0.004084 -0.008880 0.007995 0.012628      150.263200
+13  -12.012004 -0.004112 -0.008901 0.007984 0.012644      150.263200
+14  -12.012000 -0.004160 -0.008943 0.007950 0.012669      150.263200
+property_flags:
+ID calc_gradient SolventAccessibleSurfaceArea
+ 1      0.000000                   247.772663
+ 2      0.000000                   247.772663
+ 3      0.000000                   247.772663
+ 4      0.000000                   247.772663
+ 5      0.000000                   247.772663
+ 6      0.000000                   247.772663
+ 7      0.000000                   247.772663
+ 8      0.000000                   247.772663
+ 9      0.000000                   247.772663
+10      0.000000                   247.772663
+11      0.000000                   247.772663
+12      0.000000                   247.772663
+13      0.000000                   247.772663
+14      0.000000                   247.772663
+property_flags:
+object_class mol_orbital
+property dflag MOPAC noUnit 0 1 HEX
+property eig_val MOPAC eV 6 1 FLOAT
+property mo_occ MOPAC noUnit 8 1 FLOAT
+property eig_vec_compressed MOPAC noUnit 6 60 FLOAT
+property nom_coef MOPAC noUnit 6 1 INTEGER
+property coef_indices MOPAC noUnit 8 60 INTEGER
+ID dflag eig_val    mo_occ
+ 1   0x0 -30.489499 2.00000000
+ 2   0x0 -29.995547 2.00000000
+ 3   0x0 -25.885648 2.00000000
+ 4   0x0 -25.883324 2.00000000
+ 5   0x0 -23.973354 2.00000000
+ 6   0x0 -23.958628 2.00000000
+ 7   0x0 -23.955947 2.00000000
+ 8   0x0 -20.961788 2.00000000
+ 9   0x0 -20.960624 2.00000000
+10   0x0 -18.150182 2.00000000
+11   0x0 -18.119377 2.00000000
+12   0x0 -15.448153 2.00000000
+13   0x0 -15.385312 2.00000000
+14   0x0 -15.374277 2.00000000
+15   0x0 -15.367339 2.00000000
+16   0x0 -15.236433 2.00000000
+17   0x0 -14.286552 2.00000000
+18   0x0 -14.285211 2.00000000
+19   0x0 -13.633689 2.00000000
+20   0x0 -13.625592 2.00000000
+21   0x0 -13.441251 2.00000000
+22   0x0 -12.620658 2.00000000
+23   0x0 -12.617172 2.00000000
+24   0x0 -12.608181 2.00000000
+25   0x0 -11.962602 2.00000000
+26   0x0 -11.962446 2.00000000
+27   0x0 -11.412313 2.00000000
+28   0x0 -11.394422 2.00000000
+29   0x0 -11.393067 2.00000000
+30   0x0  -9.838538 2.00000000
+31   0x0  -9.837264 2.00000000
+32   0x0   0.223157 0.00000000
+33   0x0   0.223833 0.00000000
+34   0x0   2.567206 0.00000000
+35   0x0   4.288264 0.00000000
+36   0x0   4.290050 0.00000000
+37   0x0   4.297124 0.00000000
+38   0x0   4.419988 0.00000000
+39   0x0   4.420121 0.00000000
+40   0x0   5.031647 0.00000000
+41   0x0   5.232302 0.00000000
+42   0x0   5.323845 0.00000000
+43   0x0   5.324769 0.00000000
+44   0x0   5.565555 0.00000000
+45   0x0   5.856949 0.00000000
+46   0x0   5.966791 0.00000000
+47   0x0   5.968901 0.00000000
+48   0x0   6.049179 0.00000000
+49   0x0   6.053075 0.00000000
+50   0x0   6.056450 0.00000000
+51   0x0   6.107021 0.00000000
+52   0x0   6.110567 0.00000000
+53   0x0   6.110743 0.00000000
+54   0x0   6.152431 0.00000000
+55   0x0   6.152735 0.00000000
+56   0x0   6.222799 0.00000000
+57   0x0   6.222983 0.00000000
+58   0x0   6.412866 0.00000000
+59   0x0   7.058784 0.00000000
+60   0x0   7.262591 0.00000000
+61   0x0   7.263600 0.00000000
+62   0x0   7.264944 0.00000000
+property_flags:
+ID eig_vec_compressed
+ 1 0.278269  0.278237  0.278231  0.278094  0.278088  0.277974  0.061283
+ 1 -0.061278 -0.056604  0.056600 -0.049559  0.049526  0.038073  0.038065
+ 1  0.038064  0.038029  0.038028  0.037996 -0.036752  0.036709 -0.024540
+ 1  0.024535 -0.007123  0.007069  0.000000  0.000000  0.000000  0.000000
+ 1  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 2 0.407687  0.256339  0.256330  0.256303  0.255831  0.060117  0.060113
+ 2  0.059908  0.059881  0.059876  0.059867  0.059865  0.059771  0.059768
+ 2  0.059753  0.059751  0.059693 -0.044683 -0.042538  0.038477 -0.034331
+ 2  0.024682  0.016387  0.016140  0.014973  0.013174 -0.005363  0.000000
+ 2  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 2 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 2 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 2 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 3 0.353936 -0.353837 -0.342387  0.342277  0.102393  0.102315  0.100137
+ 3 -0.100091 -0.096869  0.096821 -0.057494 -0.057454  0.046818  0.046806
+ 3 -0.044598 -0.044562  0.026030  0.025979  0.013453  0.013424 -0.011559
+ 3  0.011554 -0.003270  0.003269  0.002776  0.002774  0.000000  0.000000
+ 3  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 3 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 3 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 3 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 4 0.402022 -0.401927  0.211130 -0.210857  0.191120 -0.190836 -0.113758
+ 4  0.113703  0.094996  0.094918  0.076731  0.076713  0.061689  0.061601
+ 4  0.059710 -0.059676  0.054048 -0.054011 -0.006733 -0.006678  0.006150
+ 4  0.006109  0.006090  0.005991 -0.002246 -0.002218  0.000000  0.000000
+ 4  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 4 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 4 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 4 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 5 0.530895 -0.262674  0.166970  0.166152  0.157797  0.157782 -0.133695
+ 5 -0.133464 -0.108542 -0.072542 -0.072482 -0.064827 -0.064802  0.056503
+ 5  0.056338  0.054519  0.041170 -0.028596 -0.028510  0.022703 -0.020247
+ 5 -0.020188  0.011199  0.008444  0.008049  0.005909  0.005265  0.002347
+ 5  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 5 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 5 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 5 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 6 0.458173 -0.419023  0.159065  0.156240 -0.147816  0.130565  0.128993
+ 6 -0.117227 -0.115251 -0.055839  0.054980  0.054705  0.047929  0.041387
+ 6 -0.039441 -0.032917 -0.031897  0.025826 -0.021260 -0.020200 -0.019310
+ 6  0.018386 -0.009115 -0.008835 -0.006239  0.005049 -0.003419  0.002575
+ 6  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 6 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 6 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 6 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 7 0.468972 -0.310597 -0.249146 -0.157383  0.152145  0.148097  0.125620
+ 7 -0.117981 -0.100750 -0.092903  0.091095 -0.075660 -0.070849 -0.055614
+ 7 -0.054319 -0.053362 -0.049546 -0.046841  0.046010 -0.042196  0.041982
+ 7 -0.024501  0.023185 -0.019117 -0.014105  0.013469 -0.011779  0.005673
+ 7  0.005337 -0.005172  0.004730  0.000000 0.000000 0.000000 0.000000 0.000000
+ 7 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 7 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 7 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 8 0.332799  0.332637  0.188306 -0.188290 -0.187354 -0.187252  0.181425
+ 8 -0.181373  0.157583  0.157574 -0.145413 -0.145295  0.090411 -0.090360
+ 8 -0.089615  0.089567 -0.088797 -0.088750  0.072255 -0.072223 -0.068925
+ 8 -0.068878 -0.020830  0.020806 -0.005271  0.005149  0.000000  0.000000
+ 8  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 8 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 8 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 8 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 9 0.300308  0.300168 -0.276111 -0.275946  0.211095 -0.211080  0.142254
+ 9  0.142223  0.135733 -0.135651 -0.130782 -0.130739 -0.124813  0.124752
+ 9  0.084248 -0.084247 -0.060009  0.059998 -0.031111  0.031036 -0.024230
+ 9 -0.024215 -0.011473 -0.011470 -0.005567  0.005533  0.002209 -0.002196
+ 9 -0.002011  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+ 9 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 9 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 9 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+10 0.468103 -0.232075 -0.219230  0.198612 -0.176431 -0.138511 -0.138506
+10 -0.138017 -0.138006  0.127627 -0.099345 -0.099025 -0.098820 -0.098819
+10 -0.098769 -0.098767 -0.098715 -0.098707 -0.098478 -0.098473 -0.098322
+10 -0.098319  0.085553  0.083318  0.078343  0.069057 -0.026969  0.008213
+10  0.004608  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+10 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+10 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+10 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+11 0.236546 -0.236466  0.218532 -0.218405  0.191195 -0.191162 -0.168369
+11 -0.168314 -0.168293 -0.168291 -0.168267 -0.168262 -0.141808  0.141743
+11  0.094738 -0.094675 -0.050386 -0.050260 -0.050232 -0.050223 -0.050172
+11 -0.050169 -0.027353  0.027326 -0.006829  0.006584 -0.003626 -0.003326
+11  0.003309  0.003168  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+11 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+11 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+11 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+12 0.215211 -0.215195 -0.215183  0.215160  0.215160 -0.215140 -0.203934
+12  0.203927 -0.203917  0.203901  0.203898 -0.203876 -0.182747 -0.182746
+12  0.168705  0.168702 -0.147684 -0.147665  0.109566  0.109523  0.073168
+12  0.073168 -0.021084 -0.021047  0.005228  0.005098 -0.002853 -0.002600
+12 -0.002529 -0.002511  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+12 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+12 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+12 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+13 0.273707 -0.267948 -0.246850 -0.240367 -0.203112  0.190926 -0.154251
+13  0.153889  0.153835 -0.146773 -0.133006 -0.132985  0.127790 -0.127301
+13 -0.127260  0.105888  0.105828 -0.101739 -0.101714  0.094372  0.087642
+13  0.085384  0.074842 -0.043411 -0.041783 -0.035498 -0.027004 -0.026962
+13 -0.022687 -0.021706 -0.002234  0.000000 0.000000 0.000000 0.000000 0.000000
+13 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+13 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+13 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+14 0.276847  0.268465  0.245595  0.235085 -0.211853  0.198584 -0.183667
+14 -0.183206 -0.172208  0.169592 -0.158614  0.117113  0.108675  0.099006
+14  0.096920  0.085634 -0.084694 -0.082085  0.073742 -0.066048  0.064442
+14 -0.061797 -0.059761  0.051248 -0.048613 -0.047410  0.046153  0.043582
+14  0.040402 -0.020816  0.010648  0.000000 0.000000 0.000000 0.000000 0.000000
+14 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+14 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+14 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+15 0.272087  0.271221  0.246449  0.239287 -0.173226 -0.170615  0.164814
+15 -0.164117 -0.163429  0.163402 -0.150796  0.145375 -0.134532  0.132977
+15  0.132705 -0.131720 -0.119368 -0.115664 -0.108488  0.078513 -0.077780
+15  0.031554 -0.028731  0.011118  0.008865  0.007041  0.006728  0.000000
+15  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+15 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+15 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+15 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+16 0.328836  0.328822  0.303810  0.303802 -0.266022 -0.265962 -0.197208
+16 -0.197145 -0.131588 -0.131586 -0.037985 -0.037886  0.008250  0.008214
+16 -0.007916 -0.007795  0.000000  0.000000  0.000000  0.000000  0.000000
+16  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+16  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+16 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+16 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+16 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+17 0.326858  0.326817 -0.310696 -0.310666  0.207272 -0.207252 -0.204340
+17  0.204323  0.153745  0.153741 -0.117087 -0.117025  0.102421  0.102418
+17 -0.059281  0.059271  0.058474 -0.058461  0.045505  0.045471  0.009430
+17  0.009084  0.003388 -0.003348 -0.003312 -0.002898  0.002893  0.002874
+17  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+17 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+17 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+17 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+18 0.359600  0.359517  0.237703 -0.237615  0.210829  0.210745 -0.202088
+18 -0.202036  0.154229  0.154196  0.121354 -0.121281  0.116318 -0.116247
+18  0.088408  0.088330 -0.084494 -0.084469  0.068021 -0.067968  0.034740
+18 -0.034733  0.033298 -0.033298 -0.006501 -0.006360 -0.006310 -0.006192
+18  0.004721  0.004425  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+18 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+18 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+18 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+19 0.294617 -0.292493  0.269843 -0.267191 -0.183839 -0.182707 -0.182142
+19  0.181981 -0.181803  0.180903  0.180367  0.179873 -0.166565  0.162259
+19  0.127209 -0.123957  0.065608 -0.065290 -0.010528  0.007932  0.003020
+19  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+19  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+19 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+19 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+19 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+20 0.297787 -0.295307  0.274499  0.259692 -0.210091 -0.210058 -0.209526
+20 -0.209263 -0.145892 -0.141512  0.124789 -0.123927  0.107483  0.106805
+20  0.106602  0.105685  0.104334  0.103666 -0.103653  0.103337  0.102492
+20 -0.079898 -0.055724 -0.009105  0.000000  0.000000  0.000000  0.000000
+20  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+20 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+20 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+20 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+21 0.333125  0.333093  0.333092  0.333024  0.333008  0.332898  0.008708
+21  0.008429  0.007298  0.007276  0.007247  0.007027 -0.006654 -0.006033
+21 -0.005647 -0.005225 -0.004884 -0.004791  0.000000  0.000000  0.000000
+21  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+21  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+21 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+21 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+21 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+22 0.382686  0.374979 -0.270597  0.270272 -0.200066 -0.192735  0.166159
+22 -0.137385  0.136943  0.136910 -0.135251  0.133646 -0.132779 -0.132225
+22 -0.132078  0.131888 -0.121311 -0.119836 -0.070521 -0.048224 -0.047127
+22  0.015631  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+22  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+22 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+22 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+22 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+23 0.334291  0.303772 -0.301098 -0.273474  0.210127 -0.209838 -0.207066
+23  0.206801 -0.171729  0.169040  0.168663 -0.166076 -0.149070  0.147406
+23  0.119675 -0.116678 -0.080768  0.040449 -0.040388  0.016814 -0.011668
+23  0.008802  0.003094 -0.003089  0.000000  0.000000  0.000000  0.000000
+23  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+23 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+23 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+23 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+24 0.370691 -0.338460 -0.266938  0.266909  0.259740 -0.184749  0.169525
+24  0.162623 -0.162081 -0.161371  0.160820 -0.146728  0.136037 -0.111594
+24  0.105737 -0.105131 -0.105088  0.104575 -0.091549 -0.074019  0.006123
+24  0.004518  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+24  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+24 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+24 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+24 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+25 0.329110 -0.329069 -0.328385  0.328324 -0.322634  0.322593 -0.248536
+25 -0.248512  0.126572  0.126565  0.121969  0.121940 -0.045016  0.045004
+25  0.040852 -0.040777 -0.037942  0.037929 -0.022084 -0.022067  0.011240
+25  0.011231  0.010827  0.010818  0.005484  0.005026 -0.004785 -0.004530
+25 -0.004442  0.004409  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+25 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+25 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+25 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+26 0.330730 -0.330730 -0.324977  0.324976 -0.324224  0.324222  0.216571
+26  0.216558 -0.213898 -0.213891  0.044458 -0.044425  0.041557 -0.041554
+26 -0.037422  0.037361  0.019252  0.019236 -0.018981 -0.018980 -0.008484
+26  0.008305 -0.007866  0.007682 -0.007677  0.007593 -0.002674 -0.002649
+26  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+26 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+26 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+26 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+27 0.431421 -0.408812  0.276816  0.248502  0.221648  0.220820 -0.180734
+27 -0.167680 -0.163729 -0.163693  0.140951  0.131320  0.131307 -0.109627
+27  0.099713  0.092671  0.089750  0.089410  0.080148 -0.067033  0.045886
+27  0.027051  0.024419  0.024300  0.016886  0.014701  0.014686  0.009947
+27  0.009913  0.006427  0.006414  0.000000 0.000000 0.000000 0.000000 0.000000
+27 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+27 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+27 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+28 0.428147 -0.424124 -0.327339 -0.229472 -0.224610  0.218492  0.164913
+28  0.157747  0.157596 -0.147856 -0.145829 -0.138729 -0.138467  0.106528
+28 -0.094302  0.076193  0.067477  0.063882 -0.061565  0.052093 -0.019065
+28 -0.016766  0.012767 -0.010388 -0.007353 -0.006592 -0.005753 -0.004955
+28 -0.003708 -0.002351  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+28 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+28 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+28 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+29 0.388024 -0.346826 -0.322531 -0.217283  0.212591 -0.205495 -0.193041
+29 -0.183431  0.155078  0.138179 -0.131385 -0.130017  0.129565 -0.128105
+29  0.123524  0.121217 -0.119847  0.111394  0.097712  0.095417 -0.089058
+29 -0.087509 -0.084498  0.084117  0.078863 -0.075513 -0.071822  0.061330
+29 -0.056555  0.039352  0.018654  0.000000 0.000000 0.000000 0.000000 0.000000
+29 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+29 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+29 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+30 0.473896 -0.473893 -0.444677  0.444632 -0.029267  0.029257  0.010517
+30 -0.010243  0.009757 -0.009673 -0.008870  0.008433 -0.007799  0.007035
+30  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+30  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+30  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+30 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+30 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+30 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+31 0.530405 -0.530283  0.290582 -0.290438  0.239916 -0.239746 -0.012191
+31  0.012108 -0.009255  0.009182 -0.006076  0.006063 -0.005259 -0.005046
+31  0.004925  0.004769  0.004378 -0.004198  0.000000  0.000000  0.000000
+31  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+31  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+31 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+31 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+31 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+32 0.657270  0.657164 -0.374572 -0.374495 -0.282683 -0.282588  0.014822
+32  0.014751 -0.011505 -0.011372 -0.008130 -0.008113  0.006681  0.006237
+32 -0.006181 -0.006057  0.005035  0.004972  0.000000  0.000000  0.000000
+32  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+32  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+32 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+32 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+32 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+33 0.595719  0.595686 -0.542665 -0.542658 -0.053071 -0.053054  0.013168
+33  0.012959 -0.011945 -0.011809 -0.010901 -0.010341  0.009660  0.008894
+33  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+33  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+33  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+33 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+33 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+33 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+34 0.524695 -0.524690  0.524688 -0.524594 -0.524585  0.524494  0.011861
+34 -0.011853  0.011758  0.011630 -0.011478 -0.011397  0.009306 -0.009258
+34  0.009216  0.009120 -0.008986 -0.008586  0.000000  0.000000  0.000000
+34  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+34  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+34 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+34 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+34 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+35 0.864383  0.549078  0.412507  0.410945 -0.365249  0.350680 -0.328411
+35  0.229301  0.218313 -0.205914 -0.188127 -0.184920 -0.182516 -0.173845
+35  0.169755  0.163065  0.160278 -0.159828 -0.154564  0.146270  0.136796
+35  0.128363 -0.121569 -0.120204  0.118209 -0.116879  0.088878  0.081162
+35  0.068393  0.044103 -0.030386 -0.003455 0.000000 0.000000 0.000000 0.000000
+35 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+35 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+35 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+36 0.930536  0.671552 -0.485952  0.414715 -0.371619 -0.246695  0.237009
+36  0.222669 -0.218358  0.203229 -0.184076  0.169528  0.168988 -0.160812
+36 -0.159983  0.094324  0.089139 -0.061263 -0.060624  0.054391  0.049818
+36  0.036100 -0.035287 -0.021949  0.013994 -0.007187  0.007036  0.006288
+36 -0.003471  0.003427  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+36 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+36 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+36 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+37 0.934154  0.767532  0.465009  0.344843  0.273136 -0.272487  0.232017
+37  0.201294 -0.200572  0.193726  0.193703  0.193112 -0.127912 -0.127862
+37  0.123678  0.118857  0.115278 -0.087577 -0.087517 -0.071858  0.060465
+37  0.035524  0.035495 -0.034576  0.023266  0.023239  0.022496  0.018477
+37 -0.016637 -0.016625 -0.012601  0.000000 0.000000 0.000000 0.000000 0.000000
+37 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+37 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+37 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+38 0.579989  0.579651 -0.554736 -0.554495 -0.412713 -0.412453  0.362765
+38 -0.362684  0.324572  0.324271  0.315025  0.314849 -0.254219 -0.254186
+38  0.230225 -0.230113 -0.227514  0.227493 -0.144658  0.144458  0.135101
+38 -0.135049  0.085872 -0.085841  0.019439  0.019428  0.017689  0.017128
+38  0.011523  0.011219  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+38 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+38 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+38 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+39 0.560324  0.560216  0.497936  0.497860  0.488580  0.488453  0.402034
+39  0.401747 -0.340833  0.340643 -0.287566  0.287451  0.259924  0.259778
+39  0.233269  0.233104  0.216530 -0.216494  0.182315 -0.182282 -0.053538
+39  0.053449  0.033805 -0.033651 -0.006768 -0.006123  0.000000  0.000000
+39  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+39 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+39 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+39 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+40 0.764261 -0.764138 -0.706458  0.706076 -0.618213  0.617801  0.458303
+40 -0.458153  0.306079 -0.305925 -0.088461  0.088066  0.019170 -0.019126
+40  0.018354 -0.018123  0.000000  0.000000  0.000000  0.000000  0.000000
+40  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+40  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+40 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+40 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+40 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+41 1.211627  0.522947  0.495962 -0.447639  0.399357 -0.288393 -0.188155
+41 -0.187934 -0.180308 -0.159256 -0.144669 -0.143641 -0.143632 -0.143219
+41 -0.073742 -0.073707 -0.071750 -0.071693 -0.071042 -0.071014 -0.070823
+41 -0.070817 -0.070086 -0.069699 -0.069690 -0.067675  0.061329 -0.019059
+41 -0.011659  0.003547  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+41 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+41 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+41 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+42 0.672700  0.671662 -0.584271  0.584256 -0.475560  0.475343  0.376693
+42 -0.376370 -0.361977 -0.361106  0.316574 -0.316477 -0.311471 -0.310578
+42 -0.233469  0.233414  0.171947  0.171182 -0.092067 -0.091778 -0.079171
+42 -0.078928  0.013589 -0.013283  0.009199  0.008941 -0.008881  0.008751
+42 -0.008729 -0.008585  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+42 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+42 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+42 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+43 0.596709  0.596621 -0.567580 -0.567536  0.565625 -0.565454 -0.501683
+43  0.501386 -0.399173  0.398978  0.287788 -0.287767 -0.174859  0.174669
+43  0.152663  0.152297 -0.145121 -0.144763  0.143190 -0.143069 -0.029195
+43 -0.029188 -0.015580  0.015301 -0.010187  0.010173 -0.007409 -0.007395
+43  0.002674 -0.002258  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+43 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+43 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+43 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+44 0.490293  0.489976  0.489930  0.489633  0.489612  0.489211 -0.318017
+44 -0.317073 -0.316892 -0.316729 -0.316612 -0.316582 -0.297597  0.297236
+44 -0.274499  0.274049  0.240340 -0.239984  0.178941 -0.177928 -0.119055
+44  0.118871  0.034647 -0.033683 -0.008553  0.008334 -0.004584  0.004298
+44 -0.004289  0.003918  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+44 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+44 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+44 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+45 0.618203 -0.617331 -0.617315 -0.616773  0.616436  0.616373 -0.363046
+45  0.361334  0.361235  0.359390 -0.359185 -0.359110  0.050736  0.048875
+45 -0.046892 -0.043812  0.041020  0.039492 -0.030480 -0.029449 -0.020290
+45 -0.019023  0.005821  0.005538  0.000000  0.000000  0.000000  0.000000
+45  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+45 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+45 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+45 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+46 0.527541  0.526987  0.513886  0.504868 -0.469534  0.465339  0.453516
+46  0.426306 -0.278744 -0.266301 -0.262522 -0.261317 -0.257810 -0.250404
+46 -0.247445 -0.246376 -0.226270 -0.222237  0.204287 -0.194218 -0.161635
+46 -0.130974 -0.090773 -0.018599 -0.006412 -0.004361 -0.002367  0.000000
+46  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+46 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+46 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+46 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+47 0.496515 -0.489552 -0.475288  0.467972 -0.465974  0.458974 -0.436434
+47 -0.430564  0.428377  0.424212 -0.409328  0.403662  0.260244 -0.250092
+47 -0.216927  0.203213  0.105013 -0.102281  0.019922 -0.013404  0.008405
+47  0.007227  0.007148  0.006090 -0.004877  0.000000  0.000000  0.000000
+47  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+47 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+47 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+47 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+48 0.613442  0.598874  0.516806 -0.513305 -0.503957  0.502515 -0.390426
+48 -0.323141  0.284316 -0.262518 -0.258352  0.257016 -0.252119 -0.250938
+48 -0.246160  0.244525  0.241649  0.218517 -0.215757  0.183828  0.167895
+48 -0.095144  0.017590  0.013038 -0.007806 -0.003059  0.000000  0.000000
+48  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+48 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+48 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+48 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+49 0.588618 -0.563277 -0.512162 -0.509798 -0.507824  0.489829  0.468015
+49 -0.467540  0.353747  0.245838  0.245381  0.243585 -0.237612 -0.236442
+49 -0.233872 -0.180014  0.155764 -0.146133 -0.143906 -0.137924 -0.132432
+49  0.130317  0.117705  0.116589  0.109044 -0.013570 -0.005009  0.000000
+49  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+49 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+49 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+49 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+50 0.551005  0.544940  0.508608  0.505831 -0.449046 -0.446807  0.391410
+50 -0.385190  0.375092  0.314665 -0.312876  0.306554 -0.283483 -0.278916
+50  0.250256  0.232289 -0.228456  0.226193 -0.205911  0.166320 -0.165663
+50  0.145306 -0.141962 -0.084742 -0.081911 -0.063561  0.044979  0.000000
+50  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+50 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+50 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+50 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+51 0.631017 -0.620631  0.620033 -0.558449  0.445226 -0.424616  0.419060
+51  0.397942 -0.393152 -0.328460  0.217076  0.206726 -0.200773 -0.198315
+51 -0.194573  0.193491 -0.189968  0.182245 -0.134387 -0.099201  0.008591
+51  0.007032  0.005533  0.005017 -0.004862 -0.003797  0.000000  0.000000
+51  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+51 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+51 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+51 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+52 0.631929  0.623335 -0.592698  0.562969 -0.376312 -0.367364  0.360384
+52  0.340403 -0.336742 -0.327763 -0.315787  0.310376 -0.299236  0.272462
+52  0.267019 -0.226986 -0.217649 -0.196955 -0.112515 -0.096407 -0.089718
+52  0.030165  0.023089  0.017997 -0.014253  0.009163  0.005789 -0.003502
+52  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+52 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+52 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+52 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+53 0.554998  0.535943  0.532662 -0.516196 -0.509410 -0.508966  0.489284
+53 -0.395828  0.371444 -0.370356  0.343074 -0.321265 -0.262291  0.238991
+53  0.168261 -0.151027 -0.150922  0.144457 -0.143363 -0.032162 -0.022480
+53  0.020264  0.014244 -0.010074 -0.009850  0.003028  0.000000  0.000000
+53  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+53 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+53 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+53 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+54 0.712397  0.704125 -0.531383 -0.525710 -0.450580  0.443916 -0.366803
+54 -0.360911 -0.347527 -0.341578  0.275817  0.273676 -0.270955  0.267288
+54  0.261414  0.252801 -0.222124  0.220135 -0.192862  0.190054  0.151757
+54 -0.145730  0.055145 -0.049380 -0.007302  0.007284 -0.007004  0.006967
+54  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+54 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+54 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+54 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+55 0.622485  0.615462 -0.611408 -0.604138 -0.465743 -0.458772  0.457582
+55  0.450263 -0.431902  0.428055 -0.306752  0.306527  0.294500 -0.289268
+55  0.134486 -0.128699 -0.049816  0.047474 -0.021240  0.017518  0.011978
+55 -0.011601 -0.011226 -0.011040  0.008364  0.008215 -0.008019  0.007221
+55  0.003408 -0.003196  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+55 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+55 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+55 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+56 0.566442 -0.564532 -0.558728  0.558477 -0.485344  0.483532 -0.476454
+56  0.476344  0.433907  0.431262  0.376722  0.373247 -0.309332 -0.309120
+56 -0.259163 -0.253163 -0.133992 -0.133851  0.082260 -0.081948  0.080605
+56 -0.080494 -0.065513 -0.061648  0.010492  0.010408 -0.009595 -0.009280
+56  0.002757  0.002378  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+56 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+56 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+56 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+57 0.608079 -0.605447  0.596157 -0.595996 -0.420894 -0.420172 -0.373844
+57  0.373106  0.370373 -0.370291  0.361081  0.353589 -0.332692 -0.330294
+57  0.264716  0.262646 -0.233745  0.233002 -0.228556  0.228129 -0.141104
+57 -0.136913  0.090015  0.087044  0.011978  0.011508 -0.006921 -0.006593
+57 -0.004390 -0.004217  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+57 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+57 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+57 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+58 0.668719  0.668043 -0.617807 -0.616567  0.540488  0.539832 -0.400814
+58 -0.400543 -0.386268  0.385972  0.385817 -0.385155 -0.385002  0.384650
+58 -0.267909 -0.267355  0.253904 -0.253894 -0.253743  0.253511  0.253330
+58 -0.253120  0.077350  0.077137 -0.019195 -0.018687  0.010198  0.009472
+58  0.009194  0.009054  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+58 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+58 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+58 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+59 0.647618  0.639852  0.635142  0.635071 -0.317817 -0.317682 -0.317630
+59 -0.313975 -0.313966 -0.313623 -0.311539 -0.311455 -0.311296 -0.311236
+59 -0.310051 -0.310042 -0.239790  0.131753  0.122077 -0.114346  0.097044
+59 -0.072235 -0.048262 -0.047968 -0.044621 -0.039447  0.013274 -0.005136
+59 -0.003702  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+59 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+59 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+59 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+60 1.080934 -0.577584 -0.574338 -0.574148 -0.394073 -0.357664 -0.348956
+60 -0.249413  0.234668  0.228380  0.214837  0.210314  0.196609  0.196419
+60  0.178070  0.177623  0.173266  0.173075 -0.125304 -0.109051 -0.108335
+60  0.105772 -0.105041  0.097037 -0.095583 -0.083173 -0.074858 -0.029812
+60 -0.014241 -0.012088  0.004030  0.000000 0.000000 0.000000 0.000000 0.000000
+60 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+60 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+60 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+61 1.012135 -0.543635 -0.543539 -0.528525 -0.524649 -0.522863  0.301296
+61  0.300337  0.274182  0.273316  0.272437  0.261073  0.260069 -0.248672
+61  0.116178  0.112380 -0.107782 -0.104157  0.093452  0.080429  0.047239
+61 -0.041229  0.038507 -0.036348 -0.035885 -0.027627 -0.027615  0.026008
+61 -0.022897 -0.017896  0.012087  0.000000 0.000000 0.000000 0.000000 0.000000
+61 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+61 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+61 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+62 0.889242 -0.884679 -0.488318  0.486081 -0.466790  0.464465 -0.464249
+62  0.461538  0.247159 -0.238049 -0.174399  0.160924 -0.107944 -0.082258
+62 -0.081548 -0.059760  0.048608  0.036636  0.035916  0.025700 -0.023545
+62  0.022686 -0.020045  0.018275  0.006353 -0.005293  0.002820  0.000000
+62  0.000000  0.000000  0.000000  0.000000 0.000000 0.000000 0.000000 0.000000
+62 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+62 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+62 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+property_flags:
+ID nom_coef
+ 1       24
+ 2       27
+ 3       26
+ 4       26
+ 5       28
+ 6       28
+ 7       31
+ 8       26
+ 9       29
+10       29
+11       30
+12       30
+13       31
+14       31
+15       27
+16       16
+17       28
+18       30
+19       21
+20       24
+21       18
+22       22
+23       24
+24       22
+25       30
+26       28
+27       31
+28       30
+29       31
+30       14
+31       18
+32       18
+33       14
+34       18
+35       32
+36       30
+37       31
+38       30
+39       26
+40       16
+41       30
+42       30
+43       30
+44       30
+45       24
+46       27
+47       25
+48       26
+49       27
+50       27
+51       26
+52       28
+53       26
+54       28
+55       30
+56       30
+57       30
+58       30
+59       29
+60       31
+61       31
+62       27
+property_flags:
+ID coef_indices
+ 1 16 11 21 26  6  1 22  7  3 18 28 13 20 15 25 30 10  5 12 27  2 17  8 23  0  0
+ 1  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 2 31 56 35 49 42 60 41 55 53 54 61 40 46 47 62 39 48 45 36 51 58 57 52 50 59 38
+ 2 37  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 3 11 26 21  6 17  2 15 30 25 10  8 23 27 12 18  3 28 13 22  7  1 16  5 20  4 19
+ 3  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 4  1 16  6 21 26 11 20  5 23  8 12 27 13 28 10 25 30 15  7 22 17 18  2  3 24  9
+ 4  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 5 42 49 34 48 46 47 35 56 55 41 60 54 53 38 59 52 45 40 61 33 39 62 58 37 44 36
+ 5 32 43  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 6 35 56 32 40 61 39 41 60 62 33 43 50 57 36 53 49 46 47 37 51 44 54 58 55 42 38
+ 6 59 34  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 7 49 56 35 33 54 53 55 62 39 60 42 41 61 32 44 37 40 58 47 51 46 57 34 43 50 52
+ 7 36 38 45 48 59  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 8  1 16 27 12 21  6  8 23  5 20 11 26 28 13 18  3 25 10 22  7 15 30 17  2  9 24
+ 8  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 9 26 11  6 21 17  2 30 15 23  8 10 25 13 28  3 18  7 22 12 27  1 16 20  5  4 19
+ 9 14 29 24  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 31 45 36 51 58 35 56 42 49 57 55 48 39 62 61 40 46 47 41 60 53 54 52 50 59 38
+10 37 43 44  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 22  7 18  3 13 28 20  5 25 15 10 30 12 27 17  2  1 16  6 26 21 11  8 23 14 29
+11  9 19 24  4  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12  1 26  6 11 21 16 10 25 30 15  5 20 22  7 18  3 13 28 27 12  2 17 23  8 14 29
+12  9  4 19 24  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 45 34 38 59 52 51 36 41 60 58 62 39 55 54 53 46 47 61 40 42 50 57 48 37 49 44
+13 56 35 43 33 32  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 57 44 33 37 52 48 61 40 51 55 36 43 32 62 39 49 46 47 59 50 38 41 60 58 35 56
+14 54 53 45 34 42  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 50 43 32 58 37 36 47 53 46 54 59 38 39 62 60 41 44 51 33 56 35 40 61 57 52 45
+15 34  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16  8 23 17  2 12 27 28 13 18  3 22  7  4 19  9 24  0  0  0  0  0  0  0  0  0  0
+16  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 22  7 13 28 15 30 25 10 12 27 17  2 23  8 11 26 21  6 18  3 14 29  9 19  4  5
+17 20 24  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18  3 18  5 20  7 22 27 12  2 17 10 25 30 15 28 13 23  8 16  1 21  6 11 26 14 29
+18 19  4  9 24  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+19 43 50 38 59 41 62 46 60 54 39 47 53 58 37 51 44 36 57 52 45 40  0  0  0  0  0
+19  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+20 52 44 37 57 61 40 55 48 38 59 58 43 39 47 53 60 62 46 51 54 41 36 50 45  0  0
+20  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+21 24 14 19  9 29  4 18  3 28 13  8 23 12 27  2 17  7 22  0  0  0  0  0  0  0  0
+21  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+22 52 44 55 48 38 59 43 46 41 53 39 54 51 62 47 60 37 58 50 36 57 45  0  0  0  0
+22  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+23 43 59 38 50 47 60 46 41 54 62 53 39 44 58 51 37 36 61 40 57 52 45 55 48  0  0
+23  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+24 37 57 40 61 50 58 43 39 62 53 54 38 59 51 47 46 60 41 36 44 52 45  0  0  0  0
+24  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+25  2 17 27 12  7 22 10 25  5 20 30 15 28 13 23  8 18  3 21  6  1 16 11 26 14  4
+25 29 19  9 24  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+26  8 23 13 28  3 18 30 15  5 20  2 17 22  7 27 12 11 26  1 16 19  4  9 14 29 24
+26 10 25  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+27 45 34 52 51 59 38 33 55 60 41 48 39 62 42 50 37 49 44 58 32 57 43 47 46 36 40
+27 61 56 35 53 54  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+28 32 36 57 50 43 58 61 53 46 40 33 47 54 35 56 44 38 51 59 37 39 41 45 48 49 55
+28 34 42 62 52  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+29 33 51 58 37 45 44 34 36 59 38 62 39 32 50 54 47 48 40 53 46 60 41 49 61 56 55
+29 43 35 42 52 57  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+30 14 29 24  9  4 19 13 28  8 23 12 27  7 22  0  0  0  0  0  0  0  0  0  0  0  0
+30  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+31  4 19  9 24 29 14 18  3  2 17 23  8  7 13 28 22 12 27  0  0  0  0  0  0  0  0
+31  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+32  4 19  9 24 29 14 18  3  2 17 23  8  7 22 13 28 12 27  0  0  0  0  0  0  0  0
+32  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+33 29 14 24  9  4 19 13 28  8 23 12 27  7 22  0  0  0  0  0  0  0  0  0  0  0  0
+33  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+34 24 19 14 29  9  4  3 18 13 23  8 28  7 12 27 17  2 22  0  0  0  0  0  0  0  0
+34  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+35 33 51 58 36 34 32 45 50 49 57 62 39 59 56 54 52 53 35 38 47 46 37 48 60 42 41
+35 44 40 61 43 55 31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+36 32 36 58 57 33 35 56 61 40 59 38 53 46 47 54 50 43 41 39 60 62 37 44 51 34 45
+36 52 49 48 42  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+37 34 45 51 33 52 42 55 49 48 60 41 50 39 62 32 59 38 47 46 36 57 56 35 58 54 53
+37 37 44 61 40 43  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+38  2 17  8 23  3 18 30 15 27 12  7 22 28 13 26 11 10 25  6 21  5 20  1 16  4 19
+38  9 24 14 29  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+39 27 12 23  8 28 13  2 17  5 20 10 25  7 22  3 18 16  1 21  6 30 15 11 26 24  9
+39  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+40 23  8 17  2 12 27 28 13 18  3 22  7  4 19  9 24  0  0  0  0  0  0  0  0  0  0
+40  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+41 31 45 36 51 58 57 52 50 59 38 42 56 35 49 60 41 53 54 46 47 62 39 48 61 40 55
+41 37 43 44 33  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+42  1 16  3 18 27 12  7 22  6 21 23  8 26 11  2 17 20  5 25 10 15 30  9 24 28  4
+42 13 14 19 29  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+43 26 11  6 21 13 28 22  7 17  2  8 23 12 27 15 30 25 10 18  3  1 16 14 29 19  4
+43  5 20  9 24  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+44  5 30 10 25 15 20  1 26  6 11 16 21  7 22  3 18 13 28 27 12  2 17 23  8 14 29
+44  9  4 19 24  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+45  1  6 26 16 21 11  5 10 30 20 25 15 22  7 18  3 13 28 12 27 17  2 23  8  0  0
+45  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+46 40 61 48 55 44 52 37 57 39 62 47 53 60 46 54 41 38 59 58 43 51 36 50 45 33 31
+46 32  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+47 50 43 54 53 46 47 62 41 39 60 38 59 58 37 51 44 57 36 52 45 61 55 48 40 32  0
+47  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+48 50 43 53 54 47 46 32 37 58 51 44 61 40 60 59 41 38 39 62 57 33 36 45 52 34 55
+48  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+49 48 44 57 40 61 52 55 37 33 39 36 62 47 43 46 34 32 54 53 58 45 38 41 60 59 50
+49 51  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+50 38 59 41 60 62 39 52 34 55 44 51 58 54 53 37 46 48 47 45 36 33 43 50 40 61 32
+50 57  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+51 37 61 40 57 50 39 62 53 54 58 43 60 41 47 38 46 51 59 36 44 32 52 45 48 55 33
+51  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+52 55 52 48 44 38 41 39 62 59 60 53 46 54 47 43 37 58 51 50 57 36 45 33 34 61 32
+52 40 31  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+53 43 59 60 38 47 41 46 62 39 50 54 53 44 58 51 36 37 40 61 52 55 48 45 57 32 33
+53  0  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+54  5 20  1 16  3 18 15 30 25 10 11 28 13 26 21  6 22  7  2 17  8 23 12 27 19 14
+54 29  4  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+55 10 25 30 15  6 21 26 11  7 22 27 12 28 13  2 17  3 18 23  8 14 29  5 20  1 16
+55  9 24  4 19  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+56 15 11 30 26 25 21  6 10 17  2 13 28 23  8 22  7  3 18 20 16  1  5 12 27  4 19
+56 14 29 24  9  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+57 20 16  1  5 27 12 10  6 25 21 18  3 23  8  7 22 30 26 11 15 13 28 17  2  9 24
+57 19  4 14 29  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+58 22  7 18  3 13 28 12 27 20 25 15 10 30  5 17  2  1 26  6 11 21 16 23  8 14 29
+58  9 24 19  4  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+59 49 42 35 56 55 54 53 46 47 48 41 60 40 61 62 39 31 45 36 51 58 57 52 50 59 38
+59 37 43 44  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+60 49 55 53 54 42 35 56 51 48 33 39 62 47 46 40 41 61 60 58 52 45 34 50 32 36 37
+60 44 43 38 59 57  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+61 42 46 47 48 35 56 41 60 39 62 45 40 61 34 59 38 36 58 33 52 32 37 57 51 44 53
+61 54 49 43 50 55  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+62 56 35 61 40 60 41 62 39 32 36 57 58 33 43 50 59 38 51 44 54 46 47 53 37 34 49
+62 55  0  0  0  0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+property_flags:
+object_class sto_basis_fxn
+property dflag MOPAC noUnit 0 1 HEX
+property bfxn_ang MOPAC noUnit 0 1 NAME
+property contr_len MOPAC noUnit 0 1 INTEGER
+property Nquant MOPAC noUnit 0 1 INTEGER
+property sto_exp MOPAC noUnit 6 1 FLOAT
+property shell MOPAC noUnit 0 1 INTEGER
+ID dflag bfxn_ang contr_len Nquant sto_exp  shell
+ 1   0x0        S         6      2 1.942244     1
+ 2   0x0       Px         6      2 1.708723     2
+ 3   0x0       Py         6      2 1.708723     2
+ 4   0x0       Pz         6      2 1.708723     2
+ 5   0x0        S         6      1 1.260237     3
+ 6   0x0        S         6      2 1.942244     4
+ 7   0x0       Px         6      2 1.708723     5
+ 8   0x0       Py         6      2 1.708723     5
+ 9   0x0       Pz         6      2 1.708723     5
+10   0x0        S         6      1 1.260237     6
+11   0x0        S         6      2 1.942244     7
+12   0x0       Px         6      2 1.708723     8
+13   0x0       Py         6      2 1.708723     8
+14   0x0       Pz         6      2 1.708723     8
+15   0x0        S         6      1 1.260237     9
+16   0x0        S         6      2 1.942244    10
+17   0x0       Px         6      2 1.708723    11
+18   0x0       Py         6      2 1.708723    11
+19   0x0       Pz         6      2 1.708723    11
+20   0x0        S         6      1 1.260237    12
+21   0x0        S         6      2 1.942244    13
+22   0x0       Px         6      2 1.708723    14
+23   0x0       Py         6      2 1.708723    14
+24   0x0       Pz         6      2 1.708723    14
+25   0x0        S         6      1 1.260237    15
+26   0x0        S         6      2 1.942244    16
+27   0x0       Px         6      2 1.708723    17
+28   0x0       Py         6      2 1.708723    17
+29   0x0       Pz         6      2 1.708723    17
+30   0x0        S         6      1 1.260237    18
+31   0x0        S         6      2 1.942244    19
+32   0x0       Px         6      2 1.708723    20
+33   0x0       Py         6      2 1.708723    20
+34   0x0       Pz         6      2 1.708723    20
+35   0x0        S         6      2 1.942244    21
+36   0x0       Px         6      2 1.708723    22
+37   0x0       Py         6      2 1.708723    22
+38   0x0       Pz         6      2 1.708723    22
+39   0x0        S         6      1 1.260237    23
+40   0x0        S         6      1 1.260237    24
+41   0x0        S         6      1 1.260237    25
+42   0x0        S         6      2 1.942244    26
+43   0x0       Px         6      2 1.708723    27
+44   0x0       Py         6      2 1.708723    27
+45   0x0       Pz         6      2 1.708723    27
+46   0x0        S         6      1 1.260237    28
+47   0x0        S         6      1 1.260237    29
+48   0x0        S         6      1 1.260237    30
+49   0x0        S         6      2 1.942244    31
+50   0x0       Px         6      2 1.708723    32
+51   0x0       Py         6      2 1.708723    32
+52   0x0       Pz         6      2 1.708723    32
+53   0x0        S         6      1 1.260237    33
+54   0x0        S         6      1 1.260237    34
+55   0x0        S         6      1 1.260237    35
+56   0x0        S         6      2 1.942244    36
+57   0x0       Px         6      2 1.708723    37
+58   0x0       Py         6      2 1.708723    37
+59   0x0       Pz         6      2 1.708723    37
+60   0x0        S         6      1 1.260237    38
+61   0x0        S         6      1 1.260237    39
+62   0x0        S         6      1 1.260237    40
+property_flags:

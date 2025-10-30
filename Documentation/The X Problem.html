@@ -1,0 +1,48 @@
+<html><head>
+<title>The "X" in PM6-DH2X and PM6-D3H4X</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1"><FONT face="Trebuchet MS, Verdana"> The problem with &quot;X&quot; in PM6-DH2X 
+and PM6-D3H4X</font></h1>
+<p class="auto-style1">PM6 severely underestimated the repulsion between halogen 
+atoms non-covalently bonded to oxygen and nitrogen atoms.&nbsp; A modification 
+was made to the PM6-D2 method to correct this fault; the new method was named 
+PM6-D2X, see &quot;A halogen-bonding correction for the semiempirical PM6 method&quot; 
+Chem. Phys. Lett. 506 286-289 (2011) J. Rezac and P. Hobza.&nbsp; A similar 
+modification was made to PM6-D3H4 to give PM6-D3H4X, see Brahmkshatriya, et al., 
+&quot;Quantum Mechanical Scoring: Structural and Energetic Insights into Cyclin-Dependent 
+Kinase 2 Inhibition by Pyrazolo[1,5-a]pyrimidines&quot; Current Computer-Aided Drug 
+Design, 2013, 9, 118-129.</p>
+<p class="auto-style1">Both PM6-D2X and PM6-D3H4X significantly improve the 
+non-covalent interaction energy between halogenated compounds and oxygen and 
+nitrogen atoms.&nbsp; The average unsigned error for the X40 set for PM6-DH2 is 
+1.46 kcal.mol<sup>-1</sup>, this drops to 1.24 for PM6-DH2X, and for PM6-D3H4 
+the AUE is 1.68 dropping to 1.28 for PM6-D3H4X. For the same X40 set PM6 on its 
+own has an AUE of 1.73 kcal/mol.&nbsp; </p>
+<p class="auto-style1">Unfortunately, the &quot;X&quot; correction causes very severe 
+errors in geometries and heats of formation in compounds that contain halogen 
+atoms covalently bonded to oxygen or nitrogen, and as a result the &quot;X&quot; methods 
+should not be used for such systems. This was alluded to in the PM6-D2X paper: 
+&quot;... the repulsion is very steep at shorter distances; the correction would 
+overestimate the repulsion at distances shorter than approximately 80% of the 
+equilibrium distance.&quot; Here &quot;equilibrium distance&quot; refers to the non-covalent 
+interaction distance.&nbsp; Covalent bond lengths are, of course, much shorter.<br>
+geometry.</p>
+<h2>Problem</h2>
+<p class="auto-style1">In order to make the &quot;X&quot; methods acceptable for general 
+use, these methods would need to be modified. Until that is done, they should 
+only be used in systems that (a) do not contain covalent bonds of the type just 
+described, and (b) do contain non-covalent bods of the type found in the X40 
+set.</p>
+<p class="auto-style1">&nbsp;</p>
+</body>
+</html>
+
+
+

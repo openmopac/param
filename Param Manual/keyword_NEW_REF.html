@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+<TITLE>NEW_REF</TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+<TT>NEW_REF=&lt;<i>text</i>&gt;</TT></h1>
+<p align="left">When <TT>NEW_REF=&lt;<i>text</i>&gt;</TT> is present new reference data sets are written to the 
+location defined by &lt;<i>text</i>&gt;.&nbsp; Although in principle &lt;<i>text</i>&gt; can be the 
+location of the current reference data set, that folder should not be used, because the 
+current reference data sets will be over-written, and if a mistake is made it 
+might be difficult to go back.</p>
+<p align="left">If <TT>NEW_REF=&lt;<i>text</i>&gt;</TT> is used, then normally only one <TT>
+<a href="keyword_ref.html">REF</a></TT> 
+folder should be defined.&nbsp; If more than one reference data files folder is specified, all the 
+optimized files will still be written to the same folder defined by <TT>NEW_REF=&lt;<i>text</i>&gt;</TT>, that is, 
+reference data files from the various 
+sets would be combined.</p>
+<p align="left"> <TT>NEW_REF=&lt;<i>text</i>&gt;</TT> is particularly useful 
+when a method is finalized.&nbsp; The resulting files are optimized using that 
+method, and would therefore run much faster in surveys.</p>
+<p align="left"> When <TT>NEW_REF=&lt;<i>text</i>&gt;</TT> is present, no 
+parameters will be optimized, and the job will stop after the first cycle, this 
+is similar to the behavior of keyword <a href="keyword_survey.html"><tt>SURVEY</tt></a>.&nbsp;&nbsp; <TT>NEW_REF</TT> 
+and <tt>SURVEY</tt> are different in that the geometric references are not 
+updated when <TT>NEW_REF</TT> is used.</p>
+<p align="left"> If the folder name or the 
+path contains spaces, then &lt;text&gt; should be delimited by quotation marks, as in:&nbsp;
+<TT>NEW_REF=&quot;M:\Data\Improved normal data&quot; </TT></p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+</BODY>
+</HTML>

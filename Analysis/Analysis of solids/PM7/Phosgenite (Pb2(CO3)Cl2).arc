@@ -1,0 +1,89 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Wed Feb 24 13:21:40 2021
+                                                       No. of days remaining = 365
+
+           Empirical Formula: C4 O12 Pb8 Cl8  =    32 atoms
+
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+      Phosgenite
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =      -1034.63579 KCAL/MOL =   -4328.91616 KJ/MOL
+          H.o.F. per unit cell    =       -258.65895 KCAL, for 4 unit cells, unit cell = C1 O3 Pb2 Cl2
+          TOTAL ENERGY            =      -6927.82949 EV
+          ELECTRONIC ENERGY       =  -15377691.40669 EV
+          CORE-CORE REPULSION     =   15370763.57720 EV
+
+          VOLUME OF UNIT CELL     =        621.301 CUBIC ANGSTROMS
+
+          DENSITY                 =          5.830 GRAMS/CC
+                              A   =          7.925 ANGSTROMS
+                              B   =          8.892 ANGSTROMS
+                              C   =          8.816 ANGSTROMS
+                            ALPHA =         89.653 DEGREES
+                            BETA  =         90.108 DEGREES
+                            GAMMA =         90.079 DEGREES
+ 
+ 
+          GRADIENT NORM           =          4.91664 = 0.86915 PER ATOM
+          NO. OF FILLED LEVELS    =         88
+          IONIZATION POTENTIAL    =          8.354629 EV
+          HOMO LUMO ENERGIES (EV) =         -8.355 -0.733
+          MOLECULAR WEIGHT        =       2181.2608
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:  -0.09 GPa
+           Tv(  34)  Pressure:  -0.01 GPa
+           Tv(  35)  Pressure:  -0.01 GPa
+          SCF CALCULATIONS        =         14
+          WALL-CLOCK TIME         =  2 MINUTES AND 45.195 SECONDS
+          COMPUTATION TIME        =  2 MINUTES AND 42.697 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+      Phosgenite
+
+ Pb    -0.40792634 +1   0.01156106 +1   0.12127729 +1
+ Cl     0.52337005 +1   2.66005614 +1   2.30959064 +1
+  C    -2.75815409 +1  -0.29583594 +1   2.41443293 +1
+  O    -3.60423533 +1   0.63574068 +1   2.72302377 +1
+  O    -3.19831241 +1  -1.48790951 +1   2.29961231 +1
+  O    -1.53685823 +1   0.04875545 +1   2.25034613 +1
+ Cl    -4.28686933 +1  -0.90305792 +1   5.77955666 +1
+ Pb    -2.78619410 +1   2.72414629 +1   2.94541784 +1
+ Pb    -4.64313258 +1  -1.30468021 +1  -3.89016123 +1
+ Pb    -7.06922276 +1   1.38396327 +1  -1.05686005 +1
+ Pb    -3.32515972 +1  -2.67204514 +1   0.19790544 +1
+ Pb    -4.11626776 +1   4.10790081 +1  -1.13538186 +1
+  O    -0.96064532 +1  -0.72581022 +1  -2.75734191 +1
+  O    -6.28904946 +1   1.91495017 +1   1.83460325 +1
+  O    -2.63506956 +1  -2.24297006 +1  -2.71327975 +1
+  O    -4.62029473 +1   3.43983291 +1   1.79005434 +1
+ Cl    -4.68168170 +1  -0.62045942 +1  -0.23898930 +1
+ Cl    -1.93194288 +1   1.26391765 +1   5.70734213 +1
+ Cl    -2.32908825 +1   1.53601433 +1  -0.35325312 +1
+ Pb    -5.75233329 +1   0.02663168 +1   3.02832171 +1
+ Cl    -1.45339872 +1   4.70682417 +1  -3.28335822 +1
+  C    -4.60635564 +1   1.62644145 +1  -3.06470168 +1
+  O    -3.75924781 +1   0.69175753 +1  -3.36316521 +1
+  O    -5.83217712 +1   1.29121416 +1  -2.93625863 +1
+  O    -4.17120456 +1   2.82473461 +1  -2.98590126 +1
+ Pb    -1.71353472 +1   1.35776590 +1  -3.99034532 +1
+ Cl     1.40551296 +1   1.58117990 +1  -2.34763726 +1
+  C    -1.74364472 +1  -1.52413283 +1  -2.14215225 +1
+  O    -1.68028539 +1  -1.56022856 +1  -0.84878736 +1
+ Cl    -2.22611876 +1   5.66527290 +1   1.16261826 +1
+  C    -5.48922591 +1   2.69441919 +1   1.21838800 +1
+  O    -5.56038328 +1   2.73978007 +1  -0.07535041 +1
+ Tv     4.34437816 +1  -4.64949093 +1   4.72451203 +1 
+ Tv     3.47019722 +1  -3.99725290 +1  -7.14523619 +1 
+ Tv     6.52972262 +1   5.91956114 +1  -0.20669768 +1 
+ 

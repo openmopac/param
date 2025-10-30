@@ -1,0 +1,257 @@
+molstructWIN_Oct_22_2009_07:16:29 Glycine PM6.csf 0x0100
+Written by MOPAC on Sat May 22 09:28:10 2010
+Using Data Dictionary         01/30/2004  11:15am
+Version 18
+local_transform
+1.000000 0.000000 0.000000 0.000000
+0.000000 1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000 0.000000
+0.000000 0.000000 0.000000 1.000000
+object_class atom
+property sym MOPACtoMS noUnit 0 2 STRING
+property anum MOPACtoMS unit 0 1 INTEGER
+property conf MOPACtoMS noUnit 0 1 NAME
+property chrg MOPACtoMS charge_au 0 1 INTEGER
+property xyz_coordinates MOPACtoMS angstrom 4 3 FLOAT
+property rflag MOPACtoMS noUnit 0 1 HEX
+property dflag MOPACtoMS noUnit 0 1 HEX
+property pchrg MOPAC charge_au 4 1 FLOAT
+ID sym anum conf chrg xyz_coordinates         rflag  dflag pchrg
+ 1   C    6  sp3    0 -0.0000  0.0000  0.0000 0xffff   0x1  0.5815
+ 2   C    6  sp3    0  1.5155 -0.0380  0.0000 0xffff   0x1 -0.2508
+ 3   N    7  sp3    0  2.1500  1.2920  0.0003 0xffff   0x1 -0.4642
+ 4   H    1    s    0  1.8716 -0.6202  0.8870 0xffff   0x1  0.1943
+ 5   H    1    s    0  1.8717 -0.6199 -0.8871 0xffff   0x1  0.1943
+ 6   O    8  sp2    0 -0.7441  0.9510  0.0003 0xffff   0x1 -0.5075
+ 7   O    8  sp2    0 -0.5025 -1.2778 -0.0005 0xffff   0x1 -0.5291
+ 8   H    1    s    0 -1.4974 -1.3045 -0.0005 0xffff   0x1  0.3433
+ 9   H    1    s    0  1.8710  1.8290 -0.8182 0xffff   0x1  0.2191
+10   H    1    s    0  1.8708  1.8288  0.8189 0xffff   0x1  0.2191
+property_flags:
+object_class calculation_history
+property dflag MOPAC noUnit 0 1 HEX
+property calc_source MOPAC noUnit 0 1 NAME
+property version MOPAC noUnit 0 10 STRING
+property date_time MOPAC noUnit 0 25 STRING
+property calc_server MOPAC noUnit 0 25 STRING
+property Model MOPAC noUnit 0 32 STRING
+property calc_comment MOPAC noUnit 0 93 STRING
+property calc_energy MOPAC kcal/mole 6 1 FLOAT
+property dipoleVector MOPAC debye 6 3 FLOAT
+property dipole MOPAC debye 6 1 FLOAT
+property molecularWeight MOPAC mass_au 6 1 FLOAT
+property calc_gradient MOPAC Kcal/mol/angstrom 6 1 FLOAT
+property SolventAccessibleSurfaceArea MOPAC angstromsquare 6 1 FLOAT
+ID dflag calc_source version     date_time                calc_server     Model
+ 1   0x0       MOPAC         3.2 Wed_Sep_03_14:37:57_2003 cache@localhost   PM5
+ 2   0x0       MOPAC JS-22-06-04 Sun_Jul_10_20:13:22_2005 cache@localhost  MNDO
+ 3   0x0       MOPAC JS-22-06-04 Thu_Feb_23_15:05:41_2006 cache@localhost  MNDO
+ 4   0x0       MOPAC JS-22-06-04 Sun_May_21_16:43:55_2006 cache@localhost  MNDO
+ 5   0x0       MOPAC JS-22-06-04 Wed_Jun_07_10:08:41_2006 cache@localhost  MNDO
+ 6   0x0       MOPAC JS-22-06-04 Fri_Jul_07_08:51:13_2006 cache@localhost  MNDO
+ 7   0x0       MOPAC JS-22-06-04 Sun_Jul_09_16:47:00_2006 cache@localhost  MNDO
+ 8   0x0       MOPAC JS-22-06-04 Thu_Aug_17_12:54:16_2006 cache@localhost  MNDO
+ 9   0x0       MOPAC JS-22-06-04 Sat_Dec_02_11:24:13_2006 cache@localhost   PM5
+10   0x0       MOPAC JS-22-06-04 Tue_Jan_23_16:13:59_2007 cache@localhost  MNDO
+11   0x0       MOPAC JS-22-06-04 Sat_Apr_07_07:32:57_2007 cache@localhost  MNDO
+12   0x0       MOPAC JS-22-06-04 Sat_Apr_07_07:58:07_2007 cache@localhost  MNDO
+13   0x0       MOPAC JS-22-06-04 Tue_Dec_08_11:06:02_2009 cache@localhost  MNDO
+14   0x0       MOPAC JS-22-06-04 Fri_May_21_09:43:46_2010 cache@localhost  MNDO
+15   0x0       MOPAC JS-22-06-04 Sat_May_22_09:21:55_2010 cache@localhost  MNDO
+16   0x0       MOPAC JS-22-06-04 Sat_May_22_09:24:09_2010 cache@localhost  MNDO
+17   0x0       MOPAC JS-22-06-04 Sat_May_22_09:28:10_2010 cache@localhost  MNDO
+property_flags:
+ID calc_comment
+ 1 __PM5_NOMM_NOXYZ_NODIIS_GRAPH_T=10D_EXTERNAL=M:\SBIR4_OPT.REFPARAM
+ 2 __NOMM_NOXYZ_PRECISE_NODIIS_GRAPH_T=10D
+ 3 __NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_+_EXTERNAL=M:\DATA\ELEMENTS\00_B
+ 3 IO\PARAMS.TXT
+ 4 __NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_+_EXTERNAL=M:\DATA\ELEMENTS\00_B
+ 4 IO\PARAMS.TXT
+ 5 __NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_+_EXTERNAL=M:\DATA\ELEMENTS\00_B
+ 5 IO\PARAMS.TXT
+ 6 __NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_+_EXTERNAL=M:\DATA\ELEMENTS\00_B
+ 6 IO\PARAMS.TXT
+ 7 __NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_+_EXTERNAL=M:\DATA\ELEMENTS\00_B
+ 7 IO\PARAMS.TXT
+ 8 __NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_+_EXTERNAL=M:\DATA\ELEMENTS\00_B
+ 8 IO\PARAMS.TXT
+ 9 _PM5_NOMM_NOXYZ_XYZ_NODIIS_GRAPH_T=10D
+10 (V7.022)_PM6_NOMM_NOXYZ_XYZ_NODIIS_GRAPH_T=10D
+11 (7.081W)_PM6_NOMM_NOXYZ_XYZ_NODIIS_GRAPH_T=10D
+12 (7.081W)_PM6_NOMM_NOXYZ_XYZ_NODIIS_GRAPH_T=10D
+13 (9.341W)_PM6_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM7A__EXTERNAL=X:\PAR
+13 AM_WORK\TEST.RP
+14 (10.139W)_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D
+15 (10.139W)_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D
+16 (10.139W)_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM6
+17 (10.139W)_NOMM_NOXYZ_PRECISE_XYZ_NODIIS_GRAPH_T=10D_PM6
+
+property_flags:
+ID calc_energy dipoleVector                  dipole    molecularWeight
+ 1  -93.650776 -0.158364 -0.995253 -0.001901  1.007775       75.067000
+ 2  -89.360563 -0.140123 -0.431982 -0.000533  0.454140       75.067000
+ 3  -92.296166 -0.264824 -0.716973 -0.000599  0.764318       75.067000
+ 4  -93.210996 -0.330967 -0.996549 -0.000475  1.050071       75.067000
+ 5  -93.594983 -0.336426 -1.086017 -0.000404  1.136933       75.067000
+ 6  -93.124482 -0.468043 -1.091943 -0.000450  1.188025       75.067000
+ 7  -93.119882 -0.469965 -1.082175 -0.000432  1.179818       75.067000
+ 8  -93.189201 -0.262304 -1.002682 -0.000433  1.036424       75.067000
+ 9  -93.301501 75.067000  0.871181  0.000000 75.072055               0
+10  -93.220621 -0.256503 -1.011406 -0.001069  1.043426       75.067000
+11  -93.220646 -0.256687 -1.011584 -0.000898  1.043643       75.067000
+12  -93.220646 -0.256687 -1.011584 -0.000898  1.043643       75.067000
+13  -93.184300 -0.243535 -1.009027 -0.000534  1.038000       75.067000
+14  -92.325563 -0.390831 -1.101896 -0.000731  1.169156       75.067000
+15  -92.325565 -0.390789 -1.101925 -0.000596  1.169168       75.067000
+16  -93.221080 -0.261248 -1.015320 -0.000552  1.048392       75.067000
+17  -93.221080 -0.261416 -1.015461 -0.000525  1.048570       75.067000
+property_flags:
+ 9 01 01 01 00
+ID calc_gradient SolventAccessibleSurfaceArea
+ 1      0.729434                            0
+ 2      0.044089                   106.092906
+ 3      0.012237                   106.615358
+ 4      0.026219                   106.358231
+ 5      0.005960                   106.352271
+ 6      0.027934                   106.371188
+ 7      0.033161                   106.360181
+ 8      0.019504                   106.589156
+10      0.910977                   106.477471
+11      0.930540                   106.477163
+12      0.930540                   106.477163
+13      0.025089                   105.924570
+14      0.042732                   106.072015
+15      0.007667                   106.071980
+16      0.013621                   106.474860
+17      0.009979                   106.474724
+property_flags:
+ 1 01 00
+ 9 00 00
+object_class mol_orbital
+property dflag MOPAC noUnit 0 1 HEX
+property eig_val MOPAC eV 6 1 FLOAT
+property mo_occ MOPAC noUnit 8 1 FLOAT
+property eig_vec_compressed MOPAC noUnit 6 25 FLOAT
+property nom_coef MOPAC noUnit 6 1 INTEGER
+property coef_indices MOPAC noUnit 8 25 INTEGER
+ID dflag eig_val    mo_occ
+15   0x0 -10.167534 2.00000000
+16   0x0   0.220183 0.00000000
+property_flags:
+ID eig_vec_compressed
+15 0.771884  0.414407 -0.227607  0.219411 0.194065 -0.182816 -0.170914 -0.149878
+15 -0.149874 -0.142261 -0.079666 -0.079639 -0.076523 -0.070674 -0.069946
+15 0.064825 -0.055030 -0.046963 0.045799 -0.014182 0.000000 0.000000 0.000000
+15 0.000000 0.000000
+16 0.923350 -0.589092 -0.343380 -0.132098 0.132074 -0.059878 -0.002964  0.002946
+16  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+16 0.000000  0.000000  0.000000 0.000000  0.000000 0.000000 0.000000 0.000000
+16 0.000000 0.000000
+property_flags:
+ID nom_coef coef_indices
+15       20 10  9 16  2  1 6 21 24 25 11 13 14 5 7 17 23 20 19 15 3 0 0 0 0 0
+16        8  4 18 22 13 14 8 24 25  0  0  0  0 0 0  0  0  0  0  0 0 0 0 0 0 0
+property_flags:
+object_class bond
+property dflag MOPAC noUnit 0 1 HEX
+property bond_order MOPAC noUnit 4 1 FLOAT
+property rflag MOPAC noUnit 0 1 HEX
+property type MOPAC noUnit 0 1 NAME
+ID dflag bond_order rflag  type
+ 1   0x0     0.9192 0x7005 single
+ 2   0x0     1.0281 0x7005 single
+ 3   0x0     0.9381 0x7005 single
+ 4   0x0     0.9381 0x7005 single
+ 5   0x0     1.7835 0x7005 double
+ 6   0x0     1.0034 0x7005 single
+ 7   0x0     0.8541 0x7005 single
+ 8   0x0     0.9383 0x7005 single
+ 9   0x0     0.9383 0x7005 single
+property_flags:
+object_class connector
+property dflag MOPAC noUnit 0 1 HEX
+property objCls1 MOPAC noUnit 0 1 NAME
+property objID1 MOPAC noUnit 0 1 INTEGER
+property objCls2 MOPAC noUnit 0 1 NAME
+property objID2 MOPAC noUnit 0 1 INTEGER
+ID dflag objCls1             objID1 objCls2       objID2
+ 1  0xa1                atom      2          bond      1
+ 2  0xa1                atom      1          bond      1
+ 3  0xa1                atom      3          bond      2
+ 4  0xa1                atom      2          bond      2
+ 5  0xa1                atom      4          bond      3
+ 6  0xa1                atom      2          bond      3
+ 7  0xa1                atom      5          bond      4
+ 8  0xa1                atom      2          bond      4
+ 9  0xa1                atom      6          bond      5
+10  0xa1                atom      1          bond      5
+11  0xa1                atom      7          bond      6
+12  0xa1                atom      1          bond      6
+13  0xa1                atom      8          bond      7
+14  0xa1                atom      7          bond      7
+15  0xa1                atom      9          bond      8
+16  0xa1                atom      3          bond      8
+17  0xa1                atom     10          bond      9
+18  0xa1                atom      3          bond      9
+19  0x80 calculation_history     17   mol_orbital     15
+20  0xa0                atom      1 sto_basis_fxn      1
+21  0xa0                atom      1 sto_basis_fxn      2
+22  0xa0                atom      1 sto_basis_fxn      3
+23  0xa0                atom      1 sto_basis_fxn      4
+24  0xa0                atom      2 sto_basis_fxn      5
+25  0xa0                atom      2 sto_basis_fxn      6
+26  0xa0                atom      2 sto_basis_fxn      7
+27  0xa0                atom      2 sto_basis_fxn      8
+28  0xa0                atom      3 sto_basis_fxn      9
+29  0xa0                atom      3 sto_basis_fxn     10
+30  0xa0                atom      3 sto_basis_fxn     11
+31  0xa0                atom      3 sto_basis_fxn     12
+32  0xa0                atom      4 sto_basis_fxn     13
+33  0xa0                atom      5 sto_basis_fxn     14
+34  0xa0                atom      6 sto_basis_fxn     15
+35  0xa0                atom      6 sto_basis_fxn     16
+36  0xa0                atom      6 sto_basis_fxn     17
+37  0xa0                atom      6 sto_basis_fxn     18
+38  0xa0                atom      7 sto_basis_fxn     19
+39  0xa0                atom      7 sto_basis_fxn     20
+40  0xa0                atom      7 sto_basis_fxn     21
+41  0xa0                atom      7 sto_basis_fxn     22
+42  0xa0                atom      8 sto_basis_fxn     23
+43  0xa0                atom      9 sto_basis_fxn     24
+44  0xa0                atom     10 sto_basis_fxn     25
+property_flags:
+object_class sto_basis_fxn
+property dflag MOPAC noUnit 0 1 HEX
+property bfxn_ang MOPAC noUnit 0 1 NAME
+property contr_len MOPAC noUnit 0 1 INTEGER
+property Nquant MOPAC noUnit 0 1 INTEGER
+property sto_exp MOPAC noUnit 6 1 FLOAT
+property shell MOPAC noUnit 0 1 INTEGER
+ID dflag bfxn_ang contr_len Nquant sto_exp  shell
+ 1   0x0        S         6      2 2.047558     1
+ 2   0x0       Px         6      2 1.702841     2
+ 3   0x0       Py         6      2 1.702841     2
+ 4   0x0       Pz         6      2 1.702841     2
+ 5   0x0        S         6      2 2.047558     3
+ 6   0x0       Px         6      2 1.702841     4
+ 7   0x0       Py         6      2 1.702841     4
+ 8   0x0       Pz         6      2 1.702841     4
+ 9   0x0        S         6      2 2.380406     5
+10   0x0       Px         6      2 1.999246     6
+11   0x0       Py         6      2 1.999246     6
+12   0x0       Pz         6      2 1.999246     6
+13   0x0        S         6      1 1.268641     7
+14   0x0        S         6      1 1.268641     8
+15   0x0        S         6      2 5.421751     9
+16   0x0       Px         6      2 2.270960    10
+17   0x0       Py         6      2 2.270960    10
+18   0x0       Pz         6      2 2.270960    10
+19   0x0        S         6      2 5.421751    11
+20   0x0       Px         6      2 2.270960    12
+21   0x0       Py         6      2 2.270960    12
+22   0x0       Pz         6      2 2.270960    12
+23   0x0        S         6      1 1.268641    13
+24   0x0        S         6      1 1.268641    14
+25   0x0        S         6      1 1.268641    15
+property_flags:

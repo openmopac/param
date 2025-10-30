@@ -1,0 +1,97 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Wed Feb 24 14:42:30 2021
+                                                       No. of days remaining = 365
+
+           Empirical Formula: V4 Cl24 K8  =    36 atoms
+
+ MERS=(1,1,1) UHF  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Potassium hexachlorovanadate(iv) (K2VCl6) (ICSD 1712440)
+
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =      -1549.62592 KCAL/MOL =   -6483.63486 KJ/MOL
+          H.o.F. per unit cell    =       -387.40648 KCAL, for 4 unit cells, unit cell = V1 Cl6 K2
+          TOTAL ENERGY            =      -7009.20274 EV
+          ELECTRONIC ENERGY       =  -16057035.17625 EV
+          CORE-CORE REPULSION     =   16050025.97351 EV
+
+          VOLUME OF UNIT CELL     =        879.157 CUBIC ANGSTROMS
+
+          DENSITY                 =          2.583 GRAMS/CC
+                              A   =          9.584 ANGSTROMS
+                              B   =          9.578 ANGSTROMS
+                              C   =          9.577 ANGSTROMS
+                            ALPHA =         89.857 DEGREES
+                            BETA  =         89.928 DEGREES
+                            GAMMA =         89.894 DEGREES
+ 
+ 
+          GRADIENT NORM           =          3.73017 = 0.62170 PER ATOM
+          (SZ)                    =          0.000000
+          (S**2)                  =          2.016309
+          NO. OF ALPHA ELECTRONS  =         98
+          NO. OF BETA  ELECTRONS  =         98
+          IONIZATION POTENTIAL    =          8.865377 EV
+          ALPHA SOMO LUMO (EV)    =         -8.865 -2.244
+          BETA  SOMO LUMO (EV)    =         -8.870 -2.248
+          MOLECULAR WEIGHT        =       1367.4244
+           Pressure required to constrain translation vectors
+           Tv(  37)  Pressure:   0.05 GPa
+           Tv(  38)  Pressure:   0.04 GPa
+           Tv(  39)  Pressure:   0.01 GPa
+          SCF CALCULATIONS        =          1
+          WALL-CLOCK TIME         =         52.785 SECONDS
+          COMPUTATION TIME        =         51.927 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,1,1) UHF  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Potassium hexachlorovanadate(iv) (K2VCl6) (ICSD 1712440)
+
+  V    -0.02912464 +1  -0.02287096 +1   0.03108260 +1
+ Cl    -2.31683790 +1  -0.02230592 +1   0.02906441 +1
+ Cl    -0.02677228 +1   2.26461746 +1   0.03158451 +1
+ Cl    -0.03051851 +1  -2.31197362 +1   0.02506013 +1
+ Cl    -0.02814368 +1  -0.02166741 +1  -2.25529836 +1
+ Cl    -0.02985098 +1  -0.02927567 +1   2.31844022 +1
+ Cl     2.24446967 +1  -4.83008358 +1   4.82331701 +1
+ Cl    -2.32691299 +1  -4.82571395 +1   4.82538147 +1
+ Cl    -0.04027313 +1  -2.54164096 +1   4.82986969 +1
+ Cl    -0.04431911 +1  -7.11869966 +1   4.82563475 +1
+ Cl    -0.03859941 +1  -4.82601167 +1   2.53461509 +1
+ Cl    -0.04430664 +1  -4.83281497 +1   7.10995936 +1
+ Cl    -2.54166474 +1  -4.82557756 +1   0.02900151 +1
+ Cl    -7.11729695 +1  -4.81944214 +1   0.03385630 +1
+ Cl    -4.82921534 +1  -2.53739651 +1   0.03271739 +1
+ Cl    -4.83224009 +1  -7.11354788 +1   0.03358186 +1
+ Cl    -4.82904954 +1  -4.82108935 +1  -2.26112368 +1
+ Cl    -4.82736705 +1  -4.82200850 +1   2.31699333 +1
+ Cl    -2.53576801 +1  -0.03236081 +1   4.83047918 +1
+ Cl    -7.11256803 +1  -0.02935058 +1   4.82708209 +1
+ Cl    -4.82323738 +1   2.25298945 +1   4.82869728 +1
+ Cl    -4.82688973 +1  -2.32265912 +1   4.82965353 +1
+ Cl    -4.82692591 +1  -0.03642046 +1   2.54058041 +1
+ Cl    -4.82769130 +1  -0.02977958 +1   7.11731727 +1
+  K     2.36147543 +1   2.36940529 +1  -2.36732657 +1
+  K    -2.42813317 +1  -2.42425609 +1   2.42264208 +1
+  K     2.35279054 +1  -2.43019388 +1   2.42557933 +1
+  K    -2.41658490 +1   2.37231760 +1  -2.36095508 +1
+  K    -2.42468335 +1  -2.42127249 +1  -2.35787492 +1
+  K     2.36540958 +1   2.37067429 +1   2.41921880 +1
+  K    -2.42740181 +1   2.36301520 +1   2.42278623 +1
+  K     2.35993711 +1  -2.41679892 +1  -2.36908624 +1
+  V    -0.04153817 +1  -4.83021137 +1   4.82305262 +1
+  V    -4.82982012 +1  -4.82550010 +1   0.02756800 +1
+  V    -4.82442322 +1  -0.03474793 +1   4.82945682 +1
+ Cl     2.25733779 +1  -0.02404475 +1   0.03435444 +1
+ Tv     0.01084133 +1   9.58376556 +1  -0.00698684 +1 
+ Tv     0.00991363 +1   0.01074779 +1  -9.57846917 +1 
+ Tv     9.57713183 +1   0.00117830 +1  -0.01394086 +1 
+ 

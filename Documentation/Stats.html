@@ -1,0 +1,102 @@
+<html><head>
+<title>Reference Data</title>
+
+<style type="text/css">
+.auto-style1 {
+	text-decoration: underline;
+}
+</style>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1>Program &quot;Stats&quot;</h1>
+<p>Program Stats performs statistical analyses of the results of surveys of 
+various sets of systems run using various methods. The results are given as HTML 
+files that are written to the folder &quot;PARAM/HTML Files&quot;</p>
+<p>Two main types of analyses are performed. In one, a table is constructed 
+showing the accuracies of various methods for various sets of systems, in the 
+other, the average error per element for various methods for a set of systems is 
+generated.&nbsp; </p>
+<p>Files can be run using either Windows Explorer or using 
+the Command Prompt window.</p>
+<p><strong>Windows Explorer:</strong> Navigate to a folder 
+that contains the results of a survey, and drag a Stats data-set set to the 
+Stats icon.&nbsp; </p>
+<p><strong>Command Prompt</strong>: Navigate to a folder that contains the 
+results of a survey, and issue the command &quot;Stats &lt;Stats data-set&gt;&quot; where 
+&quot;&lt;Stats data-set&gt;&quot; is the data-set that holds information on what Stats is to 
+do.</p>
+<h2>Stats Input</h2>
+Input consists of a file containing a set of keywords, one per line, that define 
+different quantities.&nbsp; All keywords are case-insensitive, but must be 
+positioned at the beginning of a line, without leading spaces.
+<h3>Keywords</h3>
+<p><span class="auto-style1"><strong>Elements:</strong></span> Two very 
+different analyses are performed depending on whether keyword ELEMENTS is 
+present or not present.</p>
+<p>When keyword ELEMENTS is present, then optional restrictions can be 
+specified, and only those systems that comply with the restrictions will be 
+selected for the statistical analysis.&nbsp; In addition, if a previous 
+statistical analysis is present in the output folder, then the results of the 
+current analysis will be added, as a new line of statistics, to that analysis.&nbsp; 
+This option allows a table giving average errors for different methods for 
+different sets of data-files to be constructed by running Stats repeatedly, each 
+time using a different set of reference data but with everything else being the 
+same. Two modes are supported; Stats can be run in several different folders, 
+i.e., folders that contain results for different sets of systems, or Stats is 
+run in the same folder, but with different set of restrictions on the set of 
+atoms allowed.&nbsp; In both cases the output file has to have the same name. 
+Because of the increased probability of making a typographic error, a useful 
+strategy is to construct a data-set, and make sure that it works correctly, then 
+constructs a command script that deleted the existing HTML table then runs each 
+of the different analyses in turn.&nbsp; Running that script takes little time, 
+and a useful table can be generated quickly and easily.</p>
+<p>When keyword ELEMENTS is not present, all systems will be selected, and an 
+analysis giving the average error per element for each method will be done.</p>
+<p>When ELEMENTS is selected, and no restrictions are specified, all systems are 
+selected.&nbsp; Three types of restrictions are defined, these are:</p>
+<p><strong>MUST=(elements):</strong> List of elements that must be present in 
+each system.&nbsp; For example, ELEMENTS: MUST=(C H N O) would select all 
+systems that contain the elements carbon, hydrogen, oxygen, and nitrogen.&nbsp; 
+So glycine would be selected, but ethanol would not.</p>
+<p><strong>AND=(elements): </strong>List of elements that can be present.&nbsp; 
+For example, ELEMENTS: AND=(F, Cl, Br, I) MUST=(C) would select all the 
+halogenated organic compounds. </p>
+<p><strong>NOT=(elements): </strong>List of elements that must not be present. 
+For example, ELEMENTS: NOT=(C) would select all the inorganic compounds.</p>
+<p><span class="auto-style1"><strong>Heading:</strong></span> Defines the 
+heading of the web-page. If not present, a default heading will be used.</p>
+<p><span class="auto-style1"><strong>Methods:</strong></span> Each survey 
+data-set should be names with the method used, e.g., the data-set for a survey 
+using the PM6-D3H4 method should be named PM6-D3H4.dat.&nbsp;&nbsp; Then the 
+keyword METHODS should be followed by a list of methods, e.g.:<br>Methods: PM8 
+PM7 PM6, PM6-D3H4X PM3 MNDO AM1 RM1 PM6-D3H4 PM6-DH2X PM6-DH+ PM6-DH2</p>
+<p><span class="auto-style1"><strong>Output:</strong></span> Define the path, 
+the filename, or both the path and filename, for the results.&nbsp;&nbsp; 
+Quotation marks are allowed, but are not necessary. Examples: OUTPUT: ..\..\HTML 
+files\Statistics for Intermolecular interactions.html, OUTPUT: C:\..\..\..\HTML 
+files\, OUTPUT: Statistics for Intermolecular interactions.html&nbsp; The second 
+of these options </p>
+<p>A table giving average errors for different methods for different sets of 
+data-files can be made by running Stats repeatedly, each time using a different 
+set of reference data but with everything else being the same.</p>
+<p>Two modes are supported.</p>
+<p>The first time Stats is run using a data-file, e.g., &quot;Stats &lt;Stats 
+data-set&gt;&quot;, and keyword ELEMENTS is present, a table will be created that 
+contains a single line of average errors for the various methods. If Stats is 
+then run in a different folder, i.e., a folder containing results for a 
+different set of systems, or Stats is run in the same folder, but with a 
+different set of atoms, and the output file has the same name, then another line 
+will be added to the table.&nbsp; Provided each Stats run uses exactly the name 
+methods in </p>
+&nbsp;<p>&nbsp;</p>
+</body>
+</html>
+
+
+

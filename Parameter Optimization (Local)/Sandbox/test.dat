@@ -1,0 +1,20 @@
+*
+*  Optimize all parameters for H, C, N, O, using the method PM8
+*  
+*
+*     Keywords used
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define all the folders that contain reference data for systems defined by SET. 
+*
+set="./core.txt" &
+ref="../../reference data/Data normal" &
+*
+*  Use the PM6-D3H4 method as the starting point
+*
+  PM6-D3H4 cycles=2
+*   
+H uss
+C uss
+C upp
+end

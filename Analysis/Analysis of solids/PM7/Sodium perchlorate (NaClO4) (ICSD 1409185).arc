@@ -1,0 +1,81 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Wed Feb 24 22:24:36 2021
+                                                       No. of days remaining = 365
+
+           Empirical Formula: O16 Cl4 Na4  =    24 atoms
+
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Sodium perchlorate (NaClO4) (ICSD 1409185)
+ h=-91.6 hr=crc
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -505.15426 KCAL/MOL =   -2113.56544 KJ/MOL
+          H.o.F. per unit cell    =       -126.28857 KCAL, for 4 unit cells, unit cell = O4 Cl1 Na1
+          TOTAL ENERGY            =      -5810.82753 EV
+          ELECTRONIC ENERGY       =  -15207510.54762 EV
+          CORE-CORE REPULSION     =   15201699.72009 EV
+
+          VOLUME OF UNIT CELL     =        281.370 CUBIC ANGSTROMS
+
+          DENSITY                 =          2.890 GRAMS/CC
+                              A   =          6.257 ANGSTROMS
+                              B   =          7.297 ANGSTROMS
+                              C   =          6.163 ANGSTROMS
+                            ALPHA =         89.948 DEGREES
+                            BETA  =         90.251 DEGREES
+                            GAMMA =         89.960 DEGREES
+ 
+ 
+          GRADIENT NORM           =          3.46108 = 0.70649 PER ATOM
+          NO. OF FILLED LEVELS    =         64
+          IONIZATION POTENTIAL    =         10.815158 EV
+          HOMO LUMO ENERGIES (EV) =        -10.815 -0.514
+          MOLECULAR WEIGHT        =        489.7615
+           Pressure required to constrain translation vectors
+           Tv(  25)  Pressure:  -0.06 GPa
+           Tv(  26)  Pressure:  -0.11 GPa
+           Tv(  27)  Pressure:  -0.04 GPa
+          SCF CALCULATIONS        =         24
+          WALL-CLOCK TIME         =  3 MINUTES AND 48.875 SECONDS
+          COMPUTATION TIME        =  3 MINUTES AND 44.965 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Sodium perchlorate (NaClO4) (ICSD 1409185)
+ h=-91.6 hr=crc
+  O    -0.43490403 +1  -0.71217957 +1   0.91281509 +1
+  O    -2.60678770 +1   0.10519246 +1   2.89150883 +1
+  O     0.82061920 +1  -2.65902546 +1   1.25687793 +1
+  O    -0.93256896 +1  -1.82986088 +1   3.02704450 +1
+  O    -2.90469888 +1  -3.60887535 +1  -2.51037299 +1
+  O     1.15148970 +1  -3.40436208 +1   3.54461920 +1
+  O    -4.16946266 +1  -5.80946292 +1  -2.24899785 +1
+  O     0.32363116 +1  -5.59320167 +1   3.58176938 +1
+  O     1.72289487 +1  -0.70895739 +1   2.24521380 +1
+  O    -2.85603370 +1  -1.78965116 +1   1.61240199 +1
+  O     1.65596279 +1  -0.88798766 +1  -0.10944631 +1
+  O    -3.22105804 +1  -1.96824789 +1   3.83549720 +1
+  O    -2.30992575 +1  -5.14254518 +1  -0.90287041 +1
+  O    -0.93520814 +1  -4.07764437 +1   2.26885276 +1
+  O    -1.87538533 +1  -5.66486467 +1  -3.05710887 +1
+  O    -0.87645076 +1  -3.80803227 +1   4.62040463 +1
+ Cl     0.92933341 +1  -1.21892133 +1   1.13114606 +1
+ Cl    -2.28340522 +1  -1.32075498 +1   2.90006471 +1
+ Cl    -2.93884893 +1  -5.04452101 +1  -2.24637192 +1
+ Cl    -0.07906419 +1  -4.20639762 +1   3.44404696 +1
+ Na    -2.12619485 +1  -1.72437053 +1  -0.69774941 +1
+ Na     0.74993254 +1  -0.95248350 +1   4.67088944 +1
+ Na     0.11560268 +1  -4.59466759 +1  -0.08309869 +1
+ Na    -3.08879555 +1  -4.74901554 +1   1.35584911 +1
+ Tv     3.41859350 +1  -0.16407755 +1  -5.23771143 +1 
+ Tv     6.06885161 +1   1.01509099 +1   3.92325693 +1 
+ Tv    -0.64080834 +1   6.10187674 +1  -0.57709337 +1 
+ 

@@ -1,0 +1,114 @@
+<html><head>
+<title>Verifying that PARAM is working correctly</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1><FONT face="Trebuchet MS, Verdana"> Verifying that PARAM is working 
+correctly</font></h1>
+<p>&nbsp;<p>Because PARAM is a large, complicated program, there needs to be a 
+relatively simple way of 
+verifying that it's doing what it's supposed to do.&nbsp; </p>
+<h2>Checking that older methods are correctly reproduced</h2>
+<p>Errors in heats of formation provide a good test of PARAM.&nbsp; A standard 
+reference for these errors is available on-line, this errors in
+<a href="http://openmopac.net/PM7_accuracy/table_of_heats_for_all_elements.html">
+individual species</a>.&nbsp; A limited amount of data is available on other 
+methods, but only the results for PM7 and PM6 are complete enough to allow the 
+verification of PARAM to be done. </p>
+<p>To verify that PARAM correctly reproduces PM6 and PM7, follow these 
+instructions:</p>
+<p>Navigate to the sandbox folder in the Parameter Optimization folder, i.e., to the 
+folder &quot;%PARAM_Start%\Parameter Optimization\Sandbox&quot;<br>Create a PARAM job with 
+the name &quot;Test PM6.dat&quot; or &quot;Test PM7.dat&quot;<br>Edit this data set to include the 
+following lines:<br>First line: &quot; ref=&quot;../../reference data/Data normal&quot; PMX&quot; 
+Replace PMX with either PM6 or PM7. <br>Next line: &quot;end&quot;<br>The next few lines 
+should contain the reference file names of systems that are to be used in the 
+test.&nbsp; All the systems selected should exist in the on-line table and also 
+exist in the local folder &quot;%PARAM_Start%\Reference 
+data\Data Normal&quot;.&nbsp; </p>
+<p>Here is an example of such a file:<PRE> ref="../../reference data/Data normal" PM6
+end
+Silane 
+Formaldehyde
+Sulfur tetrachloride
+As4O6
+Iodine pentafluoride
+</PRE>
+<p>Run the job using PARAM and compare the calculated errors with the values 
+on-line. If they agree, then the conclusion can be made that PARAM gives the 
+same results as MOPAC for existing methods.</p>
+<h2>Modified Methods </h2>
+<p>The reason that only PM6 and PM7 should be used in the previous test is that 
+the modified methods, e.g. PM6-DH+ and PM6-D3H4, contain corrections designed to 
+improve the accuracy of prediction of intermolecular energies. These corrections 
+also change the heats of formation of individual species, and makes verification 
+of PARAM more difficult.&nbsp; If one of the modified methods is used for 
+testing PARAM, it should 
+only be used for calculating intermolecular interactions.</p>
+<h2>Checking that a normal PARAM job is running correctly </h2>
+<p>There is a simple test to show that PARAM is optimizing the parameters 
+correctly.&nbsp; The value of the SSQ (Sum of SQuares of errors) should drop as 
+the parameterization proceeds.&nbsp; To verify this, use a simple utility, &quot;grep&quot;, 
+included in PARAM, is ideal, to search for every line in an output file that 
+contains the text &quot;SSQ&quot;&nbsp; This test needs to be run at the command prompt 
+level, so a command of the type:</p>
+<p>&nbsp;&nbsp; C:\Users\YourName\PARAM\Parameter Optimization\CHNOXSP\grep SSQ 
+CHNOXSP.out</p>
+<p>&nbsp;should be used.</p>
+<p>During a parameter optimization run a specific fault sometimes occurs in that 
+a reference data chemical system will fail to give the correct results.&nbsp; 
+This can happen for any one of several reasons, with the most common being a 
+failure to form a SCF.&nbsp; When that happens, the results for that particular 
+reference system would be nonsense, but will contribute to the SSQ, causing it 
+to rise dramatically.&nbsp; Failures of this type are detected by the difference 
+between the predicted and calculated values, and the weighting factor(s) are 
+adjusted to reduce the significance of the faulty results.&nbsp; In practice, 
+this can be seen by a sudden rise in the SSQ followed by an equally sudden 
+decrease on the next cycle.&nbsp; All isolated very large SSQ's of this type should be 
+ignored.</p>
+<p>The general behavior of the SSQ should be an initial rapid descent followed 
+by a slowing as the minimum is approached.&nbsp; For most parameterization runs, 
+the job should be stopped when the rate of decrease in SSQ is too slow to 
+justify further work.</p>
+<p>That the results are internally consistent can be verified by using the 
+optimized parameters from a PARAM job as input to a new PARAM job, using 
+PARAM's&nbsp;<a href="../Param%20Manual/keyword_external.html"><tt>EXTERNAL</tt></a> 
+option, and checking that the resulting SSQ has the value expected.&nbsp; </p>
+<p>Finally, run MOPAC with one or more systems 
+using MOPAC's <a href="http://openmopac.net/manual/external.html"><tt>EXTERNAL</tt></a> 
+option and the optimized parameters from a PARAM job.&nbsp; A good set of 
+systems would be those used in checking that older methods are correctly reproduced.&nbsp; 
+For each system run using MOPAC, start with the ARC file and calculate the 
+difference between the reference and calculated heats of formation.&nbsp; These 
+differences should be the same as those from the PARAM run and also the same as 
+those from the verification run. &nbsp;&nbsp; </p>
+<h2>During method development</h2>
+<p>Almost always during method development PARAM will start to produce 
+unexpectedly bad results.&nbsp; This is always due to user error.&nbsp; When 
+that happens, locate the last point at which the project was working as 
+intended.&nbsp; Then:</p>
+<p>Look for mistakes.<br>Try splitting the next operation into parts, and move 
+forward in smaller steps.<br>Check the first cycle of the output, looking for 
+unexpected large errors.</p>
+<h2>Final points</h2>
+<p>The input parameter set used in checking that a normal PARAM job is running 
+correctly must contain all the parameters used in that normal PARAM job. In 
+particular, if parameters are supplied to the normal PARAM job, but are not 
+optimized in that job, then those parameters must be read in to the verification 
+jobs.&nbsp; This situation occurs when only a limited set of parameters are 
+optimized, for example, if, after the core parameters are optimized, parameters 
+for sodium are optimized using the new core parameters as the starting point.&nbsp; 
+Then the new core parameters should be read in to any validation tests before 
+the sodium parameters.</p>
+<p><br> </p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+

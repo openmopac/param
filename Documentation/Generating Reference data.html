@@ -1,0 +1,138 @@
+<html><head>
+<title>Generating Reference Data</title>
+
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+.auto-style3 {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.auto-style4 {
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+.auto-style5 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.auto-style6 {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.auto-style7 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.auto-style8 {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.auto-style9 {
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.auto-style10 {
+	text-align: left;
+}
+</style>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Generating Reference Data</h1>
+<p class="auto-style10">Reference data is represented by MOPAC data-sets, i.e., 
+files that have the suffix &quot;.mop&quot; and their contents have the same format as 
+normal MOPAC data-sets.&nbsp; In fact, if needed, individual reference data files can be 
+run using MOPAC.</p>
+<h2>Reference data file names</h2>
+<p>Use names that clearly indicate the chemical system. These names will only be 
+used as labels for reference data files, they are not used in lists or tables.</p>
+<h3>Examples of reference data file names</h3>
+<table class="auto-style3">
+	<tr>
+		<td class="auto-style9">Data-file name</td>
+		<td class="auto-style9">Description </td>
+	</tr>
+	<tr>
+		<td class="auto-style7">[Hf(III)(H2O)6]3+ 2Ag.mop</td>
+		<td class="auto-style8">The 2Ag electronic state of hexaquo hafnium<sup>III</sup>&nbsp; </td>
+	</tr>
+	<tr>
+		<td class="auto-style2">Lutetium, 2D(g) 6s(2)5d(1)6p(0).mop</td>
+		<td class="auto-style4">The ground state of the lutetium atom.</td>
+	</tr>
+	<tr>
+		<td class="auto-style2">Ca(II)(Cp)2O2 (SEHPEA).mop</td>
+		<td class="auto-style4">From the CSD, bis(&eta;<sup>5</sup>-Methylcyclopentadienyl)-(dimethoxyethane-O,O')-calcium</td>
+	</tr>
+	<tr>
+		<td class="auto-style5">12 Hexafluorobenzenezene - benzene.mop</td>
+		<td class="auto-style6">Entry 12 of Hobza's X40 intermolecular 
+		interaction set </td>
+	</tr>
+	</table>
+<h2>Keyword line</h2>
+<p>All normal MOPAC keywords are allowed, but several of these are ignored by 
+PARAM.&nbsp; The ignored keywords are:
+<a href="http://openmopac.net/manual/one_scf.html"><tt>1SCF</tt></a>,
+<a href="http://openmopac.net/manual/precise.html"><tt>PRECISE</tt></a>,
+<a href="http://openmopac.net/manual/meci.html"><tt>MECI</tt></a>,
+<a href="http://openmopac.net/manual/external.html"><tt>EXTERNAL</tt></a>, and 
+all method keywords such as 
+<a href="http://openmopac.net/manual/pm6_d3h4.html"><tt>PM6-D3H4</tt></a>, 
+<a href="http://openmopac.net/manual/pm7.html"><tt>PM7</tt></a>, etc. Keyword
+<a href="http://openmopac.net/manual/let.html"><tt>LET</tt></a> is changed to
+<a href="http://openmopac.net/manual/geo-ok.html"><tt>GEO-OK</tt></a>.&nbsp; 
+These changes are made to avoid conflicts with PARAM keywords. </p>
+<h2>First line of text</h2>
+<p>This should be a concise description of the system, typically the chemical 
+name, e.g., &quot;Methanol&quot;, &quot;Water&quot;, &quot;Sodium sulfate, anion&quot;, and &quot;12 Hexafluorobenzenezene - benzene.mop&quot;</p>
+<p>Chemical names are used in forming tables, so they should be chosen with 
+care, and properly typed, i.e., the first letter should normally be capitalized 
+and appropriate punctuation used.&nbsp;&nbsp; </p>
+<h2>Second line of text</h2>
+<p>This contains the reference data, weighting factors, and
+<a href="../Param%20Manual/references.html">mnemonics</a> for the source of the 
+reference data, see <a href="../Param%20Manual/data_keywords.html">keywords</a></p>
+<h2>Geometry</h2>
+<p>A normal MOPAC geometry is used for all systems except geometric references.&nbsp; 
+Geometric references are indicated by keywords &quot;<a href="../Param%20Manual/keyword_geometry.html">&lt;&gt;</a>&quot; 
+and &quot;<a href="../Param%20Manual/keyword_geometry.html">&lt;text&gt;</a>&quot; and the 
+geometry is defined in terms of these keywords.</p>
+<h2>Reference data set folders</h2>
+<p>Reference data can be assigned to different types such as data for ordinary 
+compounds, data for electronic states, intermolecular interactions, etc.&nbsp; 
+For convenience, each reference data file should be stored in a folder that 
+describes the type of system involved. For example, benzene would be stored in 
+the folder &quot;Data normal&quot;&nbsp; and the ground-state of hexaquo chromium(III), 
+4Ag, would be stored in &quot;Data levels&quot;.&nbsp; Entire sets of reference data can 
+be assigned their own folder, thus each of the different intermolecular 
+interaction reference data sets would be assigned its own folder.&nbsp; These 
+folders have names of the type &quot;Data intermolecular interactions\S66 
+Intermolecular&quot; and &quot;Data intermolecular interactions\S66 Separated&quot;&nbsp; 
+New folders can be added when necessary.</p>
+</body>
+</html>
+
+
+

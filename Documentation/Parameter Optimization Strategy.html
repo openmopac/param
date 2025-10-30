@@ -1,0 +1,172 @@
+<html><head>
+<title>Parameter Optimization Strategy</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Parameter Optimization Strategy</h1>
+<p class="auto-style1">This description applies to parameter optimization for an 
+entire method.&nbsp; For individual phenomena such as intermolecular 
+interactions only one or two steps need be used.</p>
+<p class="auto-style1">An <a href="Background.html">overview of parameter 
+optimization</a> describes the general procedure for parameterizing a method.&nbsp; 
+In this section details of the individual steps involved will be described.&nbsp;
+</p>
+<h2>Basic Requirements</h2>
+<p class="auto-style1">Any new method has three essential requirements: there 
+must be a theoretical framework, a set of reference data, and a means to 
+optimize the adjustable parameters to minimize the root-mean-square difference 
+between the predicted values of properties and the reference values. Of these 
+three, the parameter optimizer is highly reliable.&nbsp; The theoretical 
+framework is &quot;quite good&quot; - in recent years the fastest changes have occurred in 
+the modeling of non-covalent interactions, such as dispersion and hydrogen 
+bonding.&nbsp; By far the least accurate of the requirements is the reference 
+data set.&nbsp; But with the development of highly accurate very high level 
+theoretical methods it is likely that large amounts of new and accurate 
+reference data will soon be available.</p>
+<h3>Theoretical framework</h3>
+<p>Before starting parameter optimization, the theoretical framework should 
+exist and all adjustable parameters should be accessible to PARAM.&nbsp; If a 
+change is made to the theoretical framework then that change should be made to 
+MOPAC only; the change is automatically made to PARAM when PARAM is re-compiled. 
+Global parameters should be regarded as temporary, although some, such as the 
+hydrogen bond parameters and the dispersion parameters, have a lifespan of many 
+years.&nbsp; Use different global parameters for different approximations!&nbsp; 
+&nbsp;</p>
+<h3>Reference data</h3>
+<p>Currently there is a large amount of reference data.&nbsp; For convenience, 
+these data are split into sets: &quot;Data normal&quot; as the name suggests this set 
+consists of normal compounds. &quot;Data levels&quot; contains atomic and molecular ground 
+and excited electronic states. &quot;Data intermolecular interactions&quot; This is 
+further split into individual sets, such as S22 and X40, etc. These sets contain 
+the energies of intermolecular interactions. Finally &quot;Data erratic&quot; contains 
+various exotic systems for assisting in parameterization.&nbsp; One group in 
+this set has the generic name &quot;core-core_AA - BB far&quot; and &quot;core-core_AA - BB 
+near&quot; where &quot;AA&quot; and &quot;BB&quot; are chemical symbols.&nbsp; These systems are used in 
+defining heats of formation and interatomic distances in solids. All these 
+data-sets are estimates based on the properties of solds.&nbsp;</p>
+<h2>Starting optimization</h2>
+<p>All method developments have a similar starting step where parameters for 
+core elements H, C, N, O, F, S, P, Cl, Br, and I are optimized. Like all 
+optimizations, this operation is performed by running PARAM with a data set. 
+Data-sets should have informative names.&nbsp; Without exception, every data set 
+used in method development will need to be run more than once, some will need to 
+be run many times as more information becomes available. A useful name for the 
+very first data-set would be CHNOXSP.dat, and, as its name suggests, this data-set 
+should include reference data for compounds that contain those elements only.&nbsp; 
+All parameters for the ten elements should be included, <em>via</em> the option &quot;<a href="../Param%20Manual/param_data.html">(H C N 
+O F P S Cl Br I)(ALL)</a>&quot; for the choice of parameters to be optimized. The optimization should 
+also include all global parameters that are set. </p>
+<p>Make the data-set easy to read. Use
+<a href="../Param%20Manual/param_data.html">comment lines</a> to clearly 
+describe what's being done. Use
+<a href="../Param%20Manual/Keyword_ampersand.html">continuation lines</a> where 
+they will help make the data set look neat.</p>
+<p>The first optimization run should include keyword
+<a href="../Param%20Manual/keyword_CYCLES.html"><tt>CYCLES=1</tt></a>.&nbsp; 
+If no method is specified, PM8 will be used, which,&nbsp; at this point, is 
+essentially the same as PM6-D3H4. The only other method that might be worth 
+looking at is PM7.&nbsp; When this job is run it will stop after one cycle.&nbsp; Carefully examine the 
+output. Look at the lines after the line that contains &quot;Time Heat Dipole I.P. 
+Geometry Total&quot; for unusually large contributions to the total error function, 
+these contributions are most easily seen in the last number on each line.&nbsp; 
+If anything looks very wrong, in particular if the line ends with a string of 
+asterisks, &quot;***********&quot;, indicating a very large number, examine that system to 
+find out what's gone wrong.&nbsp; Also look for warning messages, these are 
+lines that don't contain the name of a chemical system.&nbsp; Take the 
+appropriate action: either delete the entry or edit it so that the warning goes 
+away.</p>
+<p>Look at the updated parameters, these are in the lines after the line 
+containing &quot;Parameter Element New value Change Limits: Low High Penalty 
+Gradient&quot;&nbsp; If any penalties are large, in the hundreds or thousands, 
+consider changing the l<a href="../Param%20Manual/param_data.html#lower_and_upper_bounds">ower 
+or upper limits</a> for that parameter.</p>
+<p>Finally, look for anything else that looks unexpected.&nbsp; Once everything 
+is satisfactory, remove the keyword <tt>CYCLES=1</tt> from the data set and 
+re-run.</p>
+<h2>Optimization of the parameters</h2>
+<p>Optimization of the parameters of a data-set like CHNOXSP.dat can take several 
+days.&nbsp; While the job is running, it is useful to monitor its progress using 
+utility &quot;watch.cmd&quot;&nbsp; Watch's default mode, &quot;watch CHNOXSP&quot;,&nbsp; is to 
+display the tail of the output file, CHNOXSP.out.&nbsp; When the output looks 
+normal, set &quot;watch&quot; to monitor the error function by running &quot;watch CHNOXSPSTART&quot; 
+This will monitor the total error function, this is equal to the contribution 
+from the reference data files (the last number on the line that contains 
+&quot;TOTALS&quot;) plus any penalty arising from parameters that are outside their 
+bounds. Another useful quantity to watch is unsigned average error; to do this 
+use &quot;watch CHNOXSP UNSIGN&quot;</p>
+<p>&nbsp;When the optimization looks as if it's complete, kill the job.&nbsp; The 
+optimized parameters are then in file &quot;CHNOXSP.rp&quot; Run a survey to compare the 
+accuracies of the new method with those of PM7 and PM6-D3H4.&nbsp; 
+The objective here is to establish that the current optimization has not caused 
+a deterioration in the core elements. If a deterioration has occurred, find what 
+went wrong and correct it.&nbsp; Do not proceed until CHNOXSPis at least as good 
+as that for PM7 or PM6-D3H4. </p>
+<h2>Extension to more Elements</h2>
+<p>Each of the remaining elements could be parameterized on its own.&nbsp; Sets 
+of reference data for several of the elements can be found in the folder &quot;%PARAM_Start%/Parameter 
+Optimization/Sets&quot; Other sets can be constructed using files in the sub-folder 
+Storeroom; these files were used in developing PM7.&nbsp; To parameterize an 
+element, for example aluminum, construct a PARAM data-set, e.g., Aluminum.dat.</p>
+<p>Define the reference data set to be used, here &quot;../sets/Aluminum.txt&quot;, the 
+source of reference data, and the current CHNOXSP parameters, &quot;../CHNOXSP/CHNOXSP.rp&quot;. 
+In principle, each element can be optimized on its own.&nbsp; An alternative 
+would be to optimize parameters for sets of elements.&nbsp; If there is a large 
+amount of data on any particular element, it should be optimized on its own. 
+Otherwise, the element could be bundled with other elements, for example &quot;Group 
+IA.dat&quot;, &quot;Group IIA.dat&quot; and &quot;Group IIA.dat&quot;&nbsp; If important reference data 
+involve two or more non-core elements, then these elements should be optimized 
+together, e.g. &quot;Mg and P.dat&quot;</p>
+<h2>Transition metals, lanthanides, and solids</h2>
+<p>A large number of elements have special characteristics.&nbsp; Some are known 
+for their open-shell behavior, in particular electronic excited states. Each of 
+these systems has to be defined as a reference data set.&nbsp; Some have few 
+reference data, e.g., silver, where few gas-phase data are available. Still 
+other individual species are stubbornly uncooperative, such as the Fe<sub>4</sub>S<sub>4</sub> 
+clusters, these can either be the subject of a research effort to make them 
+work, or they can be regarded as <span>incorrigible, and simply labeled as such 
+in release notes. </span></p>
+<h3>Parameterizing solids</h3>
+<p>Parameterizing solids presents a unique problem.&nbsp; Of their nature, 
+data-sets for solids are too large to use as reference data.&nbsp; Also, there 
+are many solids that involve interactions for which there are no simple chemical 
+equivalents.&nbsp; An example is the three polymorphs of Al<sub>2</sub>SiO<sub>5</sub>: 
+kyanite, andalusite and sillimanite all of which have Si in proximity to Al.&nbsp; 
+Without appropriate reference data, the Si - Al diatomic interaction terms XFAC 
+and ALPB cannot be parameterized.</p>
+<p>A general method to parameterize the diatomic interactions is to use a 
+special type of reference data in which each two-atom interaction is represented 
+by precisely two atoms whose positions are not allowed to change.&nbsp; In one 
+reference data file the interatomic separation is artificially large, in another 
+file the separation is artificially small. Two reference data are needed in 
+order to define the values of both XFAC and ALPB, for this purpose two heats of 
+formation are necessary.&nbsp; These heats of formation are chosen so as to 
+allow the geometry of the unit cell and the heat of formation of the solid to be 
+reproduced with good accuracy.&nbsp; This involves an iterative procedure:</p>
+<p>The current values of the heats of formation of the near and far diatomic 
+interaction are calculated.<br>The geometries of appropriate solids is 
+calculated.<br>The heats of formation of the near and far diatomic interaction 
+are modified to improve the calculated heat of formation of the solid and 
+improve the relative positions of the two atoms in the solid.<br>This sequence 
+is repeated as necessary.</p>
+<h2>&quot;Annealing&quot; parameters</h2>
+<p>After all elements have been parameterized, i.e., when the parameters from 
+each optimization are the best they can be, an additional small improvement can 
+be obtained by re-optimizing the core elements together with certain other 
+elements.&nbsp; Only well-behaved other elements should be considered for this 
+operation, that is, only elements whose errors are similar to those in the core 
+set should be considered.&nbsp; In such an optimization the errors for the 
+original core elements must increase, and the errors for systems involving 
+non-core elements must decrease.&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+

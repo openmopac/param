@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<HTML>
+<meta charset="utf-8"> <script type="text/javascript" src="JSmol.min.js"></script>
+<TITLE>Full Screen</TITLE>
+ 
+<script type="text/javascript">
+$(document).ready(function() {InfoRef = { color: "0x000000", height: "800", width: "1600",
+disableInitialConsole: true, addSelectionOptions: false, 
+j2sPath: "../../jsmol/j2s",
+jarPath: "../../jsmol/java",
+use: "HTML5", script: "load 	Lead_oxide_hydrate__PbO2H2__ICSD_20701__.xyz {1,1,1} packed unitcell {    9.084  -19.057    0.133    9.177    4.336   -5.560   -3.413   -1.675   -6.940};  \
+set measurementUnits ANGSTROMS; hBonds calculate; set zoomLarge false;"} 
+$("#Ref").html(Jmol.getAppletHtml("jmolAppletRef",InfoRef))}); 
+</script>
+<body>
+<span id=Ref></span><a href="javascript:Jmol.script(jmolAppletRef)"></a>
+</body>
+</html>

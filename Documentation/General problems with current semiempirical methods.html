@@ -1,0 +1,102 @@
+<!-- saved from url=(0020)http://OpenMOPAC.net -->
+<html>
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>General problems with current semiempirical methods</title>
+    
+<style type="text/css">
+
+h4
+	{margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	}
+.auto-style1 {
+	font-family: "Trebuchet MS";
+}
+</style>
+
+    
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM <a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;
+
+<FONT face="Trebuchet MS, Verdana"></h3>
+<h1 align="center"><b>
+General problems with current semiempirical 
+methods</span></b></h1>
+<p class="MsoNormal">All current (2018) semiempirical methods have a common 
+fault, specifically that the parameter optimization was performed using only a 
+small set of reference data.<span style="mso-spacerun:yes">&nbsp; </span>These 
+sets, although composed of a large number of data, was deficient for several 
+reasons, including:</p>
+<p class="MsoNormal">(A) Specific probative data were often missing.</p>
+<p class="MsoNormal">(B) Specific phenomena, mainly intermolecular interactions, 
+were also often missing.</p>
+<p class="MsoNormal">(C) Many of the reference data are not accurate</p>
+<p class="MsoNormal">(D) Less important, many diatomic interactions, e.g., 
+potassium - zinc, were not represented.<span style="mso-spacerun:yes">&nbsp;
+</span>In most such cases, no data were available, on others, the likelihood of 
+such an interaction being of interest is small.</p>
+<h2>Approach to correcting faults<span style="mso-spacerun:yes">&nbsp; </span>
+(A) and (B) </h2>
+<h3>Fault (A)</h3>
+<p class="MsoNormal"><span style="mso-spacerun:yes">&nbsp;</span>When a fault is 
+detected that was caused by the lack of a specific type of data appropriate 
+reference data should be added to the parameterization set, and a note of why 
+it was added put in the parameterization set.<span style="mso-spacerun:yes">&nbsp; </span>To prevent a 
+re-occurrence of such faults, the parameterization sets should be carefully 
+preserved.<span style="mso-spacerun:yes">&nbsp; </span>Once a reference datum is 
+added, it should not be removed until the reason for its addition has been 
+addressed.</p>
+<h3>Fault (B)</h3>
+<p class="MsoNormal">All high-quality benchmark reference data sets for 
+intermolecular interactions should be used in the training sets. With modern 
+computers, the addition CPU cost is insignificant.</p>
+<h3>Fault (C)</h3>
+<p class="MsoNormal">Identifying inaccurate reference data is difficult.&nbsp; 
+Obviously, if the error in a datum is large, it would show up when surveys are 
+done.&nbsp; All large errors in reference data have already been identified and 
+the appropriate action taken.&nbsp; The real problem occurs when the error is 
+not large, then the question arises regarding the origin of the difference 
+between calculated and reference data.&nbsp; </p>
+<p class="MsoNormal">Experimentally-derived reference data should be regarded 
+with skepticism, particularly when the system is unusual in any way, for example 
+highly unstable or highly reactive.&nbsp; Experimental thermochemical data on 
+common systems such as ethylene and ammonia are highly reliable.&nbsp; 
+Experimental data that's older than 20-30 years should be regarded as being less 
+accurate than modern data.</p>
+<p class="MsoNormal">Modern benchmark computed reference data should be regarded 
+as very accurate, and if a difference is found between the semiempirical results 
+and the reference data, the origin of that difference can be attributed to 
+faults in the semiempirical method.&nbsp; A good, unresolved, example of this is 
+provided by systems 6a and 6b in Risthaus and Grimme's
+<a href="https://pubs.acs.org/doi/abs/10.1021/ct301081n">S12L</a> benchmark 
+test.&nbsp; When these two systems, also known as &quot;BuNH4 CB6&quot; and &quot;PrNH4 CB6&quot;, 
+were modeled using PM6-D3H4, the errors in interaction energies were -27.0 and 
+-24.8 kcal.mol</font><sup><span class="auto-style1">-1</span></sup><FONT face="Trebuchet MS, Verdana">, 
+respectively.&nbsp; When a re-optimization of the PM6-D3H4 parameters was done 
+using a reference data-set that included the S12L set, the errors for these 
+systems decreased to -14.3 and -13.1 kcal.mol</font><sup><span class="auto-style1">-1</span></sup><FONT face="Trebuchet MS, Verdana">, 
+respectively.&nbsp; This error in re-optimized PM6-D3H4 can only be attributed 
+to one or more still-unidentified errors in the semiempirical framework.</font></p>
+<p class="MsoNormal"><FONT face="Trebuchet MS, Verdana"> </p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<h1>&nbsp;</h1>
+<p align="center"> 
+
+</body>
+
+</html>

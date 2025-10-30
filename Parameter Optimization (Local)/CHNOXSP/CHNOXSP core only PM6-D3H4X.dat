@@ -1,0 +1,60 @@
+*
+*  Optimize all parameters for H, C, N, O, F, Cl, Br, and I, and all intermolecular interactions, using the method PM8
+*  
+*
+*     Keywords used
+*
+* SET:        Define the sets of files that contains lists of compounds to be used.
+* REF:        Define all the folders that contain reference data for systems defined by SET. 
+*
+set= &
+*    "../sets/All intermolecular interaction sets.txt"; &
+    "../sets/Stand-alone core.txt" &
+ref= &
+"../../reference data/Data Intermolecular interactions/S22 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S22 Separated"; &
+"../../reference data/Data Intermolecular interactions/S66 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/S66 Separated"; &
+"../../reference data/Data Intermolecular interactions/L7 Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/L7 Separated"; &
+"../../reference data/Data Intermolecular interactions/S12L Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/X40 Separated"; &
+"../../reference data/Data Intermolecular interactions/X40 intermolecular"; &
+"../../reference data/Data Intermolecular interactions/Water dimers all"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Intermolecular"; &
+"../../reference data/Data Intermolecular interactions/D3H4 Ionic Separated"; &
+"../../reference data/Data normal"; &
+"../../reference data/Data levels"; &
+"../../reference data/Data erratic" &
+*
+*  Use the PM7 method as the starting point
+*
+references="../../Reference data/references.txt"   PM6-D3H4X cycles=100  
+*
+* No more continuation symbols, "&", so now define the parameters to be optimized
+*
+* PAR7, PAR8, and PAR9 are parameters for Grimme's "D3" method 
+*
+PAR7  0.2  1.3  = s3  in subroutine DFTD3
+PAR8 12.0 15.0  = alp in subroutine DFTD3
+PAR9  0.5  2.0  = rs6 in subroutine DFTD3
+*
+*  Some parameters need non-standard lower and upper bounds
+*
+alpb_h H 0.9 5
+xfac_c H 0.1 5 
+xfac_n H 0.1 5       
+xfac_o H 0.1 5       
+FN21 N 0.5 5
+FN21 C 0.5 5
+HSP C 0.5 5
+xfac_O O 0.1 5 
+xfac_F F 0.1 5 
+*
+* Finally, the set of all other parameters
+*
+(H C N O F Cl Br I S P)(All)  
+*
+*  And end the parameter list with the word "end"
+*          
+end

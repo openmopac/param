@@ -1,0 +1,15 @@
+reset;center {-20.8585625 7.4540625 58.8686875}; rotate z 60.28; rotate y 70.81; rotate z -121.63; zoom 923.79; translate x 0.33; translate y 6.9; set rotationRadius 40.64;
+# measure off
+display 402:A.C1M, 402:A.N1N, 402:A.C2N, 402:A.C3N, 402:A.C4N, 402:A.C5N, 402:A.C6N
+display add connected(visible)
+display add connected([0WD]402:A.C7N)
+display add connected([0WD]402:A.N7N)
+measure (402:A.N1N) (402:A.C2N)
+measure (402:A.C2N) (402:A.C3N)
+measure (402:A.C3N) (402:A.C4N)
+measure (402:A.C4N) (402:A.C5N)
+measure (402:A.C5N) (402:A.C6N)
+measure (402:A.C6N) (402:A.N1N)
+set echo top left
+echo "4-(H)-pyridine ring in ligand 0WN, showing interatomic distances in the ring. |A comparison of the original PDB structure with the various optimized structures |will show the distortion in the PDB structure"
+color echo black

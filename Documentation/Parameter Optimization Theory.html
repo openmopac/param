@@ -1,0 +1,56 @@
+<html><head>
+<title>Parameter optimization theory</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1>Parameter optimization theory</h1>
+<p>A good introduction to the original optimization technique is given in 
+&quot;Stewart JJP. Optimization of Parameters for Semiempirical Methods I. Method. J 
+Comp Chem. 1989;10(2):209-20&quot; A public-domain copy of this article is
+<a href="Parameter%20optimization%20method.pdf">available</a>, in summary:<div id="yiv4080122568yui_3_16_0_ym19_1_1529331722864_3181" dir="ltr">
+	<span id="yiv4080122568yui_3_16_0_ym19_1_1529331407163_2899">The 
+	optimization method used in PARAM starts by using a set of parameter values, 
+	and calculating the errors and the first derivatives of the errors with 
+	respect to each parameter using a semiempirical method, e.g., PM6-D3H4. 
+	These derivatives are then used in calculating the derivative of the error 
+	function.&nbsp; The error function is then minimized by adjusting the parameters 
+	so as to reduce the error function.&nbsp; This adjustment uses the derivatives 
+	and individual errors only, it does not involve any semiempirical 
+	calculations.&nbsp; At the minimum, about 2000 optimization steps later, the 
+	errors and gradients are re-calculated&nbsp; using the updated semiempirical 
+	method.&nbsp; The parameters are again optimized using the derivatives and 
+	individual errors only.&nbsp; </span>
+	<span id="yiv4080122568yui_3_16_0_ym19_1_1529331407163_2901">This process is 
+	repeated until a stable set of parameters is obtained.<br><br>
+	<span id="yiv4080122568yui_3_16_0_ym19_1_1529331407163_2898">A bias function 
+	applied to motion of the parameters from their semiempirical starting point 
+	prevents runaway excursions in parameter space.&nbsp;
+	<span id="yiv3605262010yui_3_16_0_ym19_1_1529334007813_3315">
+	<span id="yiv3605262010yui_3_16_0_ym19_1_1529334007813_3358">
+	<span id="yiv3605262010yui_3_16_0_ym19_1_1529334007813_3468">
+	<span id="yiv3605262010yui_3_16_0_ym19_1_1529334007813_3469">
+	<span id="yiv3605262010yui_3_16_0_ym19_1_1529334007813_3470">Runaway 
+	excursions are caused by the presence of almost-zero eigenvalues in the 
+	parameter Hessian.&nbsp; This bias function is increased if the </span>cosine of 
+	the angle between the gradient vector (the derivative) for the error 
+	function between the cycles (n-1) and (n) is significantly less than 1.0, 
+	and decreased as the cosine approaches 1.0. Put another way, if the 
+	direction of motion through parameter space is more-or-less the same as on 
+	the last cycle, the confidence level, i.e., the step-size, is increased, and 
+	decreased if the direction of motion starts to become erratic</span></span></span></span>.&nbsp;
+	</span></span></div>
+<p>After the original technique was published, several changes were made, the 
+most important of these being that the use of analytical derivatives was 
+abandoned in favor of finite difference derivatives.&nbsp; Finite difference 
+derivatives are very robust compared to analytic derivatives, and have the added 
+serendipitous benefit of being much faster!<br>
+</body>
+</html>
+
+
+

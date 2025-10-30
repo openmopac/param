@@ -1,0 +1,19 @@
+##############################################################################
+#
+#   Compile and build MOPAC2016 for Windows
+#
+##############################################################################
+#
+#  The following set of definitions apply to this OS.
+#
+##############################################################################
+FORTRAN_COMPILER = ifort -c -O3 /nologo    /module=$(OBJ)  /fpp /Qmkl:parallel -o $@
+FORTRAN_LINKER   = ifort /F2000000000 /libs:static /threads /Qmkl:parallel -O3
+
+
+MOPAC_SRC        = MOPAC_Source_code
+OBJ              = 64_XW
+O                = obj
+EXE              = M:\Utility\Windows_Standalone_64_bit_MOPAC2016.exe  
+
+include MOPAC_Makefile_files.txt

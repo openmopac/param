@@ -1,0 +1,45 @@
+<html><head>
+<title>Utility program "Select"</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Utility program &quot;Select&quot;</h1>
+<p class="auto-style1">This program selects files in a reference data set 
+folder that meet specified criteria and writes the file-names of the selected 
+folder into a file named &quot;bits.txt&quot;.&nbsp; Program Files should be run before 
+&quot;select&quot; is run; this makes a file named &quot;files.out&quot; that Select uses. </p>
+Although program Select can be run as a stand-alone 
+utility is usually run in a command script that provides one of the criteria.&nbsp; 
+These scripts have the names &quot;and&quot;, &quot;only&quot;, &quot;not&quot;, and &quot;all&quot;.<br><h2>Criteria 
+for Select</h2>
+<h3>Criterion 1:</h3>
+Selection type. This option is placed on the 
+command line after the word &quot;select&quot;<br><br>&quot;AND&quot; - All reference data files 
+that contain any of the elements specified. For example, if oxygen is 
+specified, &quot;AND&quot; would select all files that contain oxygen. If oxygen and 
+nitrogen are specified, &quot;AND&quot; would select all files that contain oxygen or 
+nitrogen<br><br>&quot;ONLY&quot; - All reference data files that contain all of the 
+elements specified. For example, if hydrogen is specified, &quot;ONLY&quot; would 
+select data such as hydrogen cation, hydrogen atom, and H2. If oxygen and 
+hydrogen are specified, &quot;ONLY&quot; would select all files that contain oxygen or 
+hydrogen, but not any other elements.<br><br>&quot;NOT&quot; - the opposite of &quot;AND&quot;<br><br>
+&quot;ALL&quot; - All reference data files.<br><h3>Criterion 2: </h3>Set of elements. This 
+option is supplied after &quot;select&quot; starts and is not used if &quot;ALL&quot; is 
+specified.<br><br>Either: Chemical symbols 
+of the elements to be used in the selection. For simple organic compounds, 
+use &quot;H C N O&quot;, for organo-phosphorous compounds, use &quot;C P&quot;<br><br>Or: All 
+elements in one of the methods in MOPAC, for example, &quot;PM7&quot;, &quot;PM6-D3H4&quot;, 
+or &quot;PM3&quot;. <br><br>After &quot;select&quot; is run, a file &quot;bits.txt&quot; is created in the current 
+folder. This file contains the list of files defined by the two criteria.<br>
+<br>
+
+</body>
+</html>
+
+
+

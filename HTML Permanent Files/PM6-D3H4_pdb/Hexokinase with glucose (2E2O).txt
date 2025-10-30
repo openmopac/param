@@ -1,0 +1,23 @@
+Display 300
+display within(2.2,visible)
+connect (all) (all) delete
+connect
+display add connected(visible)
+display add connected(visible)
+display add connected(visible)
+display add connected(visible)
+select visible; hbonds calculate
+hide add 118, 119, 120
+set bondRadiusMilliAngstroms (40); spacefill 10%
+select 300
+set bondRadiusMilliAngstroms (70); spacefill 20%
+center visible
+reset;center {8.879056818181816 5.929147727272726 54.59202272727274}; rotate z -103.31; rotate y 98.39; rotate z -113.27; zoom 584.05; translate x 0.2; translate y 2.4; set rotationRadius 41.97;
+select 300:B.C5
+set labeloffset 30 40
+label "Glucose"
+color label black
+font label 20 bold
+select off
+
+

@@ -1,0 +1,91 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.053M)
+                                                       Wed Feb 24 07:47:19 2021
+                                                       No. of days remaining = 363
+
+           Empirical Formula: Hg16 Br16  =    32 atoms
+
+ MERS=(1,2,2) Z=2  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Mercury bromide (Hg2Br2) (ICSD 31174)
+ h=-49.4 hr=crc
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -216.22118 KCAL/MOL =    -904.66940 KJ/MOL
+          H.o.F. per unit cell    =        -27.02765 KCAL, for 8 unit cells, unit cell = Hg2 Br2
+          TOTAL ENERGY            =      -4037.69810 EV
+          ELECTRONIC ENERGY       =   -4793260.36401 EV
+          CORE-CORE REPULSION     =    4789222.66591 EV
+
+          VOLUME OF UNIT CELL     =        285.895 CUBIC ANGSTROMS
+
+          DENSITY                 =          6.517 GRAMS/CC
+                              A   =         10.482 ANGSTROMS
+                              B   =          5.384 ANGSTROMS
+                              C   =          5.072 ANGSTROMS
+                            ALPHA =         89.601 DEGREES
+                            BETA  =         92.756 DEGREES
+                            GAMMA =         89.650 DEGREES
+ 
+
+          VOLUME OF CLUSTER       =       1143.58029 ANGSTROMS**3 =  688.680 CM**3/MOLE
+ 
+          GRADIENT NORM           =          8.67966 = 1.53436 PER ATOM
+          NO. OF FILLED LEVELS    =         72
+          IONIZATION POTENTIAL    =          9.914515 EV
+          HOMO LUMO ENERGIES (EV) =         -9.915 -1.230
+          MOLECULAR WEIGHT        =       4487.9040
+           Pressure required to constrain translation vectors
+           Tv(  33)  Pressure:   0.01 GPa
+           Tv(  34)  Pressure:   0.06 GPa
+           Tv(  35)  Pressure:  -0.07 GPa
+          SCF CALCULATIONS        =         81
+          WALL-CLOCK TIME         = 19 MINUTES AND 15.744 SECONDS
+          COMPUTATION TIME        = 19 MINUTES AND  9.887 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,2,2) Z=2  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Mercury bromide (Hg2Br2) (ICSD 31174)
+ h=-49.4 hr=crc
+ Hg    -0.00161242 +1  -0.19424809 +1  -0.02853484 +1
+ Hg    -2.64897292 +1  -0.20582330 +1  -0.01275118 +1
+ Hg    -5.26287642 +1  -3.92848131 +1  -0.03822119 +1
+ Hg     2.56919524 +1  -3.90671552 +1  -0.07467325 +1
+ Br     2.48209642 +1  -0.20587325 +1  -0.01702493 +1
+ Br    -5.12842179 +1  -0.21039840 +1  -0.00675284 +1
+ Br    -2.78586911 +1  -3.91497355 +1  -0.05472088 +1
+ Br     0.08478718 +1  -3.89686745 +1  -0.08500977 +1
+ Hg    -0.00029631 +1   3.67935962 +1   3.68404688 +1
+ Hg    -2.64811576 +1   3.66120914 +1   3.69262033 +1
+ Hg    -5.26325495 +1  -0.05758953 +1   3.67424409 +1
+ Hg     2.56778064 +1  -0.03116859 +1   3.64269049 +1
+ Br     2.48283615 +1   3.66646596 +1   3.69574525 +1
+ Br    -5.12777438 +1   3.65654973 +1   3.70035231 +1
+ Br    -2.78645564 +1  -0.04468500 +1   3.65678533 +1
+ Br     0.08091120 +1  -0.02044801 +1   3.62997048 +1
+ Hg     0.05140660 +1   3.33947836 +1  -3.63991222 +1
+ Hg    -2.59736299 +1   3.37568198 +1  -3.67495800 +1
+ Hg    -5.20702127 +1  -0.34639586 +1  -3.69350113 +1
+ Hg     2.62582344 +1  -0.37375960 +1  -3.68236212 +1
+ Br     2.53734143 +1   3.32976726 +1  -3.62846577 +1
+ Br    -5.07397379 +1   3.36070432 +1  -3.65713788 +1
+ Br    -2.72493140 +1  -0.34179228 +1  -3.69984920 +1
+ Br     0.14291810 +1  -0.35945210 +1  -3.69311653 +1
+ Hg     0.05121584 +1   7.21264174 +1   0.07730667 +1
+ Hg    -2.59819907 +1   7.24435913 +1   0.03551540 +1
+ Hg    -5.20727200 +1   3.52184263 +1   0.01319557 +1
+ Hg     2.62838963 +1   3.50276674 +1   0.03204955 +1
+ Br     2.53676168 +1   7.20407477 +1   0.08745683 +1
+ Br    -5.07516254 +1   7.23066078 +1   0.05393249 +1
+ Br    -2.72738260 +1   3.52603847 +1   0.00730419 +1
+ Br     0.14108861 +1   3.51316441 +1   0.01928764 +1
+ Tv    10.48166388 +1  -0.00304634 +1   0.00170133 +1 
+ Tv     0.06682944 +1   7.76574332 +1   7.46031298 +1 
+ Tv    -0.48454889 +1   7.07220106 +1  -7.25541606 +1 
+ 

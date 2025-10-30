@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>README file for the PARAM Structure</title>
+<style type="text/css">
+.auto-style1 {
+	text-decoration: underline;
+}
+.auto-style2 {
+	margin-left: 40px;
+}
+</style>
+</head>
+<body>
+<h1 >Setting up the PARAM folder</h1>
+<p ><a href="#Preamble_" name="top">Preamble</a>&nbsp;&nbsp; <a href="#Installing_PARAM">Installing 
+PARAM</a>&nbsp;&nbsp; <a href="#PARAM_Documentation_">PARAM Documentation</a></p>
+<h2><a name="Preamble_">Preamble</a>
+
+
+
+(<a href="#top">top</a>)
+
+
+
+</h2>
+<h3>PARAM
+
+
+
+</h3>
+<p>PARAM consists of a set of folders that have a highly rigid structure that is 
+designed to simplify the process of parameter optimization.&nbsp; Each top-level 
+folder performs one complete function, and the various command files within 
+PARAM are written so that these functions can be used efficiently.&nbsp;
+
+
+
+</p>
+<h3>Limitations</h3>
+<p>PARAM is defined for use in Windows operating systems only. To run PARAM jobs on
+other OS, set up the folders and files on a Windows system, then copy the files 
+to 
+the other OS. Run the PARAM jobs there, and copy the results back to the Windows 
+OS. 
+
+
+
+</p>
+<h3>What the word &quot;PARAM&quot; means here</h3>
+<p>In the documentation on PARAM, the word &quot;PARAM&quot; will be used in three 
+different ways, these are: (1) The name of the top folder where the PARAM 
+structure starts. (2) The entire folder structure, i.e., the top folder, PARAM, 
+plus all the sub-folders underneath it, plus the contents of all these folders. 
+(3) The program PARAM that is used for parameter optimization, surveys, etc.&nbsp; 
+When reading the documentation, the way in which the word PARAM is used should 
+indicate which of these three meanings is intended. That is, the context should 
+indicate whether &quot;PARAM&quot; refers to the program, the structure or the top-most 
+folder. 
+
+
+
+</p>
+<h2><a name="Installing_PARAM">Installing PARAM</a> (<a href="#top">top</a>) </h2>
+<h3>Preparation - setting an Environmental Variable (Essential!)</h3>
+<p>Before starting the installation of PARAM an Environmental Variable must be 
+set.&nbsp; This variable, PARAM_Start, defines the path to where the folder 
+PARAM is located. To do this, (A) Open the Control Panel, then System Control 
+Panel, then Advanced system settings, then Environment Variables, then in User 
+variables click &quot;New&quot; and define the variable name as PARAM_Start and 
+define the Variable value as the location of PARAM, e.g., 
+"C:\Users\JohnSmith\PARAM"&nbsp; 
+Save the changes by clicking on &quot;OK&quot; until you're back at the Control Panel, 
+then close it. </p>
+<h3>Preparation - <a name="Editing_FIREFOX_">Editing FIREFOX</a> (Very useful)</h3>
+<p>The FIREFOX web-browser is very useful for inspecting data files and results.&nbsp; 
+Firefox uses JSmol, which will be installed in the top-most folder, &quot;PARAM&quot;, but 
+it is installed as a hidden file because there is never any need to look at it. 
+Also by default, HTML files that use JSmol are stored in folders that are 
+located two levels below &quot;PARAM&quot;.&nbsp; This arrangement allows HTML files to 
+use JSmol by simply clicking on the the appropriate entry. If a folder at a 
+different, lower, level is to be used for holding HTML files, then navigate to 
+&quot;Bin and cmd&quot; and edit and run &quot; JSmol - set up links.cmd&quot;&nbsp; </p>
+<p>By default,&nbsp; 
+FIREFOX is able to display HTML files on the Internet that contain JSmol 
+instructions, e.g.,
+<a href="http://openmopac.net/PM7_accuracy/data_molecules/benzoic%20acid_jmol.html">
+Benzoic acid</a>, however local HTML files that contain JSmol instructions can't 
+be displayed. JSmol uses a non-standard feature of FIREFOX and before JSmol will 
+work locally, <span class="auto-style1"><strong>a switch in FIREFOX must be changed from TRUE to FALSE. To do 
+this, open Firefox. Go to the URL about:config (type this in the URL bar at the 
+top of the Firefox window.) Set the switch &quot;security.fileuri.strict_origin_policy&quot; 
+to &quot;false&quot; - this can be done by right or left clicking on the switch.</strong></span>&nbsp; After this change 
+is made FIREFOX will be able to display local files.</p>
+<h3>Step 1</h3>
+<p>Open the PARAM Zip file and extract all the files.&nbsp; The top folder, 
+PARAM, should be in the location defined by PARAM_Start. </p>
+<h3>Step 2
+
+
+
+</h3>
+<p>Put a shortcut on the desktop that allows the command prompt to be run. To do 
+this:
+
+<br>(A) Copy the file &quot;PARAM\Source Code\Bin and cmd\setupdos.cmd&quot; and paste a 
+shortcut to it on the desktop.
+
+<br>(B) Edit the properties of the shortcut icon on the desktop to replace the text in the &quot;Start in&quot; folder 
+with the text %PARAM_Start%.
+
+This makes PARAM the default starting folder for the command prompt. <br>(C) To make the folder look nice, edit the 
+Options, Font, Layout, and Colors. Good 
+starting options are:
+
+</p>
+<p class="auto-style2">Options: check QuickEdit mode and check Insert mode<br>Font: 
+Lucida Console, bold font, size 14
+
+<br>Layout: 
+Screen buffer size: Width 235, Height 6000
+<br>Window size: Width 90, Height: 80
+<br>Window position: Left 6, Top 4.&nbsp;
+Uncheck &quot;Let system position window&quot;
+
+<br>Color:
+Screen text: Red = 0, Green = 0, Blue = 0
+Screen background: Red = 255, Green = 255, Blue = 255. </p>
+<p>If the window that is 
+generated by these options is not acceptable, edit the options and make a new 
+window.</p>
+<h3>Step 3
+
+
+
+</h3>
+<p>Copy the folder PARAM and paste a shortcut to it on the desktop.
+Replace the contents of &quot;Target&quot; with the text %PARAM_Start%&nbsp; 
+Then, one at a time, copy the files MOPAC.cmd, param.cmd, files.cmd, SetUpMap.cmd, and Stats.cmd, and 
+for each of them paste a shortcut on 
+the desktop.&nbsp; These desktop shortcuts make running the various programs 
+much easier when working in Windows Explorer.</p>
+<h3>Step 4&nbsp; (optional: This creates a set of files that are 
+useful for quickly examining various files. )</h3>
+<h4>Populate HTML files</h4>
+<p>Running &quot;Populate HTML files.cmd&quot; (this file is in folder 
+&quot;%PARAM_start%\Source Code\Bin and cmd&quot;) creates a large number of files in the HTML folder. These 
+files allow the reference data files to be examined easily. &quot;Populate HTML files.cmd&quot; takes 
+only a minute or two to run.</p>
+<h2><a name="PARAM_Documentation_">PARAM Documentation</a>&nbsp; (<a href="#top">top</a>) 
+
+
+
+</h2>
+<p>All documentation on using the PARAM structure is in 
+<a href="Documentation/INDEX.html">%PARAM_Start%\Documentation</a>.&nbsp; Where appropriate, a mirror copy of 
+individual documents can be found in various folders.&nbsp; Manuals on
+<a href="http://openmopac.net/manual/index.html">MOPAC</a> and
+<a href="Param%20Manual/index.html">PARAM</a> are also 
+available on the internet and a local copy of the PARAM manual can be found in 
+folder &quot;%PARAM_start%.</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

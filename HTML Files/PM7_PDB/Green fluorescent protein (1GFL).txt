@@ -1,0 +1,10 @@
+display  [HOH]25, 65:A, 66:A, 67:A, 148:A, 203:A
+select 65:A.CA; label SER-65; color label black; set labeloffset -1 40; font label 20
+select 66:A.N1; label TYR-66; color label black; set labeloffset 50 0; font label 20
+select 67:A.N; label GLY-67; color label black; set labeloffset -20 20; font label 20
+select off
+reset;center {9.700037037037033 71.4465851851852 -5.169770370370373}; rotate z -67.27; rotate y 72.93; rotate z 0.91; zoom 842.76; translate x 2.67; translate y 0.5; set rotationRadius 51.68;
+lzoom=true
+measure off
+measure (66:A.HH) ([HOH]25.O)
+measure (66:A.OH) ([HIS]148:A.HD1)

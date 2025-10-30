@@ -1,0 +1,146 @@
+<html><head>
+<title>Background to PARAM</title>
+
+</head>
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+<h1 class="auto-style1">Background to PARAM</h1>
+<h2>Preamble</h2>
+<p class="auto-style1">Semiempirical methods consist of a theoretical framework 
+that approximates physically meaningful quantities, such as electronic and 
+nuclear energies, dispersion or Van der Waals interactions, hydrogen bonds, etc.&nbsp; 
+These approximate functions contain parameters, most of which refer to 
+individual elements, two involve pairs of elements, and some are global - these 
+do not refer to any specific elements, instead they are used for structures such 
+as hydrogen bonds and other non-covalent interactions.</p>
+<p class="auto-style1">In addition to the underlying approximations, the 
+accuracy and scope of a semiempirical method depends on the quality of the 
+parameters.&nbsp; These, in turn, depend on the quality of the reference data 
+used in optimizing the parameters, and on the parameter optimization procedure 
+itself.</p>
+<h2>Reference Data</h2>
+<p class="auto-style1">Over the years a large amount of reference data has been 
+accumulated.&nbsp; Much of this data is of uncertain or poor accuracy, and there 
+is an urgent need to increase the quality and amount of data.&nbsp; To this end, 
+every datum has a reference that includes the date associated with it.&nbsp; If 
+a better datum is found, the old datum should be replaced with the newer value, 
+and the associated reference updated.&nbsp; That way, the quality of the 
+reference data can be steadily improved.</p>
+<p class="auto-style1">In recent years a large amount of very accurate reference 
+data obtained using very high-level computational methods has been published.&nbsp; 
+This benchmark data is both highly reliable and very important, in that it fills 
+in some of the gaps in the coverage of chemical phenomena.&nbsp; Of these, data the energies 
+and geometries in non-covalent interactions are probably the most important.</p>
+<h2>Parameter Optimization</h2>
+<p class="auto-style1">Parameter optimization consists of altering the values of 
+parameters in order to minimize the 
+root-mean-square difference between calculated and reference data.&nbsp; A RMS 
+minimization requires all reference data - heats of formation and interaction, 
+geometries, dipole moments, etc. - to be rendered dimensionless; this involves 
+weighting factors.&nbsp; These weighting factors have a profound effect on the 
+quality of the resulting method.&nbsp; For example, in biochemistry, chemical 
+properties such as energies and geometries are more important that electronic 
+properties such as dipole moments and electronic excited states.&nbsp; </p>
+<p class="auto-style1">In practice, parameter optimization is a highly reliable 
+procedure.&nbsp; A set of reference data is assembled and appropriate weighting 
+factors assigned. A set of parameters to be optimized is also selected.&nbsp; 
+This can range from specifying individual parameters to selecting all parameters 
+for all elements found in the reference data set. A parameter optimization 
+procedure is then performed.&nbsp; Most of the human effort is used in 
+assembling the reference data sets and in assigning weighting factors.</p>
+<h2>Notes on Parameters</h2>
+<h3>Individual Phenomena</h3>
+<p>Within chemistry there are several individual phenomena, such as heats of 
+formation, geometries, hydrogen bonds, Van der Waals interactions, dipole 
+moments, infra-red and UV-Visible spectra, etc., which can be modeled using 
+theoretical methods.&nbsp; If sets of reference data for these phenomena are 
+made, and parameters are present in PARAM, then these parameters can be 
+optimized to reproduce the reference data.&nbsp; Currently (2018) the most 
+important set of reference data of this type is for non-covalent interactions, 
+mainly hydrogen bonds and Van der Waals or dispersion interactions.&nbsp; All 
+the reference data of this type have been 
+taken from very high level ab-initio benchmark databases.</p>
+<p>Of its nature, parameter optimization of this type focuses on the phenomenon 
+of interest, and not on generating a new general-purpose method. At this level, 
+improving the accuracy of prediction of specific phenomena is of primary 
+importance, and should be regarded as the objective.&nbsp;&nbsp; </p>
+<h3>Sets of Elements</h3>
+<p>The starting point for developing a new method for general use normally 
+begins with an existing method.&nbsp; For example, when PM7 was being developed, 
+the starting point was PM6.&nbsp; Minor changes in the theoretical framework 
+were made, and a large number of new reference data were used.&nbsp; With the 
+exception of new phenomena, new methods would most likely involve only minor 
+changes to existing methods.&nbsp; </p>
+<p>Optimization of all parameters for all elements is never attempted, for two 
+reasons. First, the sheer size of the optimization would make such an operation 
+impractical, and second, identifying the causes of inaccurate predictions is 
+very difficult.&nbsp; Instead, a useful strategy is to proceed as follows:</p>
+<p>The starting optimization uses a reference data set composed of systems that 
+include only a core set of elements, specifically H, C, N, O, F, P, S, Cl, Br, 
+and I.&nbsp; After the parameters have been optimized, a suitable quality 
+control test would involve comparing the accuracy of the new method with the 
+accuracies of existing methods.&nbsp; For this, a test survey set of 
+well-behaved systems would be used.</p>
+<p>Once the accuracy is acceptable other elements or groups of elements can be 
+parameterized.&nbsp; In these parameterizations only systems that contain at 
+least one element of interest should be used, and only the parameters for those elements should be optimized.&nbsp; For convenience, the parameters for the 
+core set should be read in using PARAM's keyword EXTERNAL.&nbsp; Deciding 
+whether to parameterize elements one at a time or in groups depends on the 
+amount of reference data available for each element.&nbsp; If there is a lot of 
+reference data, then one-at-a-time is appropriate, if there an not many 
+reference data then in groups.&nbsp; Convenient grouping names are &quot;Group IA&quot;, 
+&quot;Group IIA&quot; etc.</p>
+<p>Whenever a parameter optimization is considered complete the parameters 
+should be added to those of the core set.</p>
+<p>If a set of systems involving two non-core elements is important, the 
+parameterization should include reference data for each element plus other core 
+elements and, in addition, reference data for systems that include both elements 
+plus other core elements.&nbsp; Parameters for both elements should then be 
+optimized simultaneously. </p>
+<p>In the rare case that an optimized set of parameters for an element results 
+in average errors lower than those for the core set, the reference data files 
+for that element should be 
+added to the core set.</p>
+<p>Once all elements have been parameterized, a survey of all systems should be 
+done, and the average errors compared with those of the other methods.</p>
+<p>If the new method is a significant improvement over earlier methods, then 
+publish! </p>
+<h3>Global parameters</h3>
+<p>Parameters that do not involve any specific element are considered global.&nbsp; 
+These parameters are given the names PAR1, PAR2, ..., PAR9, PAR10, ...,&nbsp; 
+PAR60, and should only be optimized when the core elements are being optimized. 
+In all other optimizations these parameters should be help constant and not optimized.</p>
+<p class="auto-style1">In recent years a large amount of very accurate reference 
+data obtained using very high-level computational methods has been published.&nbsp; 
+This benchmark data is both highly reliable and very important, in that it fills 
+in some of the gaps in the coverage of chemical phenomena.&nbsp; Of these, data the energies 
+and geometries in non-covalent interactions are probably the most important.</p>
+<h2>Parameter Optimization</h2>
+<p class="auto-style1">Parameter optimization consists of minimizing the 
+root-mean-square difference between calculated and reference data.&nbsp; A RMS 
+minimization requires all reference data - heats of formation and interaction, 
+geometries, dipole moments, etc. - to be rendered dimensionless; this involves 
+weighting factors.&nbsp; These weighting factors have a profound effect on the 
+quality of the resulting method.&nbsp; For example, in biochemistry, chemical 
+properties such as energies and geometries are more important that electronic 
+properties such as dipole moments and electronic excited states.&nbsp; </p>
+<p class="auto-style1">In practice, parameter optimization is a highly reliable 
+procedure.&nbsp; A set of reference data is assembled and appropriate weighting 
+factors assigned. A set of parameters to be optimized is also selected.&nbsp; 
+This can range from specifying individual parameters to selecting all parameters 
+for all elements found in the reference data set. A parameter optimization 
+procedure is then performed.&nbsp; Most of the human effort is used in 
+assembling the reference data sets and in assigning weighting factors.</p>
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</body>
+</html>
+
+
+

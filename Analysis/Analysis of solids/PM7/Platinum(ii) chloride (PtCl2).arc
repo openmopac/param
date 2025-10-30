@@ -1,0 +1,75 @@
+
+
+                     SUMMARY OF  PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 21.055M)
+                                                       Wed Feb 24 14:03:07 2021
+                                                       No. of days remaining = 365
+
+           Empirical Formula: Pt6 Cl12  =    18 atoms
+
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Platinum(ii) chloride (PtCl2)
+ h=-29.5 hr=crc
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =          3.50348 KCAL/MOL =      14.65855 KJ/MOL
+          H.o.F. per unit cell    =          0.58391 KCAL, for 6 unit cells, unit cell = Pt1 Cl2
+          TOTAL ENERGY            =      -6248.24874 EV
+          ELECTRONIC ENERGY       =  -16553756.53077 EV
+          CORE-CORE REPULSION     =   16547508.28203 EV
+
+          VOLUME OF UNIT CELL     =        413.855 CUBIC ANGSTROMS
+
+          DENSITY                 =          6.404 GRAMS/CC
+                              A   =          8.088 ANGSTROMS
+                              B   =          8.129 ANGSTROMS
+                              C   =          8.058 ANGSTROMS
+                            ALPHA =        109.498 DEGREES
+                            BETA  =         71.472 DEGREES
+                            GAMMA =         70.827 DEGREES
+ 
+ 
+          GRADIENT NORM           =         14.56489 = 3.43298 PER ATOM
+          NO. OF FILLED LEVELS    =         72
+          IONIZATION POTENTIAL    =          8.757106 EV
+          HOMO LUMO ENERGIES (EV) =         -8.757 -2.294
+          MOLECULAR WEIGHT        =       1595.9760
+           Pressure required to constrain translation vectors
+           Tv(  19)  Pressure:   0.42 GPa
+           Tv(  20)  Pressure:   0.47 GPa
+           Tv(  21)  Pressure:   1.49 GPa
+          SCF CALCULATIONS        =         24
+          WALL-CLOCK TIME         = 12 MINUTES AND 17.402 SECONDS
+          COMPUTATION TIME        = 12 MINUTES AND  8.717 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+ MERS=(1,1,1)  CHARGE=0  OUTPUT THREADS=1 PM7 GRADIENTS  NOTXT            EF
+ Platinum(ii) chloride (PtCl2)
+ h=-29.5 hr=crc
+ Pt    -8.12832873 +1  -0.00136417 +1   0.00194571 +1
+ Pt    -5.38557439 +1   1.96643432 +1   0.01201417 +1
+ Pt    -6.25378363 +1   0.27159620 +1   2.80624972 +1
+ Pt    -3.51100114 +1  -0.65139657 +1   1.06181303 +1
+ Pt    -6.25599495 +1  -2.61914966 +1   1.05323473 +1
+ Cl    -4.00706689 +1  -2.85926166 +1   1.54660601 +1
+ Cl    -6.66375718 +1  -1.96610564 +1   3.23622206 +1
+ Cl    -4.00557944 +1  -0.05996982 +1   3.24480843 +1
+ Cl    -7.63271067 +1   2.20665876 +1  -0.48112783 +1
+ Cl    -4.97478635 +1   1.31390703 +1  -2.16992718 +1
+ Cl    -7.63339721 +1  -0.59278777 +1  -2.18103554 +1
+ Cl    -5.81725758 +1   2.45605672 +1   2.22137473 +1
+ Cl    -3.17841748 +1  -1.21114888 +1  -1.14812812 +1
+ Cl    -8.46202852 +1  -2.22016403 +1   0.52478221 +1
+ Cl    -5.82421232 +1  -3.10830570 +1  -1.15658118 +1
+ Cl    -8.46080758 +1   0.55906609 +1   2.21196217 +1
+ Cl    -3.17708009 +1   1.56653750 +1   0.53685427 +1
+ Pt    -5.38493626 +1  -0.92521911 +1  -1.74164697 +1
+ Tv     8.08780608 +1   0.02395208 +1  -0.06407193 +1 
+ Tv     2.62681385 +1  -3.61888255 +1  -6.78888729 +1 
+ Tv     2.53918019 +1   7.64686321 +1   0.12696267 +1 
+ 

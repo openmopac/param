@@ -1,0 +1,22 @@
+*
+*  Run an optimization of four PM7 parameters using a set of ordinary 
+*  organic compounds as reference data
+*
+*     Keywords used
+*
+* SET:        Define a file that contains a list of compounds to be used.
+* REF:        Define one or more folders that contain reference data for systems defined by SET.
+* CYCLES:     Run 10 cycles and then stop.  
+*
+set="small H C N O set.txt" ref="../../reference data/data normal" cycles=10
+*
+* Optimize the USS parameters for hydrogen, carbon, nitrogen, and oxygen. 
+*
+USS H
+USS C
+USS N
+USS O
+*
+* Terminate the list of parameters to be optimized.
+*
+end

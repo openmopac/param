@@ -1,0 +1,56 @@
+<!-- saved from url=(0020)http://OpenMOPAC.net -->
+<html>
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Reference data on Intermolecular Interactions</title></head>
+    
+<body>
+<h3>
+<a href="INDEX.html">INDEX</a> &nbsp; On-line manuals:
+<a href="http://openmopac.net/manual/index.html" target="dynamic">MOPAC&nbsp;Manual</a>&nbsp; 
+<a href="../Param%20Manual/index.html" target="dynamic">PARAM 
+Manual</a>&nbsp;</h3>
+
+<h1>Reference data on Intermolecular Interactions</h1>
+<p>In recent years a large amount of very valuable reference data on 
+intermolecular interactions has become available.&nbsp; Data of this type 
+represents the energy of interaction of two species, A and B, calculated in 
+vacuo.</p>
+<p>The procedure for calculating the intermolecular interaction energy using 
+semiempirical methods is rigidly defined.&nbsp; There are several different ways 
+to do this calculation, but after examining this issue, a method was chosen that 
+is fast and unambiguous and simple.</p>
+<h2>Method of calculating intermolecular interaction energies</h2>
+<p>The starting point for each benchmark system is the published geometry of the 
+complex A non-covalently bonded to B.&nbsp; All benchmark geometries are in 
+Cartesian coordinates, and these coordinates are used without modification in 
+the semiempirical calculations.&nbsp; A single-point calculation is then done; 
+this gives the heat of formation of the complex.&nbsp; One of the systems is 
+then moved 50 Angstroms away from its original position.&nbsp; This effectively 
+deletes any intermolecular interactions.&nbsp; The modified system is then given 
+the name name as that of the complex, but with the word &quot;separated&quot; or something 
+similar added.&nbsp; So for water dimer in the S66 set, the complex is given the 
+name &quot;01 Water - Water.mop&quot; and the separated system is given the name &quot;01 Water 
+- Water (Separated).mop&quot; A single-point calculation is then done on the 
+separated system; this gives the heat of formation of the complex.&nbsp; </p>
+<p>Using these two heats of formation, the intermolecular interaction energy is 
+then defined as (heat of formation of the complex) minus (heat of formation of 
+the separated system).</p>
+<h3>Complications</h3>
+<p>Some systems are charged, in which case the MOPAC keyword
+<a href="http://openmopac.net/manual/charge.html">CHARGE</a> has to be used.&nbsp; 
+Some systems consist of more than two species, in cases like that a visual 
+inspection of the complex provides information on which intermolecular 
+interaction is being referred to.</p>
+<h3>Caveats</h3>
+<p>The systems are not allowed to relax, so the results obtained are specific to 
+the geometries provided by the benchmark publication.&nbsp; The calculated 
+intermolecular interaction energies could not be calculated unless the benchmark 
+geometries were used.</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
